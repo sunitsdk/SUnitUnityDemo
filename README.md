@@ -31,7 +31,9 @@ Here is the link to the [release notes](https://github.com/sunitsdk/SUnitUnityDe
 
 To get started:
 
-Here is the link to [SUnit SDK integration documentation](https://github.com/sunitsdk/SUnitUnityDemo/wiki).
+Here is the link to [SUnit SDK integration documentation](https://github.com/sunitsdk/SUnitUnityDemo/wiki/SUnit-SDK-Documentation%EF%BC%88Unity%EF%BC%89).
+
+这里是中文文档 [SUnit SDK Unity接入文档](https://github.com/sunitsdk/SUnitUnityDemo/wiki).
 
 ## Contact Us
 
