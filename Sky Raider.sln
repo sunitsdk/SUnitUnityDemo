@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CA713326-6CD6-AAAE-CDBB-9E399DB6F087}") = "Sky Raider", "Assembly-CSharp-firstpass.csproj", "{3A5AE455-C496-520C-90F8-B9FD54809DC7}"
+EndProject
+Project("{CA713326-6CD6-AAAE-CDBB-9E399DB6F087}") = "Sky Raider", "Assembly-CSharp.csproj", "{A892F7B7-160B-3470-664E-97D5D7CDBE06}"
+EndProject
+Project("{CA713326-6CD6-AAAE-CDBB-9E399DB6F087}") = "Sky Raider", "Assembly-CSharp-Editor.csproj", "{81DE5434-0315-8D22-C062-28A5475DDD51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A5AE455-C496-520C-90F8-B9FD54809DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5AE455-C496-520C-90F8-B9FD54809DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5AE455-C496-520C-90F8-B9FD54809DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5AE455-C496-520C-90F8-B9FD54809DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A892F7B7-160B-3470-664E-97D5D7CDBE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A892F7B7-160B-3470-664E-97D5D7CDBE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A892F7B7-160B-3470-664E-97D5D7CDBE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A892F7B7-160B-3470-664E-97D5D7CDBE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DE5434-0315-8D22-C062-28A5475DDD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DE5434-0315-8D22-C062-28A5475DDD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DE5434-0315-8D22-C062-28A5475DDD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DE5434-0315-8D22-C062-28A5475DDD51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

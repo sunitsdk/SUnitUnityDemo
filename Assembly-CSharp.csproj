@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A892F7B7-160B-3470-664E-97D5D7CDBE06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\Scripts\AnchorPlane.cs" />
+     <Compile Include="Assets\Scripts\Config\GameSetting.cs" />
+     <Compile Include="Assets\Scripts\Controller\BossController.cs" />
+     <Compile Include="Assets\Scripts\Controller\BulletController.cs" />
+     <Compile Include="Assets\Scripts\Controller\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Controller\PlaneController.cs" />
+     <Compile Include="Assets\Scripts\Controller\iTween.cs" />
+     <Compile Include="Assets\Scripts\DestroyArea.cs" />
+     <Compile Include="Assets\Scripts\DestroyEffect.cs" />
+     <Compile Include="Assets\Scripts\FirstSave.cs" />
+     <Compile Include="Assets\Scripts\GenEnemy.cs" />
+     <Compile Include="Assets\Scripts\HomingMissile.cs" />
+     <Compile Include="Assets\Scripts\LevelPlane.cs" />
+     <Compile Include="Assets\Scripts\Manager\BackGroundManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\Manager\PlaneInformation.cs" />
+     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\SupportManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
+     <Compile Include="Assets\Scripts\PlaneDie.cs" />
+     <Compile Include="Assets\Scripts\PlaneShoot.cs" />
+     <Compile Include="Assets\Scripts\PointHoming.cs" />
+     <Compile Include="Assets\Scripts\Shadow.cs" />
+     <Compile Include="Assets\Scripts\Shield.cs" />
+     <Compile Include="Assets\Scripts\Support.cs" />
+     <Compile Include="Assets\Scripts\UI\GetItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ScrollRectSnap_CS.cs" />
+     <Compile Include="Assets\Scripts\UI\StarLevel.cs" />
+     <Compile Include="Assets\Scripts\UI\Unlock.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Bullet\UbhBullet.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Controller\UbhShotCtrl.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhBaseShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhCircleShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhHomingShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhLinearLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhLinearShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhPaintLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhPaintShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralMultiShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpiralShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayLockOnShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayShot.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhCoroutine.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhObjectPool.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhSingletonMonoBehavior.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Singleton\UbhTimer.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhMonoBehaviour.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhNonKinematic2D.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhTransformExtention.cs" />
+     <Compile Include="Assets\UniBulletHell\Script\Utility\UbhUtil.cs" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
+     <None Include="Assets\Material\$Sprites-Bumped Diffuse.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_ids.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kn-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gu-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gl-rES\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_strings.xml" />
+     <None Include="Assets\Font\CarterOne\OFL.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\auth_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_primary_text_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sq-rAL\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ml-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_secondary_text_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\UniBulletHell\readme.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pa-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\wallet_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ne-rNP\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_styles.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rAU\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mk-rMK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_colors.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\cast_ic_notification_connecting.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_iap_style.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ky-rKG\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\common_strings.xml" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mr-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-my-rMM\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bn-rBD\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_colors.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-az-rAZ\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-si-rLK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uz-rUZ\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\common_strings.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>C:/Users/5555/Desktop/SkyBattle_Project/Sky Raider/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3A5AE455-C496-520C-90F8-B9FD54809DC7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

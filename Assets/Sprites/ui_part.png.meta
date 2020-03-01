@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: 5cc9e27568f3fd14f8270ec8e6ea3c6a
+timeCreated: 1472925414
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ui_part_0
+    21300002: ui_part_1
+    21300004: ui_part_3
+    21300006: ui_part_4
+    21300008: ui_part_5
+    21300010: ui_part_6
+    21300012: ui_part_7
+    21300014: ui_part_8
+    21300016: ui_part_9
+    21300018: ui_part_10
+    21300020: ui_part_11
+    21300022: ui_part_12
+    21300024: ui_part_13
+    21300026: ui_part_14
+    21300028: ui_part_15
+    21300030: ui_part_16
+    21300032: ui_part_17
+    21300034: ui_part_18
+    21300036: ui_part_19
+    21300038: ui_part_20
+    21300040: ui_part_21
+    21300042: ui_part_22
+    21300044: ui_part_23
+    21300046: ui_part_24
+    21300048: ui_part_25
+    21300050: ui_part_26
+    21300052: ui_part_27
+    21300054: ui_part_28
+    21300056: ui_part_29
+    21300058: ui_part_31
+    21300060: ui_part_32
+    21300062: ui_part_33
+    21300064: ui_part_34
+    21300066: ui_part_35
+    21300068: ui_part_36
+    21300070: ui_part_37
+    21300072: ui_part_38
+    21300074: ui_part_39
+    21300076: ui_part_40
+    21300078: ui_part_41
+    21300080: ui_part_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_part_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 928
+        width: 458
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 915
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 906
+        width: 296
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_4
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 906
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 906
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 860
+        width: 302
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 859
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 852
+        width: 536
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_9
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 852
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 798
+        width: 536
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 798
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_12
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 796
+        width: 182
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_13
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 794
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 794
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 790
+        width: 178
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 726
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 726
+        width: 171
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 724
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 718
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 712
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_21
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 710
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 710
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_23
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 710
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_24
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 702
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_25
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 700
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 610
+        width: 241
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 580
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_28
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 580
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_29
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 566
+        width: 541
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 371
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_32
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 430
+        width: 177
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_33
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 430
+        width: 177
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_34
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 430
+        width: 371
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 294
+        width: 371
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_36
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 288
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_37
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 280
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 280
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_39
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 280
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_40
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 280
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 174
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ui_part_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2
+        width: 626
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
