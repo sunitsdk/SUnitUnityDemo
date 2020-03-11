@@ -1,6 +1,6 @@
 # SUnit SDK(Android)
-* Modified: February 17, 2020
-* SDK Version: 1.2.2
+* Modified: March 3, 2020
+* SDK Version: 1.2.3.6
 
 ## Overview
 
@@ -20,8 +20,6 @@ The SUnit SDK is a package of commercial solutions provided by SHAREit to game p
 
 
 ## Release Notes
-
-#### 1.2.2
 
 - Opt consumer proguard file.
 
