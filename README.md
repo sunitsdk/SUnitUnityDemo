@@ -21,8 +21,6 @@ The SUnit SDK is a package of commercial solutions provided by SHAREit to game p
 
 ## Release Notes
 
-- Opt consumer proguard file.
-
 Here is the link to the [release notes](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/CHANGELOG.md) for all the previous SDK versions.
 
 ## Getting Started
