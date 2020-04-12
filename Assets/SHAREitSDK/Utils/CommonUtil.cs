@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//test
+
 namespace SHAREitSDK
 {
     public class CommonUtil
