@@ -15,11 +15,14 @@
         android:anyDensity="true"/>
 
     <application
+        android:allowBackup="true"
         android:theme="@style/UnityThemeSelector"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:name="androidx.multidex.MultiDexApplication"
-        tools:replace="android:appComponentFactory"
+        tools:replace="android:appComponentFactory,android:fullBackupContent"
+        android:fullBackupContent="true"
+        tools:ignore="UnusedAttribute"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:requestLegacyExternalStorage="true">
         <activity android:name="com.unity3d.player.UnityPlayerActivity"
@@ -40,6 +43,25 @@
           android:name="flurry.sdk.API_KEY"
           android:value="FLURRY_API_KEY" /> -->
       <!-- ********************** Flurry End **************************** -->
+
+      <!-- ********************** AppsFlyer Start **************************** -->
+      <meta-data
+          android:name="appsflyer.sdk.DEV_KEY"
+          android:value="KpMRdc8Ayx34ZApA4Q8kA4" />
+          <!--  <meta-data
+           android:name="appsflyer.sdk.DEV_KEY"
+           android:value="Your AppsFlyer DEV_KEY" />-->
+      <!-- ********************** AppsFlyer End **************************** -->
+
+      <!-- ********************** Facebook Start **************************** -->
+        <!-- 注意：必须是fb加上您的Facebook appId,不能只是appId。正确示例 android:value="fb1644475872501583" /> -->
+      <meta-data
+          android:name="com.facebook.sdk.ApplicationId"
+          android:value="fb1644475872501583" />
+          <!--  <meta-data
+           android:name="com.facebook.sdk.ApplicationId"
+           android:value="fb+Your Facebook appId" />-->
+      <!-- ********************** Facebook End **************************** -->
 
         <meta-data
             android:name="com.ushareit.ads.KEY_APP_ID"
