@@ -11,7 +11,7 @@ namespace SHAREitSDK
 
         public const string LOOP = "loop";
         public const string GAME_LEVEL_START = "itl_game_level_start";
-        public const string GAME_LEVEL_END = "itl_ame_level_end";
+        public const string GAME_LEVEL_END = "itl_game_level_end";
         public const string GAME_REGAIN_FOCUS = "itl_game_regain_focus";
         public const string HOME = "home";
         public const string SHOP = "shop";
