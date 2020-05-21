@@ -1,0 +1,10 @@
+Packages
+Library
+Logs
+*.apk
+Temp
+.vs/
+Library/
+/.vs:
+/Library:
+*.dll
