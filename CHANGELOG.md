@@ -1,10 +1,19 @@
+
+#### [重要]1.5.1.0
+2020-05-12
+1. 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
+    * Unity：SHAREitSDK.SHAREitSDK.requestStoragePermissions();
+2. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle) 文件
+
+
+
 ### [里程碑版本]1.3.1.1
 2020-04-20
 1. 升级 androidx 版本
 2. 升级广告源版本: admob facebook mopub applovin unityAds
 3. 增加 admob 聚合 applovin, admob 聚合 unityAds
 
-接入改动(替换 [shareit_sdk.gradle](https://github.com/sunitsdk/SUnitDemo/blob/8c0068eb2b/app/shareit_sdk.gradle) 文件):
+接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitDemo/blob/8c0068eb2b/app/shareit_sdk.gradle) 文件):
 1. 更改广告源版本为
 ```
     ext {
