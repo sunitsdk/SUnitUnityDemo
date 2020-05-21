@@ -4,9 +4,7 @@
     package="com.unity3d.player"
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="preferExternal">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-      android:maxSdkVersion="28"
-      tools:replace="android:maxSdkVersion"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <supports-screens
         android:smallScreens="true"
         android:normalScreens="true"
@@ -33,7 +31,14 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
-
+        
+        <!--Fix Manifest merger failed -->
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:hardwareAccelerated="true"
+            android:multiprocess="true"
+            tools:replace="android:configChanges" />
         <!--SHAREit begin-->
         <!-- ********************** Flurry Start **************************** -->
       <meta-data
