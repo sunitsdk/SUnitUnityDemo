@@ -1,6 +1,7 @@
 # SUnit SDK(Android)
-* Modified: 2020-04-28
-* SDK Version: 1.3.1.1
+* Modified: 2020-05-12
+* SDK Version: 1.5.1.0
+* [ChangeLog](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/CHANGELOG.md)
 
 ## Overview
 
