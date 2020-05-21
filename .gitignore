@@ -7,4 +7,5 @@ Temp
 Library/*
 /.vs:
 /Library:
+/Library
 *.dll
