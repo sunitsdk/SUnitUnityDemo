@@ -49,25 +49,6 @@
           android:value="FLURRY_API_KEY" /> -->
       <!-- ********************** Flurry End **************************** -->
 
-      <!-- ********************** AppsFlyer Start **************************** -->
-      <meta-data
-          android:name="appsflyer.sdk.DEV_KEY"
-          android:value="KpMRdc8Ayx34ZApA4Q8kA4" />
-          <!--  <meta-data
-           android:name="appsflyer.sdk.DEV_KEY"
-           android:value="Your AppsFlyer DEV_KEY" />-->
-      <!-- ********************** AppsFlyer End **************************** -->
-
-      <!-- ********************** Facebook Start **************************** -->
-        <!-- 注意：必须是fb加上您的Facebook appId,不能只是appId。正确示例 android:value="fb1644475872501583" /> -->
-      <meta-data
-          android:name="com.facebook.sdk.ApplicationId"
-          android:value="fb1644475872501583" />
-          <!--  <meta-data
-           android:name="com.facebook.sdk.ApplicationId"
-           android:value="fb+Your Facebook appId" />-->
-      <!-- ********************** Facebook End **************************** -->
-
         <meta-data
             android:name="com.ushareit.ads.KEY_APP_ID"
             android:value="1014yOd"/>
