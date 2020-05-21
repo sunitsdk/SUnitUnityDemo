@@ -55,11 +55,8 @@ public class Game : MonoBehaviour
 
     public void onGameLevelEnd()
     {
-        //descText.text = "gameLeveleEnd upload,level = 1";
-        //shareitSDK.gameLevelEnd("1");
-        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
-            descText.text = "code is " + resultCode + ",reason :" + reason;
-        }));
+        descText.text = "gameLeveleEnd upload,level = 1";
+        shareitSDK.gameLevelEnd("1");
     }
 
     public void onLoginIn()
