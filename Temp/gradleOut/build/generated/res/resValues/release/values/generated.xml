@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="account_type" translatable="false">com.shareit.sdk.ad.sample.type</string>
+    <string name="content_authority" translatable="false">com.shareit.sdk.ad.sample.provider</string>
+
+</resources>

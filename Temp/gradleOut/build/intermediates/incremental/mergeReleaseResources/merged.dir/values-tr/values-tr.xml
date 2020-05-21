@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AÇ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Ara…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="ad_offline_channel_download_offline_toast">Ağ bağlantısı iyi olduğunda uygulama otomatik olarak indirilecek~!</string>
+    <string name="ad_offline_channel_download_online_toast">İndiriliyor...</string>
+    <string name="ad_offline_guide_network_dialog_connect">AĞA BAĞLAN</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Hayır, teşekkürler.</string>
+    <string name="ad_offline_guide_network_dialog_title">Eyvah！İndirme başarısız oldu. İnternet bağlantınızı kontrol edin.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">İndirme Görevlerine Eklendi ŞİMDİ ALMAK için ağa bağlanın.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Eyvah！Bir ağ hatası oldu. Lütfen internet bağlantınızı kontrol edin.</string>
+    <string name="adshonor_auto_download_button_no">HAYIR</string>
+    <string name="adshonor_auto_download_button_yes">EVET</string>
+    <string name="adshonor_auto_download_title">Uygulama %d saniye içinde indirilecek. İptal etmek istiyor musunuz?</string>
+    <string name="adshonor_common_close_caps">Kapat</string>
+    <string name="adshonor_common_more">DAHA FAZLA</string>
+    <string name="adshonor_common_operate_replay">Yeniden Oynat</string>
+    <string name="adshonor_common_operate_retry">Yeniden Dene</string>
+    <string name="adshonor_media_network_err_new_msg">Lütfen ağı kontrol edin</string>
+    <string name="adshonor_media_player_error_wrong">Bir şeyler ters gidiyor...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Etkinleştir"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştirin"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Yükle"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play hizmetlerini edinin"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play hizmetlerinin kullanılabilirliği"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play Hizmetleri hatası"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Güncelle"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play hizmetlerini güncellemezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelleyin"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Telefonda aç"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Oturum aç"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <string name="common_unit_time_minute">Dk</string>
+    <string name="common_unit_time_second">Sn</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Wi-Fi ön belleği</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Veri zaten durduruldu. Wi-Fi’dayken ön belleğe almaya devam et. Kesintisiz ön belleğe alma için, başlamak üzere Ayarlar’a gidin</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Ayarla’ya Git</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Wi-Fi ön belleği</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Ön bellek listesine ekleniyor. Veri zaten durduruldu. Ön belleğe almaya devam etmek istiyorsanız, başlamak için Ayarlar’a gidin</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Ayarla’ya Git</string>
+    <string name="download_center_empty_layout_text">Henüz indirilecek dosyanız yok.\n Ön bellek için tek sayfasının indirme simgesine dokunabilirsiniz.</string>
+    <string name="download_center_title">İndirme Merkezi</string>
+    <string name="download_control_cache_info">Ayrıca ön belleğe alınan numara</string>
+    <string name="download_control_pause_all">Tümünü Duraklat</string>
+    <string name="download_control_start_all">Tümünü Başlat</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Ön bellek listesine ekleniyor. Ancak alanınız yetersiz. Telefonunuzu korumak için, şimdi temizleyin.</string>
+    <string name="download_editable_title">Öğe Seç</string>
+    <string name="download_noti_permission_content">Bildirim çubuğundan indirme ilerlemesini kontrol edebilirsiniz</string>
+    <string name="download_noti_permission_title">İndirme Bildirimlerini Aç</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s başarılı bir şekilde indirildi. Görüntülemek için dokun</string>
+    <string name="download_notification_download_failed_msg">%1$s %2$s indirilemedi. Görüntülemek için dokun</string>
+    <string name="download_notification_download_failed_title">İndirilemedi: %s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s başarılı bir şekilde indirildi. %3$s\'ün bir kısmı başarısız oldu. Görüntülemek için dokun</string>
+    <string name="download_notification_download_success_title">%s başarılı bir şekilde indirildi</string>
+    <string name="download_notification_downloading_title">%s indiriliyor</string>
+    <string name="download_notification_status_pause">Ön Belleğe Alma Durduruldu</string>
+    <string name="download_pop_tip_downloaded">İndirme tamamlandı</string>
+    <string name="download_pop_tip_downloading">İndiriliyor...</string>
+    <string name="download_pop_tip_msg">İndirme Listesine Eklendi</string>
+    <string name="download_pop_tip_view">Görüntüle</string>
+    <string name="download_progress_empty_layout_text">Önbellek dosyaları yok.</string>
+    <string name="download_progress_title">İndirme</string>
+    <string name="download_resume_tip_message">İndirmeye devam edilsin mi?</string>
+    <string name="download_resume_tip_title">İndirmesi bitmemiş dosyalarınız var</string>
+    <string name="download_start_already_tip">İndirildi</string>
+    <string name="download_start_tip">İndirme</string>
+    <string name="download_start_tip_use_mobile">Mobil veri kullanılarak indiriliyor</string>
+    <string name="download_status_download_failed">İndirme başarısız. Yeniden denemek için dokunun</string>
+    <string name="download_status_download_mobile_pause">Veri durduruldu</string>
+    <string name="download_status_download_space_not_enough">Yetersiz Depolama Alanı </string>
+    <string name="download_status_downloaded">İndirildi</string>
+    <string name="download_status_paused">Duraklatıldı</string>
+    <string name="exo_controls_fastforward_description">İleri sar</string>
+    <string name="exo_controls_fullscreen_description">Tam ekran modu</string>
+    <string name="exo_controls_next_description">Sonraki parça</string>
+    <string name="exo_controls_pause_description">Duraklat</string>
+    <string name="exo_controls_play_description">Çal</string>
+    <string name="exo_controls_previous_description">Önceki parça</string>
+    <string name="exo_controls_repeat_all_description">Tümünü tekrarla</string>
+    <string name="exo_controls_repeat_off_description">Hiçbirini tekrarlama</string>
+    <string name="exo_controls_repeat_one_description">Birini tekrarla</string>
+    <string name="exo_controls_rewind_description">Geri sar</string>
+    <string name="exo_controls_shuffle_description">Karıştır</string>
+    <string name="exo_controls_stop_description">Durdur</string>
+    <string name="exo_controls_vr_description">VR modu</string>
+    <string name="exo_download_completed">İndirme işlemi tamamlandı</string>
+    <string name="exo_download_description">İndir</string>
+    <string name="exo_download_downloading">İndiriliyor</string>
+    <string name="exo_download_failed">İndirilemedi</string>
+    <string name="exo_download_notification_channel_name">İndirilenler</string>
+    <string name="exo_download_removing">İndirilenler kaldırılıyor</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternatif</string>
+    <string name="exo_track_role_closed_captions">Altyazı</string>
+    <string name="exo_track_role_commentary">Anlatım</string>
+    <string name="exo_track_role_supplementary">Ek kanal</string>
+    <string name="exo_track_selection_auto">Otomatik</string>
+    <string name="exo_track_selection_none">Yok</string>
+    <string name="exo_track_selection_title_audio">Ses</string>
+    <string name="exo_track_selection_title_text">Metin</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround ses</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround ses</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround ses</string>
+    <string name="exo_track_unknown">Bilinmiyor</string>
+    <string name="liked_title">Beğenilen</string>
+    <string name="main_home_receive_alert_cancel">İptal</string>
+    <string name="music_download_start_already_tip">Kaydedildi</string>
+    <string name="music_download_start_tip">Kaydediyor</string>
+    <string name="music_download_status_download_failed">Kaydedilemedi Yeniden denemek için dokunun</string>
+    <string name="noti_permission_content">Bildirim seçeneğini bul ve aç</string>
+    <string name="noti_permission_title">Bildirimi Etkinleştir</string>
+    <string msgid="368094699078615544" name="s1">"Resmi kaydet"</string>
+    <string msgid="4550830452390689489" name="s2">"Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?"</string>
+    <string msgid="2435407834265420668" name="s3">"Kabul et"</string>
+    <string msgid="9167523597401839819" name="s4">"Reddet"</string>
+    <string msgid="1566682516266724847" name="s5">"Takvim etkinliği oluştur"</string>
+    <string msgid="5996672174517137271" name="s6">"Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?"</string>
+    <string msgid="7163549807207034258" name="s7">"Test Reklamı"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Ara"</string>
+    <string name="setting_mobile_download_msg">İndirme İçin Verilerin Kullanılmasına İzin Ver</string>
+    <string name="setting_mobile_download_title">İndirme İçin Verilerin Kullanılmasına İzin Ver</string>
+    <string name="setting_storage_auth">(Yetkilendir)</string>
+    <string name="setting_storage_default">Varsayılan telefon kartı</string>
+    <string name="setting_storage_no_permission">(İzin yok)</string>
+    <string name="setting_storage_sdcard">Harici SD kart</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s gün önce</string>
+    <string name="timer_ago_hours">%s saat önce</string>
+    <string name="timer_ago_minutes">%s dakika önce</string>
+    <string name="timer_ago_months">%s ay önce</string>
+    <string name="timer_ago_one_day">1 gün önce</string>
+    <string name="timer_ago_one_hour">1 saat önce</string>
+    <string name="timer_ago_one_minute">1 dakika önce</string>
+    <string name="timer_ago_one_month">1 ay önce</string>
+    <string name="timer_ago_one_year">1 yıl önce</string>
+    <string name="timer_ago_years">%s yıl önce</string>
+</resources>

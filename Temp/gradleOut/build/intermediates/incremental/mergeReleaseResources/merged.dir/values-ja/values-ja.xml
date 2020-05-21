@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"完了"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"OFF"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ON"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"検索…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="ad_offline_channel_download_offline_toast">アプリは、ネットワークが正常になり次第、自動的にダウンロードを開始します！</string>
+    <string name="ad_offline_channel_download_online_toast">ダウンロード中...</string>
+    <string name="ad_offline_guide_network_dialog_connect">ネットワークに接続</string>
+    <string name="ad_offline_guide_network_dialog_refresh">いいえ、結構です</string>
+    <string name="ad_offline_guide_network_dialog_title">おっと！ダウンロードに失敗しました。インターネット接続をチェックしてください。</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">ダウンロード タスクに追加しました。ネットワークに接続して今すぐこのアプリケーションを入手してください。</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">おっと！ネットワークエラーがありました。インターネット接続をチェックしてください。</string>
+    <string name="adshonor_auto_download_button_no">いいえ</string>
+    <string name="adshonor_auto_download_button_yes">はい</string>
+    <string name="adshonor_auto_download_title">アプリは、%d 秒で自動的にダウンロードされます。キャンセルしますか？</string>
+    <string name="adshonor_common_close_caps">閉じる</string>
+    <string name="adshonor_common_more">その他</string>
+    <string name="adshonor_common_operate_replay">リプレー</string>
+    <string name="adshonor_common_operate_retry">リトライ</string>
+    <string name="adshonor_media_network_err_new_msg">ネットワークをチェックしてください</string>
+    <string name="adshonor_media_player_error_wrong">何か問題があったようです…</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"インストール"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play開発者サービスの入手"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 開発者サービスの利用"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスの更新が必要です。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play開発者サービスの更新"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string name="common_unit_time_minute">分</string>
+    <string name="common_unit_time_second">秒</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">WiFi がオンの時にキャッシュ ファイルをダウンロード</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">既にデータのトラフィック上の問題のため一時停止しています。WiFi がオンになっている時にキャッシュを続行してください。キャッシュを続行するには、[設定] に行って開始してください。</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">[設定] に進む</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">WiFi がオンの時にキャッシュ ファイルをダウンロード</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">キャッシュ リストに追加済み。既にデータのトラフィック上の問題のため一時停止しています。キャッシュを続行したい場合は、[設定] に行って開始してください。</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">[設定] に進む</string>
+    <string name="download_center_empty_layout_text">ダウンロードするファイルはありません。\n キャッシュ用の単一の ページのダウンロード アイコンをタップしてください。</string>
+    <string name="download_center_title">ダウンロード センター</string>
+    <string name="download_control_cache_info">キャッシュされたファイル数</string>
+    <string name="download_control_pause_all">すべてを一時停止</string>
+    <string name="download_control_start_all">すべてを開始</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">キャッシュ リストに追加済み。しかし、スペースが不足しています。電話を保護するため、いますぐクリーニングしてください。</string>
+    <string name="download_editable_title">アイテムを選択</string>
+    <string name="download_noti_permission_content">通知バーでダウンロードの進捗状況をチェックできます</string>
+    <string name="download_noti_permission_title">ダウンロード通知を開く</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s のダウンロードが成功しました。タップして表示</string>
+    <string name="download_notification_download_failed_msg">%1$s %2$s のダウンロードに失敗しました。タップして表示</string>
+    <string name="download_notification_download_failed_title">ダウンロードに失敗：%s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s のダウンロードが成功しました。%3$s の一部は失敗しました。タップして表示</string>
+    <string name="download_notification_download_success_title">ダウンロード成功：%s</string>
+    <string name="download_notification_downloading_title">ダウンロード中：%s</string>
+    <string name="download_notification_status_pause">キャッシングの一時停止</string>
+    <string name="download_pop_tip_downloaded">ダウンロード完了</string>
+    <string name="download_pop_tip_downloading">ダウンロード中...</string>
+    <string name="download_pop_tip_msg">ダウンロード リストに追加</string>
+    <string name="download_pop_tip_view">表示</string>
+    <string name="download_progress_empty_layout_text">キャッシュされたファイルがありません。</string>
+    <string name="download_progress_title">ダウンロード中</string>
+    <string name="download_resume_tip_message">ダウンロードを続行しますか？</string>
+    <string name="download_resume_tip_title">ダウンロードが完了していないファイルがあります</string>
+    <string name="download_start_already_tip">ダウンロード済み</string>
+    <string name="download_start_tip">ダウンロード中</string>
+    <string name="download_start_tip_use_mobile">モバイル データを使用してダウンロード中</string>
+    <string name="download_status_download_failed">ダウンロード失敗。タップして再試行してください</string>
+    <string name="download_status_download_mobile_pause">データのトラフィック上の問題のため一時停止</string>
+    <string name="download_status_download_space_not_enough">ストレージスペースが不足しています </string>
+    <string name="download_status_downloaded">ダウンロード済み</string>
+    <string name="download_status_paused">一時停止</string>
+    <string name="exo_controls_fastforward_description">早送り</string>
+    <string name="exo_controls_fullscreen_description">全画面モード</string>
+    <string name="exo_controls_next_description">次のトラック</string>
+    <string name="exo_controls_pause_description">一時停止</string>
+    <string name="exo_controls_play_description">再生</string>
+    <string name="exo_controls_previous_description">前のトラック</string>
+    <string name="exo_controls_repeat_all_description">全曲をリピート</string>
+    <string name="exo_controls_repeat_off_description">リピートなし</string>
+    <string name="exo_controls_repeat_one_description">1 曲をリピート</string>
+    <string name="exo_controls_rewind_description">巻き戻し</string>
+    <string name="exo_controls_shuffle_description">シャッフル</string>
+    <string name="exo_controls_stop_description">停止</string>
+    <string name="exo_controls_vr_description">VR モード</string>
+    <string name="exo_download_completed">ダウンロードが完了しました</string>
+    <string name="exo_download_description">ダウンロード</string>
+    <string name="exo_download_downloading">ダウンロードしています</string>
+    <string name="exo_download_failed">ダウンロードに失敗しました</string>
+    <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_removing">ダウンロードを削除しています</string>
+    <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">代替</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_role_commentary">解説</string>
+    <string name="exo_track_role_supplementary">補足</string>
+    <string name="exo_track_selection_auto">自動</string>
+    <string name="exo_track_selection_none">なし</string>
+    <string name="exo_track_selection_title_audio">音声</string>
+    <string name="exo_track_selection_title_text">文字</string>
+    <string name="exo_track_selection_title_video">動画</string>
+    <string name="exo_track_stereo">ステレオ</string>
+    <string name="exo_track_surround">サラウンド サウンド</string>
+    <string name="exo_track_surround_5_point_1">5.1 サラウンド サウンド</string>
+    <string name="exo_track_surround_7_point_1">7.1 サラウンド サウンド</string>
+    <string name="exo_track_unknown">不明</string>
+    <string name="liked_title">いいね！</string>
+    <string name="main_home_receive_alert_cancel">キャンセル</string>
+    <string name="music_download_start_already_tip">保存済み</string>
+    <string name="music_download_start_tip">保存中</string>
+    <string name="music_download_status_download_failed">保存失敗。タップして再試行してください</string>
+    <string name="noti_permission_content">通知のオプションを見つけて、オンにしてください</string>
+    <string name="noti_permission_title">通知を有効化</string>
+    <string msgid="368094699078615544" name="s1">"画像の保存"</string>
+    <string msgid="4550830452390689489" name="s2">"広告が画像ギャラリーに画像を保存することを許可しますか？"</string>
+    <string msgid="2435407834265420668" name="s3">"許可する"</string>
+    <string msgid="9167523597401839819" name="s4">"許可しない"</string>
+    <string msgid="1566682516266724847" name="s5">"カレンダーの予定の作成"</string>
+    <string msgid="5996672174517137271" name="s6">"広告がカレンダーの予定を作成することを許可しますか？"</string>
+    <string msgid="7163549807207034258" name="s7">"テスト広告"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"検索"</string>
+    <string name="setting_mobile_download_msg">ダウンロードにデータを使用することを許可</string>
+    <string name="setting_mobile_download_title">ダウンロードにデータを使用することを許可</string>
+    <string name="setting_storage_auth">(認証)</string>
+    <string name="setting_storage_default">デフォルトのテレフォンカード</string>
+    <string name="setting_storage_no_permission">(権限なし)</string>
+    <string name="setting_storage_sdcard">外部SDカード</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s 日前</string>
+    <string name="timer_ago_hours">%s 時間前</string>
+    <string name="timer_ago_minutes">%s 分前</string>
+    <string name="timer_ago_months">%s か月前</string>
+    <string name="timer_ago_one_day">1 日前</string>
+    <string name="timer_ago_one_hour">1 時間前</string>
+    <string name="timer_ago_one_minute">1 分前</string>
+    <string name="timer_ago_one_month">1 か月前</string>
+    <string name="timer_ago_one_year">1 年前</string>
+    <string name="timer_ago_years">%s 年前</string>
+</resources>

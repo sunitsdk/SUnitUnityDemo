@@ -22,6 +22,8 @@ namespace SHAREitSDK
 
         void userLogin(string gameSecret);
 
+        void showRateDialog();
+
         string getUserId();
 
         bool logout();

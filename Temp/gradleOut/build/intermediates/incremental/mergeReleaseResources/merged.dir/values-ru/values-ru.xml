@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="ad_offline_channel_download_offline_toast">Приложение будет загружено автоматически, когда подключение к сети восстановится!</string>
+    <string name="ad_offline_channel_download_online_toast">Загружается...</string>
+    <string name="ad_offline_guide_network_dialog_connect">ПОДКЛЮЧИТЬ СЕТЬ</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Нет, спасибо.</string>
+    <string name="ad_offline_guide_network_dialog_title">Ошибка! Сбой загрузки. Проверьте подключение к Интернету.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Добавлено в задачи загрузки. Подключитесь к сети и ЗАГРУЗИТЕ СЕЙЧАС.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Возникла ошибка сети! Проверьте подключение к Интернету.</string>
+    <string name="adshonor_auto_download_button_no">НЕТ</string>
+    <string name="adshonor_auto_download_button_yes">ДА</string>
+    <string name="adshonor_auto_download_title">Приложение будет загружено автоматически через %d секунд. Отменить?</string>
+    <string name="adshonor_common_close_caps">Закрыть</string>
+    <string name="adshonor_common_more">ЕЩЕ</string>
+    <string name="adshonor_common_operate_replay">Повторить</string>
+    <string name="adshonor_common_operate_retry">Повторить</string>
+    <string name="adshonor_media_network_err_new_msg">Проверьте подключение к сети</string>
+    <string name="adshonor_media_player_error_wrong">Что-то пошло не так...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступность сервисов Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string name="common_unit_time_minute">Мин.</string>
+    <string name="common_unit_time_second">Сек.</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Загружать файл кеш по WiFi</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Уже поставлено на паузу из-за проблем с передачей данных по мобильной сети. Продолжать загрузку файла кеш по WiFi Для продолжения кеширования перейдите в меню "Настройки"</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Перейти к настройкам</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Загружать файл кеш по WiFi</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Добавлено в список кеширования. Уже поставлено на паузу из-за проблем с передачей данных по мобильной сети. Чтобы продолжить кеширование, перейдите в меню "Настройки"</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Перейти к настройкам</string>
+    <string name="download_center_empty_layout_text">Пока что у вас нет файлов для загрузки.\n Вы можете нажать значок загрузки на отдельной странице, чтобы начать кеширование.</string>
+    <string name="download_center_title">Центр загрузки</string>
+    <string name="download_control_cache_info">Также количество загружаемых файлов</string>
+    <string name="download_control_pause_all">Поставить на паузу все</string>
+    <string name="download_control_start_all">Запустить все</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Добавлено в список кеширования. Однако у вас недостаточно свободного места. Выполните очистку сейчас, чтобы защитить телефон.</string>
+    <string name="download_editable_title">Выберите элемент</string>
+    <string name="download_noti_permission_content">Состояние загрузки можно отслеживать на панели уведомлений</string>
+    <string name="download_noti_permission_title">Открыть уведомление о загрузке</string>
+    <string name="download_notification_download_all_success_msg">Успешно загружено: %2$s - %1$s. Нажмите, чтобы посмотреть</string>
+    <string name="download_notification_download_failed_msg">Не удалось загрузить: %2$s - %1$s. Нажмите, чтобы посмотреть</string>
+    <string name="download_notification_download_failed_title">Не удалось загрузить: %s</string>
+    <string name="download_notification_download_part_success_msg">Успешно загружено: %2$s - %1$s. Некоторые %3$s загрузить не удалось. Нажмите, чтобы посмотреть</string>
+    <string name="download_notification_download_success_title">Загрузка успешно завершена: %s</string>
+    <string name="download_notification_downloading_title">Загружается: %s</string>
+    <string name="download_notification_status_pause">Кеширование приостановлено</string>
+    <string name="download_pop_tip_downloaded">Загрузка завершена</string>
+    <string name="download_pop_tip_downloading">Загружается...</string>
+    <string name="download_pop_tip_msg">Уже добавлено в список загрузки</string>
+    <string name="download_pop_tip_view">Просмотреть</string>
+    <string name="download_progress_empty_layout_text">Нет файлов в кеше.</string>
+    <string name="download_progress_title">Загружается</string>
+    <string name="download_resume_tip_message">Продолжить загрузку?</string>
+    <string name="download_resume_tip_title">Имеются файлы с незавершенной загрузкой</string>
+    <string name="download_start_already_tip">Загружено</string>
+    <string name="download_start_tip">Загружается</string>
+    <string name="download_start_tip_use_mobile">Загружается по мобильному Интернету</string>
+    <string name="download_status_download_failed">Сбой загрузки. Нажмите, чтобы повторить</string>
+    <string name="download_status_download_mobile_pause">Поставлено на паузу из-за проблем с передачей данных по мобильной сети</string>
+    <string name="download_status_download_space_not_enough">Недостаточно свободного пространства </string>
+    <string name="download_status_downloaded">Загружено</string>
+    <string name="download_status_paused">На паузе</string>
+    <string name="exo_controls_fastforward_description">Перемотать вперед</string>
+    <string name="exo_controls_fullscreen_description">Полноэкранный режим</string>
+    <string name="exo_controls_next_description">Следующий трек</string>
+    <string name="exo_controls_pause_description">Приостановить</string>
+    <string name="exo_controls_play_description">Воспроизвести</string>
+    <string name="exo_controls_previous_description">Предыдущий трек</string>
+    <string name="exo_controls_repeat_all_description">Повторять все</string>
+    <string name="exo_controls_repeat_off_description">Не повторять</string>
+    <string name="exo_controls_repeat_one_description">Повторять трек</string>
+    <string name="exo_controls_rewind_description">Перемотать назад</string>
+    <string name="exo_controls_shuffle_description">Перемешать</string>
+    <string name="exo_controls_stop_description">Остановить</string>
+    <string name="exo_controls_vr_description">VR-режим</string>
+    <string name="exo_download_completed">Скачивание завершено</string>
+    <string name="exo_download_description">Скачать</string>
+    <string name="exo_download_downloading">Скачивание…</string>
+    <string name="exo_download_failed">Ошибка скачивания</string>
+    <string name="exo_download_notification_channel_name">Скачивания</string>
+    <string name="exo_download_removing">Удаление скачанных файлов…</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мбит/сек</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Другая запись</string>
+    <string name="exo_track_role_closed_captions">Субтитры</string>
+    <string name="exo_track_role_commentary">Комментарии</string>
+    <string name="exo_track_role_supplementary">Дополнительные материалы</string>
+    <string name="exo_track_selection_auto">Авто</string>
+    <string name="exo_track_selection_none">Нет</string>
+    <string name="exo_track_selection_title_audio">Аудио</string>
+    <string name="exo_track_selection_title_text">Текст</string>
+    <string name="exo_track_selection_title_video">Видео</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Объемный звук</string>
+    <string name="exo_track_surround_5_point_1">Система объемного звука 5.1</string>
+    <string name="exo_track_surround_7_point_1">Система объемного звука 7.1</string>
+    <string name="exo_track_unknown">Неизвестный трек</string>
+    <string name="liked_title">В коллекции</string>
+    <string name="main_home_receive_alert_cancel">Отмена</string>
+    <string name="music_download_start_already_tip">Сохранено</string>
+    <string name="music_download_start_tip">Сохраняется</string>
+    <string name="music_download_status_download_failed">Ошибка сохранения. Нажмите, чтобы повторить</string>
+    <string name="noti_permission_content">Найти функцию уведомления и включить ее</string>
+    <string name="noti_permission_title">Включить уведомление</string>
+    <string msgid="368094699078615544" name="s1">"Сохранить изображение"</string>
+    <string msgid="4550830452390689489" name="s2">"Разрешить объявлению сохранить изображение в галерее?"</string>
+    <string msgid="2435407834265420668" name="s3">"Разрешить"</string>
+    <string msgid="9167523597401839819" name="s4">"Отклонить"</string>
+    <string msgid="1566682516266724847" name="s5">"Создать мероприятие"</string>
+    <string msgid="5996672174517137271" name="s6">"Разрешить объявлению создать мероприятие в календаре?"</string>
+    <string msgid="7163549807207034258" name="s7">"Тестовое объявление"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Поиск"</string>
+    <string name="setting_mobile_download_msg">Разрешить использовать мобильную сеть для загрузки</string>
+    <string name="setting_mobile_download_title">Разрешить использовать мобильную сеть для загрузки</string>
+    <string name="setting_storage_auth">(Авторизация)</string>
+    <string name="setting_storage_default">Карта телефона по умолчанию</string>
+    <string name="setting_storage_no_permission">(Без разрешения.)</string>
+    <string name="setting_storage_sdcard">Внешняя карта SD</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="timer_ago_days">%s дн. назад</string>
+    <string name="timer_ago_hours">%s ч. назад</string>
+    <string name="timer_ago_minutes">%s мин. назад</string>
+    <string name="timer_ago_months">%s мес. назад</string>
+    <string name="timer_ago_one_day">1 день назад</string>
+    <string name="timer_ago_one_hour">1 час назад</string>
+    <string name="timer_ago_one_minute">1 минуту назад</string>
+    <string name="timer_ago_one_month">1 месяц назад</string>
+    <string name="timer_ago_one_year">1 год назад</string>
+    <string name="timer_ago_years">%s года/лет назад</string>
+</resources>

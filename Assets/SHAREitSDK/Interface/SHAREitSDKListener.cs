@@ -16,6 +16,16 @@ namespace SHAREitSDK
         }
     }
 
+    public class RateListener
+    {
+        public delegate void OnRateShowFail(int showRateResultCode, string msg);
+        public OnRateShowFail onRateShowFail;
+        public RateListener(OnRateShowFail onRateShowFail)
+        {
+            this.onRateShowFail = onRateShowFail;
+        }
+    }
+
     public class LoginListener
     {
         public delegate void OnLoginSuccess(string userId, string username, string avatarUrl);

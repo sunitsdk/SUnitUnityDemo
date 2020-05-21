@@ -42,6 +42,8 @@ namespace SHAREitSDK
 
         public virtual void userLogin(string gameSecret) { }
 
+        public virtual void showRateDialog() { }
+
         public virtual string getUserId() { return ""; }
 
         public virtual bool logout() { return true; }

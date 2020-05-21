@@ -28,6 +28,7 @@ namespace SHAREitSDK {
         public const int AD_SHOW_CLOSED = 5;
 
         public const string ACTION_TYPE_LOGIN_SUCCESS = "loginSuccess";
+        public const string ACTION_TYPE_SHOW_RATE_FAIL = "showRateFail";
         public const string ACTION_TYPE_PAY_RESULT = "payResult";
         public const string ACTION_TYPE_INTERSTITIAL_AD_LOAD = "interstitialAdLoad";
         public const string ACTION_TYPE_INTERSTITIAL_AD_SHOW = "InterstitialAdShow";
@@ -38,6 +39,7 @@ namespace SHAREitSDK {
 
         private PayResultListener payResultListener = null;
         private LoginListener loginListener = null;
+        private RateListener rateListener = null;
         private AdLoadListener interstitialAdLoadListener = null;
         private AdShowListener interstitialAdShowListener = null;
         private AdLoadListener rewardedAdLoadListener = null;
@@ -128,6 +130,10 @@ namespace SHAREitSDK {
                     if(loginListener != null)
                         loginListener.onLoginSuccess((string)jsonData["userId"], (string)jsonData["useName"], (string)jsonData["avatarUrl"]);
                     break;
+                case ACTION_TYPE_SHOW_RATE_FAIL:
+                    if (rateListener != null)
+                        rateListener.onRateShowFail((int)jsonData["resultCode"], (string)jsonData["msg"]);
+                    break;
                 case ACTION_TYPE_PAY_RESULT:
                     if (payResultListener != null)
                         payResultListener.onResult((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["extra"]);
@@ -201,6 +207,12 @@ namespace SHAREitSDK {
         {
             this.loginListener = loginListener;
             instance.userLogin(gameSecret);
+        }
+
+        public void showRateDialog(RateListener rateListener)
+        {
+            this.rateListener = rateListener;
+            instance.showRateDialog();
         }
 
         public string getUserId()

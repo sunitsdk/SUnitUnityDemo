@@ -1,0 +1,8 @@
+# Referenced at /Users/anjingshuai/sdkdemo/SUnitUnityDemo/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml:55
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/anjingshuai/sdkdemo/SUnitUnityDemo/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml:55
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
+# Referenced at /Users/anjingshuai/sdkdemo/SUnitUnityDemo/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml:593
+-keep class com.ushareit.longevity.receiver.LeoricReceiver { <init>(); }
+# Referenced at /Users/anjingshuai/sdkdemo/SUnitUnityDemo/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml:588
+-keep class com.ushareit.longevity.service.LeoricService { <init>(); }

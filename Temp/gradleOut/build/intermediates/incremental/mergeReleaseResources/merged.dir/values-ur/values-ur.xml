@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"گھر کی طرف نیویگیٹ کریں"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"اوپر نیویگیٹ کریں"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"مزید اختیارات"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"ہو گیا"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"سبھی دیکھیں"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ایک ایپ منتخب کریں"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"آف"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"آن"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+‎"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+‎"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+‎"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+‎"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+‎"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+‎"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+‎"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"تلاش کریں…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"استفسار صاف کریں"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"تلاش کا استفسار"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"تلاش کریں"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"استفسار جمع کرائیں"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"صوتی تلاش"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"اس کے ساتھ اشتراک کریں"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> کے ساتھ اشتراک کریں"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"سکیڑیں"</string>
+    <string name="ad_offline_channel_download_offline_toast">جب آپ کا نٹورک اچھا ہوگا تو ایپ خود بخود ڈاؤن لوڈ ہوجائے گی ~!</string>
+    <string name="ad_offline_channel_download_online_toast">ڈاؤن لوڈ ہونا...</string>
+    <string name="ad_offline_guide_network_dialog_connect">نٹورک سے جڑیں</string>
+    <string name="ad_offline_guide_network_dialog_refresh">نہیں، شکریہ۔</string>
+    <string name="ad_offline_guide_network_dialog_title">افوہ ! ڈاؤن لوڈ ناکام ہوگیا۔ اپنا انٹرنٹ کنیکشن چیک کریں۔</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">ڈاؤن لوڈ ٹاسک میں شامل ہوگیا۔ اسے ابھی حاصل کرنے کے لیے نیٹ ورک سے جڑیں۔</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">افوہ ! نٹورک کی خامی تھی۔ براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں۔</string>
+    <string name="adshonor_auto_download_button_no">نہیں</string>
+    <string name="adshonor_auto_download_button_yes">ہاں</string>
+    <string name="adshonor_auto_download_title">ایپ %d سیکنڈ میں خود بخود ڈاؤن لوڈ ہو جائے گی۔ کیا آپ اسے منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="adshonor_common_close_caps">بند کریں</string>
+    <string name="adshonor_common_more">مزید</string>
+    <string name="adshonor_common_operate_replay">دوبارہ چلائیں</string>
+    <string name="adshonor_common_operate_retry">دوبارہ کوشش کریں</string>
+    <string name="adshonor_media_network_err_new_msg">براہ کرم نٹورک چیک کریں</string>
+    <string name="adshonor_media_player_error_wrong">کچھ غلط ہورہا ہے...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"فعال کریں"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، <ns1:g id="APP_NAME">%1$s</ns1:g> کام نہیں کرے گی۔"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏Google Play سروسز فعال کریں"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"انسٹال کریں"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏Google Play سروسز حاصل کریں"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏Google Play سروسز کی دستیابی"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏Google Play سروسز کی خرابی"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"اپ ڈیٹ کریں"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں <ns1:g id="APP_NAME">%1$s</ns1:g> تب تک نہیں چلے گی۔"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏Google Play سروسز اپ ڈیٹ کریں"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فون پر کھولیں"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"سائن ان کریں"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏Google کے ساتھ سائن ان کریں"</string>
+    <string name="common_unit_time_minute">منٹ</string>
+    <string name="common_unit_time_second">سیکنڈ</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">WiFi پر کیشے</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">ڈیٹا پر پہلے سے موقوف جب WiFi پر اس وقت کیشے جاری رکھیں۔ مسلسل کیشنگ کے لیے، براہ کرم شروع کرنے کے لیے ترتیبات میں جائیں</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">سیٹ میں جائیں</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">WiFi پر کیشے</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">کیشنگ فہرست میں شامل ہوگیا۔ ڈیٹا پر پہلے سے موقوف اگر آپ کیشنگ کو جاری رکھنا چاہتے، تو براہ کرم شروع کرنے کے لیے ترتیبات میں جائیں</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">سیٹ میں جائیں</string>
+    <string name="download_center_empty_layout_text">ابھی تک آپ کے پاس ڈاؤن لوڈ کرنے کے لیے کوئی فائل نہیں ہے۔\n آپ کیشے کے لیے تنہا صفحہ پر ڈاؤن لوڈ آئیکن کو تھپتھپا سکتے ہیں۔</string>
+    <string name="download_center_title">ڈاؤن لوڈ سنٹر</string>
+    <string name="download_control_cache_info">کیشڈ نمبر بھی</string>
+    <string name="download_control_pause_all">تمام موقوف کریں</string>
+    <string name="download_control_start_all">تمام شروع کریں</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">کیشنگ فہرست میں شامل ہوگیا۔ لیکن آپ کی جگہ ناکافی ہے۔ اپنے فون کی حفاظت کرنے کے لیے، براہ کرم ابھی صاف کریں۔</string>
+    <string name="download_editable_title">آئیٹم چنیں</string>
+    <string name="download_noti_permission_content">آپ نوٹیفیکشن بار میں ڈاؤن لوڈ کی پیش رفت چیک کرسکتے ہیں</string>
+    <string name="download_noti_permission_title">ڈاؤن لوڈ نوٹیفیکیشن کھولیں</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s کامیابی کے ساتھ ڈاؤن لوڈ ہوگیا. دیکھنے کے لیے تھپتھپائیں</string>
+    <string name="download_notification_download_failed_msg">ڈاؤن لوڈ ہونا ناکام ہوگیا %1$s %2$s۔ دیکھنے کے لیے تھپتھپائیں</string>
+    <string name="download_notification_download_failed_title">ڈاؤن لوڈ ہونا ناکام ہوگیا:%s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s کامیابی کے ساتھ ڈاؤن لوڈ ہوگیا۔  %3$s سے کچھ ناکام ہوگئے۔ دیکھنے کے لیے تھپتھپائیں</string>
+    <string name="download_notification_download_success_title">کامیابی کے ساتھ ڈاؤن لوڈ ہوگیا:%s</string>
+    <string name="download_notification_downloading_title">ڈاؤن لوڈ ہورہا ہے:%s</string>
+    <string name="download_notification_status_pause">کیشنگ موقوف ہوگیا</string>
+    <string name="download_pop_tip_downloaded">ڈاؤن لوڈ مکمل ہو گیا</string>
+    <string name="download_pop_tip_downloading">ڈاؤن لوڈ ہونا...</string>
+    <string name="download_pop_tip_msg">ڈاؤن لوڈ کی فہرست میں شامل ہوگیا۔</string>
+    <string name="download_pop_tip_view">ویو</string>
+    <string name="download_progress_empty_layout_text">کوئی کیشڈ فائل نہیں</string>
+    <string name="download_progress_title">ڈاؤن لوڈ ہونا</string>
+    <string name="download_resume_tip_message">ڈاؤن لوڈ کرنا جاری رکھیں؟</string>
+    <string name="download_resume_tip_title">آپ کے پاس غیر مکمل شدہ ڈاؤن لوڈ فائلیں ہیں</string>
+    <string name="download_start_already_tip">ڈاؤن لوڈ شدہ</string>
+    <string name="download_start_tip">ڈاؤن لوڈ ہونا</string>
+    <string name="download_start_tip_use_mobile">ڈاؤن لوڈ موبائل ڈیٹا استعمال کر رہا ہے</string>
+    <string name="download_status_download_failed">ڈاؤن لوڈ ناکام ہوگیا۔ دوبارہ کوشش کرنے کے لیے تھپتھپائیں</string>
+    <string name="download_status_download_mobile_pause">ڈیٹا پر موقوف ہوگیا</string>
+    <string name="download_status_download_space_not_enough">ناکافی اسٹویج کی جگہ </string>
+    <string name="download_status_downloaded">ڈاؤن لوڈ شدہ</string>
+    <string name="download_status_paused">موقوف</string>
+    <string name="exo_controls_fastforward_description">تیزی سے فارورڈ کریں</string>
+    <string name="exo_controls_fullscreen_description">پوری اسکرین والی وضع</string>
+    <string name="exo_controls_next_description">اگلا ٹریک</string>
+    <string name="exo_controls_pause_description">موقوف کریں</string>
+    <string name="exo_controls_play_description">چلائیں</string>
+    <string name="exo_controls_previous_description">پچھلا ٹریک</string>
+    <string name="exo_controls_repeat_all_description">سبھی کو دہرائیں</string>
+    <string name="exo_controls_repeat_off_description">کسی کو نہ دہرائیں</string>
+    <string name="exo_controls_repeat_one_description">ایک کو دہرائیں</string>
+    <string name="exo_controls_rewind_description">ریوائینڈ کریں</string>
+    <string name="exo_controls_shuffle_description">شفل کریں</string>
+    <string name="exo_controls_stop_description">روکیں</string>
+    <string name="exo_controls_vr_description">VR موڈ</string>
+    <string name="exo_download_completed">ڈاؤن لوڈ مکمل ہو گیا</string>
+    <string name="exo_download_description">ڈاؤن لوڈ کریں</string>
+    <string name="exo_download_downloading">ڈاؤن لوڈ ہو رہا ہے</string>
+    <string name="exo_download_failed">ڈاؤن لوڈ ناکام ہو گیا</string>
+    <string name="exo_download_notification_channel_name">ڈاؤن لوڈز</string>
+    <string name="exo_download_removing">ڈاؤن لوڈز کو ہٹایا جا رہا ہے</string>
+    <string name="exo_item_list">%1$s، %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">مونو</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">متبادل</string>
+    <string name="exo_track_role_closed_captions">سب ٹائٹلز</string>
+    <string name="exo_track_role_commentary">تبصرہ</string>
+    <string name="exo_track_role_supplementary">اضافی</string>
+    <string name="exo_track_selection_auto">خودکار</string>
+    <string name="exo_track_selection_none">کوئی نہیں</string>
+    <string name="exo_track_selection_title_audio">آڈیو</string>
+    <string name="exo_track_selection_title_text">متن</string>
+    <string name="exo_track_selection_title_video">ویڈیو</string>
+    <string name="exo_track_stereo">اسٹیریو</string>
+    <string name="exo_track_surround">محیط آواز</string>
+    <string name="exo_track_surround_5_point_1">5.1 محیط آواز</string>
+    <string name="exo_track_surround_7_point_1">7.1 محیط آواز</string>
+    <string name="exo_track_unknown">نامعلوم</string>
+    <string name="liked_title">پسند کیا</string>
+    <string name="main_home_receive_alert_cancel">منسوخ کریں</string>
+    <string name="music_download_start_already_tip">محفوظ</string>
+    <string name="music_download_start_tip">محفوظ ہورہا ہے</string>
+    <string name="music_download_status_download_failed">محفوظ کرنا ناکام ہوگیا۔ دوبارہ کوشش کرنے کے لیے تھپتھپائیں</string>
+    <string name="noti_permission_content">اطلاعات کے اختیار کی جگہ معلوم کریں اور اسے آن کریں</string>
+    <string name="noti_permission_title">اطلاعات فعال کریں</string>
+    <string msgid="368094699078615544" name="s1">"تصویر محفوظ کریں"</string>
+    <string msgid="4550830452390689489" name="s2">"اشتہار کو تصویری گیلری میں تصویر محفوظ کرنے کی اجازت دیں؟"</string>
+    <string msgid="2435407834265420668" name="s3">"قبول کریں"</string>
+    <string msgid="9167523597401839819" name="s4">"مسترد کریں"</string>
+    <string msgid="1566682516266724847" name="s5">"کیلنڈر ایونٹ بنائیں"</string>
+    <string msgid="5996672174517137271" name="s6">"اشتہار کو ایک کیلنڈر ایونٹ بنانے کی اجازت دیں؟"</string>
+    <string msgid="7163549807207034258" name="s7">"اشتہار ٹیسٹ کریں"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"تلاش کریں"</string>
+    <string name="setting_mobile_download_msg">ڈاؤن لوڈ ہونے کے لیے ڈیٹا استعمال ہونے دیں</string>
+    <string name="setting_mobile_download_title">ڈاؤن لوڈ ہونے کے لیے ڈیٹا استعمال ہونے دیں</string>
+    <string name="setting_storage_auth">(منظوری دیں)</string>
+    <string name="setting_storage_default">ڈیفالٹ فون کارڈ</string>
+    <string name="setting_storage_no_permission">(اجازت نہیں)</string>
+    <string name="setting_storage_sdcard">خارجی ایس ڈی کارڈ</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="timer_ago_days">%s دنوں پہلے</string>
+    <string name="timer_ago_hours">%s گھنٹے پہلے</string>
+    <string name="timer_ago_minutes">%s منٹس پہلے</string>
+    <string name="timer_ago_months">%s مہینے پہلے</string>
+    <string name="timer_ago_one_day">1 دن پہلے</string>
+    <string name="timer_ago_one_hour">1 گھنٹہ پہلے</string>
+    <string name="timer_ago_one_minute">1 منٹ پہلے</string>
+    <string name="timer_ago_one_month">1 مہنہ پہلے</string>
+    <string name="timer_ago_one_year">1 سال پہلے</string>
+    <string name="timer_ago_years">%s سالوں پہلے</string>
+</resources>
