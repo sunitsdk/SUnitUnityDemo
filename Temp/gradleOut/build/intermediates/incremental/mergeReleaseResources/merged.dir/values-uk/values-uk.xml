@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Перейти на головну"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Більше опцій"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Показати всі"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ЗНИЖКА"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"пробіл"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Введіть пошуковий запит…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Наіслати запит"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Поділитися:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Поділитися через додаток <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string name="ad_offline_channel_download_offline_toast">Програма завантажиться автоматично, коли буде встановлено належне підключення до Інтернету.</string>
+    <string name="ad_offline_channel_download_online_toast">Завантаження...</string>
+    <string name="ad_offline_guide_network_dialog_connect">ПІДКЛЮЧИТИСЯ ДО МЕРЕЖІ</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Ні, дякую.</string>
+    <string name="ad_offline_guide_network_dialog_title">Помилка завантаження. Перевірте підключення до Інтернету.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Додано до завдань завантаження. Підключіться до мережі, щоб ЗАВАНТАЖИТИ ЇЇ ЗАРАЗ.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Помилка мережі. Перевірте підключення до Інтернету.</string>
+    <string name="adshonor_auto_download_button_no">НІ</string>
+    <string name="adshonor_auto_download_button_yes">ТАК</string>
+    <string name="adshonor_auto_download_title">Програма завантажиться автоматично через %d с. Скасувати?</string>
+    <string name="adshonor_common_close_caps">Закрити</string>
+    <string name="adshonor_common_more">БІЛЬШЕ</string>
+    <string name="adshonor_common_operate_replay">Повторити</string>
+    <string name="adshonor_common_operate_retry">Спробувати ще</string>
+    <string name="adshonor_media_network_err_new_msg">Перевірте підключення до мережі.</string>
+    <string name="adshonor_media_player_error_wrong">Щось пішло не так…</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Увімкнути"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не ввімкнути сервіси Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Увімкнути сервіси Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установити"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, яких немає на вашому пристрої."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установити сервіси Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступність сервісів Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Помилка сервісів Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"У додатку <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Повторіть спробу."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Оновити"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не оновити сервіси Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Оновіть сервіси Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, які зараз оновлюються."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Відкрити на телефоні"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Увійти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Увійти в облік. запис Google"</string>
+    <string name="common_unit_time_minute">Хв</string>
+    <string name="common_unit_time_second">С</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Запис у кеш через Wi-Fi</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Запис призупинено, оскільки ввімкнуто мобільні дані. Продовжити запис у кеш, коли буде встановлено з\'єднання Wi-Fi. Щоб продовжити запис у кеш, перейдіть у розділ \"Налаштування\".</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Перейти до налаштування</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Запис у кеш через Wi-Fi</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Додано до списку запису в кеш. Запис призупинено, оскільки ввімкнуто мобільні дані. Якщо потрібно продовжити запис у кеш, перейдіть у розділ \"Налаштування\".</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Перейти до налаштування</string>
+    <string name="download_center_empty_layout_text">У вас немає файлів для завантаження.\n Торкніться піктограми завантаження на одній сторінці, щоб відкрити кеш.</string>
+    <string name="download_center_title">Центр завантажень</string>
+    <string name="download_control_cache_info">Кількість кешованих файлів</string>
+    <string name="download_control_pause_all">Призупинити все</string>
+    <string name="download_control_start_all">Почати все</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Додано до списку запису в кеш. Недостатньо місця. Виконайте очищення зараз, щоб захистити телефон.</string>
+    <string name="download_editable_title">Вибір елемента</string>
+    <string name="download_noti_permission_content">Процес завантаження можна переглянути на панелі сповіщень.</string>
+    <string name="download_noti_permission_title">Сповіщення про завантаження</string>
+    <string name="download_notification_download_all_success_msg">Успішно завантажено %2$s: %1$s. Торкніться, щоб переглянути</string>
+    <string name="download_notification_download_failed_msg">Не вдалося завантажити %2$s: %1$s. Торкніться, щоб переглянути</string>
+    <string name="download_notification_download_failed_title">Не вдалося завантажити: %s</string>
+    <string name="download_notification_download_part_success_msg">Успішно завантажено %2$s: %1$s. Деякі %3$s не вдалося завантажити. Торкніться, щоб переглянути</string>
+    <string name="download_notification_download_success_title">Успішно завантажено: %s</string>
+    <string name="download_notification_downloading_title">Завантаження: %s</string>
+    <string name="download_notification_status_pause">Кешування призупинено</string>
+    <string name="download_pop_tip_downloaded">Завантаження завершено</string>
+    <string name="download_pop_tip_downloading">Завантаження...</string>
+    <string name="download_pop_tip_msg">Додано до списку завантажень</string>
+    <string name="download_pop_tip_view">Переглянути</string>
+    <string name="download_progress_empty_layout_text">Немає файлів кешу.</string>
+    <string name="download_progress_title">Завантаження</string>
+    <string name="download_resume_tip_message">Продовжити завантаження?</string>
+    <string name="download_resume_tip_title">Деякі файли не до кінця завантажено</string>
+    <string name="download_start_already_tip">Завантажено</string>
+    <string name="download_start_tip">Завантаження</string>
+    <string name="download_start_tip_use_mobile">Завантаження з використанням мобільних даних</string>
+    <string name="download_status_download_failed">Помилка завантаження. Торкніться, щоб повторити спробу.</string>
+    <string name="download_status_download_mobile_pause">Призупинено, оскільки ввімкнуто мобільні дані.</string>
+    <string name="download_status_download_space_not_enough">Недостатньо місця </string>
+    <string name="download_status_downloaded">Завантажено</string>
+    <string name="download_status_paused">Призупинено</string>
+    <string name="exo_controls_fastforward_description">Перемотати вперед</string>
+    <string name="exo_controls_fullscreen_description">Повноекранний режим</string>
+    <string name="exo_controls_next_description">Наступна композиція</string>
+    <string name="exo_controls_pause_description">Призупинити</string>
+    <string name="exo_controls_play_description">Відтворити</string>
+    <string name="exo_controls_previous_description">Попередня композиція</string>
+    <string name="exo_controls_repeat_all_description">Повторити всі</string>
+    <string name="exo_controls_repeat_off_description">Не повторювати</string>
+    <string name="exo_controls_repeat_one_description">Повторити 1</string>
+    <string name="exo_controls_rewind_description">Перемотати назад</string>
+    <string name="exo_controls_shuffle_description">Перемішати</string>
+    <string name="exo_controls_stop_description">Припинити</string>
+    <string name="exo_controls_vr_description">Режим віртуальної реальності</string>
+    <string name="exo_download_completed">Завантаження завершено</string>
+    <string name="exo_download_description">Завантажити</string>
+    <string name="exo_download_downloading">Завантажується</string>
+    <string name="exo_download_failed">Не вдалося завантажити</string>
+    <string name="exo_download_notification_channel_name">Завантаження</string>
+    <string name="exo_download_removing">Завантаження видаляються</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мбіт/с</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Альтернативна</string>
+    <string name="exo_track_role_closed_captions">Субтитри</string>
+    <string name="exo_track_role_commentary">Коментарі</string>
+    <string name="exo_track_role_supplementary">Додаткова</string>
+    <string name="exo_track_selection_auto">Автоматично</string>
+    <string name="exo_track_selection_none">Нічого</string>
+    <string name="exo_track_selection_title_audio">Аудіо</string>
+    <string name="exo_track_selection_title_text">Текст</string>
+    <string name="exo_track_selection_title_video">Відео</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Об’ємний звук</string>
+    <string name="exo_track_surround_5_point_1">Об’ємний звук у форматі 5.1</string>
+    <string name="exo_track_surround_7_point_1">Об’ємний звук у форматі 7.1</string>
+    <string name="exo_track_unknown">Невідомо</string>
+    <string name="liked_title">Уподобані публікації</string>
+    <string name="main_home_receive_alert_cancel">Скасувати</string>
+    <string name="music_download_start_already_tip">Збережено</string>
+    <string name="music_download_start_tip">Збереження</string>
+    <string name="music_download_status_download_failed">Помилка збереження. Торкніться, щоб повторити спробу.</string>
+    <string name="noti_permission_content">Знайдіть параметр "Сповіщення" та ввімкніть його.</string>
+    <string name="noti_permission_title">Надання дозволу надсилати сповіщення</string>
+    <string msgid="368094699078615544" name="s1">"Зберегти зображення"</string>
+    <string msgid="4550830452390689489" name="s2">"Дозволити оголошенню зберегти зображення в галереї?"</string>
+    <string msgid="2435407834265420668" name="s3">"Прийняти"</string>
+    <string msgid="9167523597401839819" name="s4">"Відхилити"</string>
+    <string msgid="1566682516266724847" name="s5">"Створити подію календаря"</string>
+    <string msgid="5996672174517137271" name="s6">"Дозволити оголошенню створити подію календаря?"</string>
+    <string msgid="7163549807207034258" name="s7">"Тестове оголошення"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Пошук"</string>
+    <string name="setting_mobile_download_msg">Буде дозволено використовувати мобільні дані для завантаження.</string>
+    <string name="setting_mobile_download_title">Дозвіл використовувати мобільні дані для завантаження</string>
+    <string name="setting_storage_auth">(Авторизувати)</string>
+    <string name="setting_storage_default">Картка в телефоні за промовчанням</string>
+    <string name="setting_storage_no_permission">(Немає дозволу)</string>
+    <string name="setting_storage_sdcard">Зовнішня SD-карта</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s дн. тому</string>
+    <string name="timer_ago_hours">%s год тому</string>
+    <string name="timer_ago_minutes">%s хв тому</string>
+    <string name="timer_ago_months">%s міс. тому</string>
+    <string name="timer_ago_one_day">1 день тому</string>
+    <string name="timer_ago_one_hour">1 годину тому</string>
+    <string name="timer_ago_one_minute">1 хвилину тому</string>
+    <string name="timer_ago_one_month">1 місяць тому</string>
+    <string name="timer_ago_one_year">1 рік тому</string>
+    <string name="timer_ago_years">%s р. тому</string>
+</resources>

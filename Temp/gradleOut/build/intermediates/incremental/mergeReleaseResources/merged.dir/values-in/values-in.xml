@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="ad_offline_channel_download_offline_toast">Aplikasi ini akan diunduh secara otomatis ketika jaringan Anda sudah bagus~!</string>
+    <string name="ad_offline_channel_download_online_toast">Mengunduh...</string>
+    <string name="ad_offline_guide_network_dialog_connect">SAMBUNGKAN JARINGAN</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Tidak, terima kasih</string>
+    <string name="ad_offline_guide_network_dialog_title">Ups！Download gagal. Periksa sambungan internet Anda.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Ditambahkan ke Tugas Unduhan. Sambungkan jaringan untuk MENDAPATKANNYA SEKARANG.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Ups！Ada kesalahan jaringan. Mohon periksa koneksi internet Anda.</string>
+    <string name="adshonor_auto_download_button_no">TIDAK</string>
+    <string name="adshonor_auto_download_button_yes">YA</string>
+    <string name="adshonor_auto_download_title">Aplikasi ini akan diunduh secara otomatis dalam %d detik. Apakah Anda ingin membatalkannya?</string>
+    <string name="adshonor_common_close_caps">Tutup</string>
+    <string name="adshonor_common_more">LEBIH BANYAK</string>
+    <string name="adshonor_common_operate_replay">Mainkan lagi</string>
+    <string name="adshonor_common_operate_retry">Coba Kembali</string>
+    <string name="adshonor_media_network_err_new_msg">Periksa koneksi jaringan</string>
+    <string name="adshonor_media_player_error_wrong">Ada yang tidak beres…</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktifkan"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berfungsi jika layanan Google Play tidak diaktifkan."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktifkan layanan Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instal"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Dapatkan layanan Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Ketersediaan layanan Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Kesalahan layanan Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> mengalami masalah dengan layanan Google Play. Coba lagi."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Update"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berjalan jika layanan Google Play tidak diperbarui."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Perbarui layanan Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Buka di ponsel"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Login"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Login dengan Google"</string>
+    <string name="common_unit_time_minute">Mnt</string>
+    <string name="common_unit_time_second">Dtk</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Cache pada WiFi</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Sudah dijeda karena masalah data. Lanjutkan melakukan cache saat menggunakan WiFi. Untuk melanjutkan melakukan cache, buka Pengaturan untuk memulai</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Buka ke Set</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Cache pada WiFi</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Ditambahkan ke daftar cache. Sudah dijeda karena masalah data. Jika Anda ingin melanjutkan melakukan cache, buka Pengaturan untuk memulai</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Buka ke Set</string>
+    <string name="download_center_empty_layout_text">Anda belum memiliki file untuk diunduh.\n Anda dapat mengetuk ikon unduh pada halaman tunggal untuk cache.</string>
+    <string name="download_center_title">Pusat Unduhan</string>
+    <string name="download_control_cache_info">Serta jumlah file yang di-cache</string>
+    <string name="download_control_pause_all">Jeda Semua</string>
+    <string name="download_control_start_all">Mulai Semua</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Ditambahkan ke daftar cache. Tetapi ruang Anda tidak cukup. Untuk melindungi ponsel Anda, bersihkan sekarang.</string>
+    <string name="download_editable_title">Pilih Item</string>
+    <string name="download_noti_permission_content">Anda dapat memeriksa kemajuan unduhan dalam bilah notifikasi</string>
+    <string name="download_noti_permission_title">Buka Notifikasi Unduhan</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s berhasil diunduh. Ketuk untuk menampilkan</string>
+    <string name="download_notification_download_failed_msg">Gagal mengunduh %1$s %2$s. Ketuk untuk menampilkan</string>
+    <string name="download_notification_download_failed_title">Gagal diunduh:%s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s berhasil diunduh.Beberapa %3$s gagal. Ketuk untuk menampilkan</string>
+    <string name="download_notification_download_success_title">Berhasil diunduh:%s</string>
+    <string name="download_notification_downloading_title">Mengunduh:%s</string>
+    <string name="download_notification_status_pause">Melakukan Cache Dijeda</string>
+    <string name="download_pop_tip_downloaded">Selesai Mengunduh</string>
+    <string name="download_pop_tip_downloading">Mengunduh...</string>
+    <string name="download_pop_tip_msg">Ditambahkan ke Daftar Unduhan</string>
+    <string name="download_pop_tip_view">Tampilkan</string>
+    <string name="download_progress_empty_layout_text">Tidak ada file cache</string>
+    <string name="download_progress_title">Mengunduh</string>
+    <string name="download_resume_tip_message">Lanjutkan mengunduh?</string>
+    <string name="download_resume_tip_title">Anda belum menyelesaikan pengunduhan file</string>
+    <string name="download_start_already_tip">Diunduh</string>
+    <string name="download_start_tip">Mengunduh</string>
+    <string name="download_start_tip_use_mobile">Mengunduh menggunakan data seluler</string>
+    <string name="download_status_download_failed">Mengunduh gagal. Ketuk untuk mencoba kembali</string>
+    <string name="download_status_download_mobile_pause">Dijeda karena masalah data</string>
+    <string name="download_status_download_space_not_enough">Ruang Penyimpanan Tidak Cukup </string>
+    <string name="download_status_downloaded">Diunduh</string>
+    <string name="download_status_paused">Dijeda</string>
+    <string name="exo_controls_fastforward_description">Maju cepat</string>
+    <string name="exo_controls_fullscreen_description">Mode layar penuh</string>
+    <string name="exo_controls_next_description">Lagu berikutnya</string>
+    <string name="exo_controls_pause_description">Jeda</string>
+    <string name="exo_controls_play_description">Putar</string>
+    <string name="exo_controls_previous_description">Lagu sebelumnya</string>
+    <string name="exo_controls_repeat_all_description">Ulangi semua</string>
+    <string name="exo_controls_repeat_off_description">Jangan ulangi</string>
+    <string name="exo_controls_repeat_one_description">Ulangi 1</string>
+    <string name="exo_controls_rewind_description">Putar Ulang</string>
+    <string name="exo_controls_shuffle_description">Acak</string>
+    <string name="exo_controls_stop_description">Berhenti</string>
+    <string name="exo_controls_vr_description">Mode VR</string>
+    <string name="exo_download_completed">Download selesai</string>
+    <string name="exo_download_description">Download</string>
+    <string name="exo_download_downloading">Mendownload</string>
+    <string name="exo_download_failed">Download gagal</string>
+    <string name="exo_download_notification_channel_name">Download</string>
+    <string name="exo_download_removing">Menghapus download</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternatif</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Komentar</string>
+    <string name="exo_track_role_supplementary">Tambahan</string>
+    <string name="exo_track_selection_auto">Otomatis</string>
+    <string name="exo_track_selection_none">Tidak ada</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Teks</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Suara surround</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_unknown">Tidak diketahui</string>
+    <string name="liked_title">Disukai</string>
+    <string name="main_home_receive_alert_cancel">Batal</string>
+    <string name="music_download_start_already_tip">Disimpan</string>
+    <string name="music_download_start_tip">Menyimpan</string>
+    <string name="music_download_status_download_failed">Gagal menyimpan. Ketuk untuk mencoba kembali</string>
+    <string name="noti_permission_content">Cari opsi Notifikasi lalu aktifkan</string>
+    <string name="noti_permission_title">Aktifkan Notifikasi</string>
+    <string msgid="368094699078615544" name="s1">"Simpan gambar"</string>
+    <string msgid="4550830452390689489" name="s2">"Izinkan Iklan menyimpan gambar di Galeri foto?"</string>
+    <string msgid="2435407834265420668" name="s3">"Terima"</string>
+    <string msgid="9167523597401839819" name="s4">"Tolak"</string>
+    <string msgid="1566682516266724847" name="s5">"Buat acara kalender"</string>
+    <string msgid="5996672174517137271" name="s6">"Izinkan Iklan membuat acara kalender?"</string>
+    <string msgid="7163549807207034258" name="s7">"Tes Iklan"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Telusuri"</string>
+    <string name="setting_mobile_download_msg">Izinkan Menggunakan Data untuk Mengunduh</string>
+    <string name="setting_mobile_download_title">Izinkan Menggunakan Data untuk Mengunduh</string>
+    <string name="setting_storage_auth">(Izinkan)</string>
+    <string name="setting_storage_default">Kartu ponsel standar</string>
+    <string name="setting_storage_no_permission">(Tak ada izin)</string>
+    <string name="setting_storage_sdcard">Kartu SD eksternal</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s hari yang lalu</string>
+    <string name="timer_ago_hours">%s jam yang lalu</string>
+    <string name="timer_ago_minutes">%s menit yang lalu</string>
+    <string name="timer_ago_months">%s bulan yang lalu</string>
+    <string name="timer_ago_one_day">1 hari yang lalu</string>
+    <string name="timer_ago_one_hour">1 jam yang lalu</string>
+    <string name="timer_ago_one_minute">1 menit yang lalu</string>
+    <string name="timer_ago_one_month">1 bulan yang lalu</string>
+    <string name="timer_ago_one_year">1 tahun yang lalu</string>
+    <string name="timer_ago_years">%s tahun yang lalu</string>
+</resources>

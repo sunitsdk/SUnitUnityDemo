@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navegar para casa"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Escolher uma aplicação"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"eliminar"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Função +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Partilhar com a aplicação <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Reduzir"</string>
+    <string name="ad_offline_channel_download_offline_toast">A aplicação será automaticamente transferida quando a sua ligação à rede estiver em boas condições!</string>
+    <string name="ad_offline_channel_download_online_toast">A transferir...</string>
+    <string name="ad_offline_guide_network_dialog_connect">LIGAR À REDE</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Não, obrigado.</string>
+    <string name="ad_offline_guide_network_dialog_title">Ups! A transferência falhou. Verifique a sua ligação à internet.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Adicionado às Tarefas de Transferência. Ligue-se à rede para OBTER AGORA a aplicação.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Ups! Ocorreu um erro de rede. Verifique a sua ligação à internet.</string>
+    <string name="adshonor_auto_download_button_no">NÃO</string>
+    <string name="adshonor_auto_download_button_yes">SIM</string>
+    <string name="adshonor_auto_download_title">A aplicação vai ser automaticamente descarregada em %d segundos. Pretende cancelá-la?</string>
+    <string name="adshonor_common_close_caps">Fechar</string>
+    <string name="adshonor_common_more">MAIS</string>
+    <string name="adshonor_common_operate_replay">Repetição</string>
+    <string name="adshonor_common_operate_retry">Repetir</string>
+    <string name="adshonor_media_network_err_new_msg">Verifique a rede</string>
+    <string name="adshonor_media_player_error_wrong">Algo correu mal...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona enquanto não ativar os serviços do Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar serviços do Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os Serviços do Google Play, os quais estão em falta no seu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Obter serviços do Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidade Serviços do Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro dos Serviços do Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> está a ter problemas com os Serviços do Google Play. Tente novamente."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Não é possível executar o <ns1:g id="APP_NAME">%1$s</ns1:g> sem os Serviços do Google Play, os quais não são compatíveis com o seu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado enquanto não atualizar os serviços do Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Atualizar serviços do Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os serviços do Google Play, os quais estão a ser atualizados."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"É necessária uma nova versão dos serviços do Google Play. Esta será atualizada automaticamente em breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
+    <string name="common_unit_time_minute">Min</string>
+    <string name="common_unit_time_second">Seg</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Cache em Wi-Fi</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Já com dados suspensos. Continuar para cache quando em Wi-Fi. Para colocar continuamente em cache, aceda às Definições para iniciar</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Aceder para Definir</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Cache em Wi-Fi</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Adicionado à lista para cache. Já com dados suspensos. Se pretende continuar a colocar em cache, aceda às Definições para iniciar</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Aceder para Definir</string>
+    <string name="download_center_empty_layout_text">Ainda não tem quaisquer ficheiros para transferir.\n Pode tocar no ícone da transferência numa página única de para colocar em cache.</string>
+    <string name="download_center_title">Centro de Transferências</string>
+    <string name="download_control_cache_info">Número também em cache</string>
+    <string name="download_control_pause_all">Suspender Tudo</string>
+    <string name="download_control_start_all">Iniciar Tudo</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Adicionado à lista para cache. Mas o seu espaço é insuficiente. Para proteger o seu telefone, limpe agora.</string>
+    <string name="download_editable_title">Escolher Item</string>
+    <string name="download_noti_permission_content">Pode verificar o progresso da transferência na barra de notificações</string>
+    <string name="download_noti_permission_title">Abrir Notificação de Transferência</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s transferidos(as) com sucesso. Tocar para visualizar</string>
+    <string name="download_notification_download_failed_msg">Falha ao transferir %1$s %2$s. Tocar para visualizar</string>
+    <string name="download_notification_download_failed_title">Falha ao transferir: %s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s transferidos(as) com sucesso. Algum(as) das(dos) %3$s falahram. Tocar para visualizar</string>
+    <string name="download_notification_download_success_title">Transferência bem sucedida: %s</string>
+    <string name="download_notification_downloading_title">A Transferir: %s</string>
+    <string name="download_notification_status_pause">Pausa na Colocação em cache</string>
+    <string name="download_pop_tip_downloaded">Transferência concluída</string>
+    <string name="download_pop_tip_downloading">A transferir...</string>
+    <string name="download_pop_tip_msg">Adicionado à Lista de Transferências</string>
+    <string name="download_pop_tip_view">Visualizar</string>
+    <string name="download_progress_empty_layout_text">Sem ficheiros em cache.</string>
+    <string name="download_progress_title">Transferência</string>
+    <string name="download_resume_tip_message">Continuar a transferir?</string>
+    <string name="download_resume_tip_title">Tem ficheiros incompletos para transferir</string>
+    <string name="download_start_already_tip">Transferido</string>
+    <string name="download_start_tip">Transferência</string>
+    <string name="download_start_tip_use_mobile">Transferência com dados móveis</string>
+    <string name="download_status_download_failed">Falha ao transferir. Toque para repetir</string>
+    <string name="download_status_download_mobile_pause">Dados suspensos</string>
+    <string name="download_status_download_space_not_enough">Espaço de armazenamento insuficente </string>
+    <string name="download_status_downloaded">Transferido</string>
+    <string name="download_status_paused">Suspenso</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_fullscreen_description">Modo de ecrã inteiro</string>
+    <string name="exo_controls_next_description">Faixa seguinte</string>
+    <string name="exo_controls_pause_description">Colocar em pausa</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_previous_description">Faixa anterior</string>
+    <string name="exo_controls_repeat_all_description">Repetir tudo</string>
+    <string name="exo_controls_repeat_off_description">Não repetir nenhum</string>
+    <string name="exo_controls_repeat_one_description">Repetir um</string>
+    <string name="exo_controls_rewind_description">Recuar</string>
+    <string name="exo_controls_shuffle_description">Reproduzir aleatoriamente</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="exo_controls_vr_description">Modo de RV</string>
+    <string name="exo_download_completed">Transferência concluída</string>
+    <string name="exo_download_description">Transferir</string>
+    <string name="exo_download_downloading">A transferir…</string>
+    <string name="exo_download_failed">Falha na transferência</string>
+    <string name="exo_download_notification_channel_name">Transferências</string>
+    <string name="exo_download_removing">A remover as transferências…</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">Legendas</string>
+    <string name="exo_track_role_commentary">Comentário</string>
+    <string name="exo_track_role_supplementary">Suplementar</string>
+    <string name="exo_track_selection_auto">Automático</string>
+    <string name="exo_track_selection_none">Nenhuma</string>
+    <string name="exo_track_selection_title_audio">Áudio</string>
+    <string name="exo_track_selection_title_text">Texto</string>
+    <string name="exo_track_selection_title_video">Vídeo</string>
+    <string name="exo_track_stereo">Estéreo</string>
+    <string name="exo_track_surround">Som surround</string>
+    <string name="exo_track_surround_5_point_1">Som surround 5.1</string>
+    <string name="exo_track_surround_7_point_1">Som surround 7.1</string>
+    <string name="exo_track_unknown">Desconhecida</string>
+    <string name="liked_title">Gostado</string>
+    <string name="main_home_receive_alert_cancel">Cancelar</string>
+    <string name="music_download_start_already_tip">Guardado</string>
+    <string name="music_download_start_tip">A guardar</string>
+    <string name="music_download_status_download_failed">Falha ao guardar. Toque para repetir</string>
+    <string name="noti_permission_content">Localize a opção de Notificações e ative-a</string>
+    <string name="noti_permission_title">Ativar Notificações</string>
+    <string msgid="368094699078615544" name="s1">"Guardar imagem"</string>
+    <string msgid="4550830452390689489" name="s2">"Pretende permitir ao anúncio armazenar uma imagem na galeria de imagens?"</string>
+    <string msgid="2435407834265420668" name="s3">"Aceitar"</string>
+    <string msgid="9167523597401839819" name="s4">"Recusar"</string>
+    <string msgid="1566682516266724847" name="s5">"Criar evento de calendário"</string>
+    <string msgid="5996672174517137271" name="s6">"Pretende permitir ao anúncio criar um evento de calendário?"</string>
+    <string msgid="7163549807207034258" name="s7">"Anúncio de teste"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Pesquisar"</string>
+    <string name="setting_mobile_download_msg">Permitir utilização de dados para Transferência</string>
+    <string name="setting_mobile_download_title">Permitir utilização de dados para Transferência</string>
+    <string name="setting_storage_auth">(Autorizar)</string>
+    <string name="setting_storage_default">Cartão telefónico predefinido</string>
+    <string name="setting_storage_no_permission">(Sem permissão)</string>
+    <string name="setting_storage_sdcard">Cartão SD externo</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s dias atrás</string>
+    <string name="timer_ago_hours">%s horas atrás</string>
+    <string name="timer_ago_minutes">%s minutos atrás</string>
+    <string name="timer_ago_months">%s meses atrás</string>
+    <string name="timer_ago_one_day">1 dia atrás</string>
+    <string name="timer_ago_one_hour">1 hora atrás</string>
+    <string name="timer_ago_one_minute">1 minuto atrás</string>
+    <string name="timer_ago_one_month">1 mês atrás</string>
+    <string name="timer_ago_one_year">1 ano atrás</string>
+    <string name="timer_ago_years">%s anos atrás</string>
+</resources>

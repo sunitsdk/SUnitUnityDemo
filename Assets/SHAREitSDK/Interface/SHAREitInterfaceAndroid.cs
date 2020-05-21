@@ -76,6 +76,14 @@ namespace SHAREitSDK
             sdkWrapper.Call("userLogin", getContext(), gameSecret);
         }
 
+        public override void showRateDialog()
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+
+            sdkWrapper.Call("showRateDialog", getContext());
+        }
+
         public override string getUserId() {
             if ( CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
                 return null;

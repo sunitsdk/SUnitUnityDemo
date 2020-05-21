@@ -1,0 +1,17 @@
+<script language='javascript' type='text/javascript'>
+	(function() {
+        var wasIaLoadFinishedNotified = false;
+        var IA_AD_FINISHED_LOADING_EVENT = 'iaadfinishedloading';
+
+        var iaNotifyLoadFinished = function() {
+            if (!wasIaLoadFinishedNotified) {
+                wasIaLoadFinishedNotified = true;
+                window.location.href = IA_AD_FINISHED_LOADING_EVENT + '://' + "success";
+            }
+        }
+
+        window.addEventListener('load', function(e) {
+            iaNotifyLoadFinished.apply(null);
+         });
+   })();
+</script>

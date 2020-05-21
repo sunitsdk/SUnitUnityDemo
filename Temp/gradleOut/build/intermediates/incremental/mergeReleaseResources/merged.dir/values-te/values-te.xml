@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేస్తుంది"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేస్తుంది"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"పూర్తయింది"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"అన్నీ చూడండి"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"యాప్‌ను ఎంచుకోండి"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ఆఫ్"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ఆన్"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"స్పేస్"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"వెతకండి…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ప్రశ్నను తీసివేస్తుంది"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"శోధన ప్రశ్న"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"శోధన"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పిస్తుంది"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"వీరితో షేర్ చేస్తుంది"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో షేర్ చేస్తుంది"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"కుదిస్తుంది"</string>
+    <string name="ad_offline_channel_download_offline_toast">మీ నెట్‌వర్క్ మంచిగా ఉన్నప్పుడు అనువర్తనం స్వయంచాలకంగా డౌన్‌లోడ్ చేయబడుతుంది ~!</string>
+    <string name="ad_offline_channel_download_online_toast">డౌన్‌లోడింగ్ చేస్తోంది...</string>
+    <string name="ad_offline_guide_network_dialog_connect">నెట్‌వర్క్‌ను కనెక్ట్ చేయండి</string>
+    <string name="ad_offline_guide_network_dialog_refresh">వద్దు, ధన్యవాదాలు.</string>
+    <string name="ad_offline_guide_network_dialog_title">అయ్యో! డౌన్‌లోడ్ విఫలమైంది. మీ ఇంటర్నెట్ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">డౌన్‌లోడ్ టాస్క్‌లకు జోడించబడింది. ఇప్పుడే పొందడానికి నెట్‌వర్క్‌ను కనెక్ట్ చేయండి.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">అయ్యో ! నెట్‌వర్క్ లోపం ఉంది. దయచేసి మీ ఇంటర్నెట్ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
+    <string name="adshonor_auto_download_button_no">వద్దు</string>
+    <string name="adshonor_auto_download_button_yes">అవును</string>
+    <string name="adshonor_auto_download_title">%d సెకన్లలో అనువర్తనం స్వయంచాలకంగా డౌన్‌లోడ్ చేయబడుతుంది. మీరు దీన్ని రద్దు చేయాలనుకుంటున్నారా?</string>
+    <string name="adshonor_common_close_caps">ముగించండి</string>
+    <string name="adshonor_common_more">మరిన్ని</string>
+    <string name="adshonor_common_operate_replay">రీప్లే</string>
+    <string name="adshonor_common_operate_retry">తిరిగి ప్రయత్నించండి</string>
+    <string name="adshonor_media_network_err_new_msg">దయచేసి నెట్‌వర్క్ తనిఖీ చేయండి.</string>
+    <string name="adshonor_media_player_error_wrong">ఏదో తప్పు జరిగింది...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ప్రారంభించు"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"మీరు Google Play సేవలను ప్రారంభిస్తే మినహా <ns1:g id="APP_NAME">%1$s</ns1:g> పని చేయదు."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play సేవలను ప్రారంభించండి"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"ఇన్‌స్టాల్ చేయి"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు మీ పరికరంలో లేవు."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play సేవలను పొందండి"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play సేవల లభ్యత"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play సేవల ఎర్రర్"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play సేవలతో సమస్య కలిగి ఉంది. దయచేసి మళ్లీ ప్రయత్నించండి."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play సేవలు లేకుండా అమలు కాదు, ఈ సేవలకు మీ పరికరంలో మద్దతు లేదు."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"అప్‌డేట్ చేయి"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"మీరు Google Play సేవలను నవీకరిస్తే మినహా <ns1:g id="APP_NAME">%1$s</ns1:g> అమలు కాదు."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play సేవలను నవీకరించండి"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు ప్రస్తుతం నవీకరించబడుతున్నాయి."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"కొత్త Google Play సేవల వెర్షన్ అవసరం. అది కొద్ది సేపట్లో దానంతట అదే అప్‌డేట్ చేయబడుతుంది."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"ఫోన్‌లో తెరువు"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"సైన్ ఇన్ చేయండి"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleతో సైన్ ఇన్ చేయి"</string>
+    <string name="common_unit_time_minute">కనీసం</string>
+    <string name="common_unit_time_second">సెకను.</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">WiFiపై క్యాచే</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">ఇప్పటికే డేటాపై పాజ్ చేయబడింది WiFiపై ఉన్నప్పుడు క్యాచె చేయడం కొనసాగించండి. క్యాచింగ్ కొనసాగించడానికి, ప్రారంభించడానికి సెట్టింగ్‌లకు వెళ్లండి</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">సెట్ చేయడానికి వెళ్లండి</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">WiFiపై క్యాచే</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">క్యాచింగ్ లిస్ట్‌కు జోడించబడింది ఇప్పటికే డేటాపై పాజ్ చేయబడింది ఒకవేళ మీరు క్యాచింగ్ కొనసాగించాలని అనుకున్నట్లయితే, ప్రారంభించడానికి సెట్టింగ్‌లకు వెళ్లండి</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">సెట్ చేయడానికి వెళ్లండి</string>
+    <string name="download_center_empty_layout_text">ఇప్పటి వరకు ఎలాంటి వీడియోలు డౌన్లోడ్ చేయలేదు. క్యాషే కోసం సింగిల్ పేజ్ పై ఉన్న డౌన్లోడ్ ఐకాన్ క్లిక్ చేయండి</string>
+    <string name="download_center_title">డౌన్‌లోడ్ సెంటర్</string>
+    <string name="download_control_cache_info">క్యాచే చేయబడ్డ నెంబరు కూడా</string>
+    <string name="download_control_pause_all">అన్నింటిని పాజ్ చేయి</string>
+    <string name="download_control_start_all">అన్నింటిని ప్రారంభించు</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">క్యాచింగ్ లిస్ట్‌కు జోడించబడింది అయితే మీ స్థలం తగినంత లేదు. మీ ఫోన్ సంరక్షించడానికి, దయచేసి ఇప్పుడు క్లీన్ చేయండి.</string>
+    <string name="download_editable_title">ఐటమ్ ఎంచుకోండి</string>
+    <string name="download_noti_permission_content">మీరు నోటిఫికేషన్ బార్‌లో డౌన్‌లోడ్ పురోగతిని చూడవచ్చు.</string>
+    <string name="download_noti_permission_title">డౌన్‌లోడ్ నోటిఫికేషన్ తెరవండి</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s విజయవంతంగా డౌన్‌లోడ్ చేయబడ్డాయి. వీక్షించడం కొరకు తట్టండి</string>
+    <string name="download_notification_download_failed_msg">%1$s %2$s డౌన్‌లోడ్ చేయడంలో విఫలమైంది. వీక్షించడానికి తట్టండి</string>
+    <string name="download_notification_download_failed_title">డౌన్‌లోడ్ చేయడంలో విఫలమైంది:%s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s విజయవంతంగా డౌన్‌లోడ్ చేయబడ్డాయి. %3$s యొక్క కొన్ని విఫలం అయ్యాయి. వీక్షించడం కొరకు తట్టండి</string>
+    <string name="download_notification_download_success_title">విజయవంతంగా డౌన్‌లోడ్ చేయబడింది:%s</string>
+    <string name="download_notification_downloading_title">డౌన్‌లోడ్ చేస్తోంది:%s</string>
+    <string name="download_notification_status_pause">క్యాచింగ్ పాజ్ చేయబడింది</string>
+    <string name="download_pop_tip_downloaded">డౌన్‌లోడ్ పూర్తయింది</string>
+    <string name="download_pop_tip_downloading">డౌన్‌లోడింగ్ చేస్తోంది...</string>
+    <string name="download_pop_tip_msg">డౌన్‌లోడ్ లిస్ట్‌కు జోడించబడింది</string>
+    <string name="download_pop_tip_view">వీక్షించండి</string>
+    <string name="download_progress_empty_layout_text">క్యాచే ఫైళ్లు లేవు.</string>
+    <string name="download_progress_title">డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="download_resume_tip_message">డౌన్‌లోడ్ చేయడం కొనసాగించాలా?</string>
+    <string name="download_resume_tip_title">మీకు డౌన్‌లోడ్ పూర్తికాని ఫైల్స్ ఉన్నాయి</string>
+    <string name="download_start_already_tip">డౌన్‌లోడ్ చేయబడింది</string>
+    <string name="download_start_tip">డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="download_start_tip_use_mobile">మొబైల్ డేటా ఉపయోగించి డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="download_status_download_failed">డౌన్‌లోడ్ విఫలమైంది, మళ్లీ ప్రయత్నించడానికి తట్టండి</string>
+    <string name="download_status_download_mobile_pause">డేటాపై నిలిపివేయబడింది</string>
+    <string name="download_status_download_space_not_enough">తగినంత స్టోరేజీ స్థలం లేదు </string>
+    <string name="download_status_downloaded">డౌన్‌లోడ్ చేయబడింది</string>
+    <string name="download_status_paused">పాజ్ చేయబడింది</string>
+    <string name="exo_controls_fastforward_description">వేగంగా ఫార్వార్డ్ చేయండి</string>
+    <string name="exo_controls_fullscreen_description">పూర్తి స్క్రీన్ మోడ్</string>
+    <string name="exo_controls_next_description">తదుపరి ట్రాక్</string>
+    <string name="exo_controls_pause_description">పాజ్ చేయండి</string>
+    <string name="exo_controls_play_description">ప్లే చేయండి</string>
+    <string name="exo_controls_previous_description">మునుపటి ట్రాక్</string>
+    <string name="exo_controls_repeat_all_description">అన్నింటినీ పునరావృతం చేయండి</string>
+    <string name="exo_controls_repeat_off_description">దేన్నీ పునరావృతం చేయకండి</string>
+    <string name="exo_controls_repeat_one_description">ఒకదాన్ని పునరావృతం చేయండి</string>
+    <string name="exo_controls_rewind_description">రివైండ్ చేయండి</string>
+    <string name="exo_controls_shuffle_description">షఫుల్ చేయండి</string>
+    <string name="exo_controls_stop_description">ఆపండి</string>
+    <string name="exo_controls_vr_description">వర్చువల్ రియాలిటీ మోడ్</string>
+    <string name="exo_download_completed">డౌన్‌లోడ్ పూర్తయింది</string>
+    <string name="exo_download_description">డౌన్‌లోడ్ చేయి</string>
+    <string name="exo_download_downloading">డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="exo_download_failed">డౌన్‌లోడ్ విఫలమైంది</string>
+    <string name="exo_download_notification_channel_name">డౌన్‌లోడ్‌లు</string>
+    <string name="exo_download_removing">డౌన్‌లోడ్‌లను తీసివేస్తోంది</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">మోనో</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">ప్రత్యామ్నాయం</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">వ్యాఖ్యానం</string>
+    <string name="exo_track_role_supplementary">అనుబంధితం</string>
+    <string name="exo_track_selection_auto">స్వీయ</string>
+    <string name="exo_track_selection_none">ఏదీ కాదు</string>
+    <string name="exo_track_selection_title_audio">ఆడియో</string>
+    <string name="exo_track_selection_title_text">వచనం</string>
+    <string name="exo_track_selection_title_video">వీడియో</string>
+    <string name="exo_track_stereo">స్టీరియో</string>
+    <string name="exo_track_surround">సరౌండ్ ధ్వని</string>
+    <string name="exo_track_surround_5_point_1">5.1 సరౌండ్ ధ్వని</string>
+    <string name="exo_track_surround_7_point_1">7.1 సరౌండ్ ధ్వని</string>
+    <string name="exo_track_unknown">తెలియదు</string>
+    <string name="liked_title">ఇష్టపడిన</string>
+    <string name="main_home_receive_alert_cancel">క్యాన్సిల్ చేయండి</string>
+    <string name="music_download_start_already_tip">సేవ్ చేయబడింది</string>
+    <string name="music_download_start_tip">సేవ్ చేస్తోంది</string>
+    <string name="music_download_status_download_failed">సేవ్ చేయడం విఫలమైంది, మళ్లీ ప్రయత్నించడానికి తట్టండి</string>
+    <string name="noti_permission_content">నోటిఫికేషన్ ఆప్షన్ లొకేట్ చేయండి మరియు దానిని ఆన్ చేయండి.</string>
+    <string name="noti_permission_title">నోటిఫికేషన్ ప్రారంభించు</string>
+    <string msgid="368094699078615544" name="s1">"చిత్రాన్ని సేవ్ చేయి"</string>
+    <string msgid="4550830452390689489" name="s2">"చిత్ర గ్యాలరీలో చిత్రాన్ని నిల్వ చేయడానికి ప్రకటనను అనుమతించాలా?"</string>
+    <string msgid="2435407834265420668" name="s3">"అనుమతించు"</string>
+    <string msgid="9167523597401839819" name="s4">"తిరస్కరించు"</string>
+    <string msgid="1566682516266724847" name="s5">"క్యాలెండర్ ఈవెంట్‌ను సృష్టించు"</string>
+    <string msgid="5996672174517137271" name="s6">"క్యాలెండర్ ఈవెంట్‌ను సృష్టించడానికి ప్రకటనను అనుమతించాలా?"</string>
+    <string msgid="7163549807207034258" name="s7">"ప్రకటనను పరీక్షించండి"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"శోధన"</string>
+    <string name="setting_mobile_download_msg">డౌన్‌లోడింగ్ కొరకు డేటా ఉపయోగించడానికి అనుమతించు</string>
+    <string name="setting_mobile_download_title">డౌన్‌లోడింగ్ కొరకు డేటా ఉపయోగించడానికి అనుమతించు</string>
+    <string name="setting_storage_auth">(అధికారం ఇవ్వడం)</string>
+    <string name="setting_storage_default">డిఫాల్ట్ ఫోన్ కార్డు</string>
+    <string name="setting_storage_no_permission">(అనుమతి లేదు)</string>
+    <string name="setting_storage_sdcard">బాహ్య SD కార్డు</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">%s రోజుల క్రితం</string>
+    <string name="timer_ago_hours">%s గంటల క్రితం</string>
+    <string name="timer_ago_minutes">%s నిమిషాల క్రితం</string>
+    <string name="timer_ago_months">%s నెలల క్రితం</string>
+    <string name="timer_ago_one_day">1 రోజు క్రితం</string>
+    <string name="timer_ago_one_hour">1 గంట క్రితం</string>
+    <string name="timer_ago_one_minute">1 నిమిషం క్రితం</string>
+    <string name="timer_ago_one_month">1 నెల క్రితం</string>
+    <string name="timer_ago_one_year">1 సంవత్సరం క్రితం</string>
+    <string name="timer_ago_years">%s సంవత్సరాల క్రితం</string>
+</resources>

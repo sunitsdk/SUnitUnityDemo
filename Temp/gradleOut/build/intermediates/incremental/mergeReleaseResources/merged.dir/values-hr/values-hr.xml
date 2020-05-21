@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Idi na početnu"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Natrag"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Više opcija"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Odabir aplikacije"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"svemir"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Pretražite…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Izbriši upit"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Upit za pretraživanje"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Pretraži"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Dijeli s"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Sažmi"</string>
+    <string name="ad_offline_channel_download_offline_toast">Aplikacija će biti automatski preuzeta kada vaša mreža bude dobro funkcionirala~!</string>
+    <string name="ad_offline_channel_download_online_toast">Preuzimanje...</string>
+    <string name="ad_offline_guide_network_dialog_connect">POVEŽI SE NA MREŽU</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Ne, hvala.</string>
+    <string name="ad_offline_guide_network_dialog_title">Ups ! Preuzimanje nije uspjelo. Provjerite svoju internetsku vezu.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Dodano u zadatke preuzimanja. Povežite se na mrežu DA SADA DOBIJETE APLIKACIJU.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Ups! Došlo je do greške u mreži. Provjerite svoju internetsku vezu.</string>
+    <string name="adshonor_auto_download_button_no">NE</string>
+    <string name="adshonor_auto_download_button_yes">DA</string>
+    <string name="adshonor_auto_download_title">Aplikacija će automatski biti preuzeta za %d sekundi. Želite li odustati od preuzimanja?</string>
+    <string name="adshonor_common_close_caps">Zatvori</string>
+    <string name="adshonor_common_more">VIŠE</string>
+    <string name="adshonor_common_operate_replay">Igrajte ponovno</string>
+    <string name="adshonor_common_operate_retry">Ponovno pokušaj</string>
+    <string name="adshonor_media_network_err_new_msg">Provjerite mrežu</string>
+    <string name="adshonor_media_player_error_wrong">Nešto je krenulo naopako...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Omogući"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati ako ne omogućite usluge Google Playa."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Omogućivanje usluga Google Playa"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instaliraj"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati bez usluga Google Playa koje nisu instalirane na vašem uređaju."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Preuzimanje usluga Google Playa"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Dostupnost usluga za Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Pogreška Usluga za Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ima poteškoća s uslugama Google Playa. Pokušajte ponovo."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati bez usluga Google Playa koje vaš uređaj ne podržava."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ažuriraj"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati ako ne ažurirate Google Play usluge."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Ažuriranje usluga Google Playa"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće se pokrenuti bez usluga Google Playa koje se trenutačno ažuriraju."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Potrebna je nova verzija usluga Google Playa. Uskoro će se ažurirati."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Otvori na telefonu"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Prijava"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Prijava putem Googlea"</string>
+    <string name="common_unit_time_minute">Min.</string>
+    <string name="common_unit_time_second">Sek.</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Preuzimanje u WiFi mreži</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Već je pauzirano u mobilnoj podatkovnoj mreži. Nastavi preuzimati po uspostavljanju WiFi veze. Za nastavak preuzimanja, idite u Postavke kako biste ga započeli</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Idi na postavljanje</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Preuzimanje u WiFi mreži</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Dodano u popis preuzimanja. Već je pauzirano u mobilnoj podatkovnoj mreži. Ako želite nastaviti preuzimanje, idite u Postavke kako biste ga započeli</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Idi na postavljanje</string>
+    <string name="download_center_title">Centar za preuzimanje</string>
+    <string name="download_control_cache_info">Također broj koji se preuzima</string>
+    <string name="download_control_pause_all">Pauziraj sve</string>
+    <string name="download_control_start_all">Počni sve</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Dodano u popis preuzimanja. Ali nemate dovoljno prostora. Za zaštitu vašeg telefona, očistite ga odmah.</string>
+    <string name="download_editable_title">Odaberite stavku</string>
+    <string name="download_noti_permission_content">Na traci obavijesti možete provjeriti napredovanje preuzimanja</string>
+    <string name="download_noti_permission_title">Otvori obavijest o preuzimanju</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s uspješno preuzeto. Dodirnite za pregled</string>
+    <string name="download_notification_download_failed_msg">Nije uspjelo preuzimanje %1$s %2$s. Dodirnite za pregled</string>
+    <string name="download_notification_download_failed_title">Preuzimanje nije uspjelo:%s</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s uspješno preuzeto.Preuzimanje nekih %3$s nije uspjelo. Dodirnite za pregled</string>
+    <string name="download_notification_download_success_title">Uspješno preuzeto:%s</string>
+    <string name="download_notification_downloading_title">Preuzimanje:%s</string>
+    <string name="download_notification_status_pause">Keširanje pauzirano</string>
+    <string name="download_pop_tip_downloaded">Preuzimanje završeno</string>
+    <string name="download_pop_tip_downloading">Preuzimanje...</string>
+    <string name="download_pop_tip_msg">Dodano u popis za preuzimanje</string>
+    <string name="download_pop_tip_view">Prikaži</string>
+    <string name="download_progress_empty_layout_text">Nema datoteka u predmemoriji.</string>
+    <string name="download_progress_title">Preuzimanje</string>
+    <string name="download_resume_tip_message">Nastaviti s preuzimanjem?</string>
+    <string name="download_resume_tip_title">Postoje datoteke čije preuzimanje nije dovršeno</string>
+    <string name="download_start_already_tip">Preuzeto</string>
+    <string name="download_start_tip">Preuzimanje</string>
+    <string name="download_start_tip_use_mobile">Preuzimanje pomoću mobilne podatkovne veze</string>
+    <string name="download_status_download_failed">Neuspjelo preuzimanje. Dodirnite za ponovni pokušaj</string>
+    <string name="download_status_download_mobile_pause">Pauzirano u mobilnoj podatkovnoj mreži</string>
+    <string name="download_status_download_space_not_enough">Nema dovoljno prostora za pohranu </string>
+    <string name="download_status_downloaded">Preuzeto</string>
+    <string name="download_status_paused">Pauzirano</string>
+    <string name="exo_controls_fastforward_description">Brzo unaprijed</string>
+    <string name="exo_controls_fullscreen_description">Prikaz na cijelom zaslonu</string>
+    <string name="exo_controls_next_description">Sljedeći zapis</string>
+    <string name="exo_controls_pause_description">Pauza</string>
+    <string name="exo_controls_play_description">Reproduciraj</string>
+    <string name="exo_controls_previous_description">Prethodni zapis</string>
+    <string name="exo_controls_repeat_all_description">Ponovi sve</string>
+    <string name="exo_controls_repeat_off_description">Bez ponavljanja</string>
+    <string name="exo_controls_repeat_one_description">Ponovi jedno</string>
+    <string name="exo_controls_rewind_description">Unatrag</string>
+    <string name="exo_controls_shuffle_description">Reproduciraj nasumično</string>
+    <string name="exo_controls_stop_description">Zaustavi</string>
+    <string name="exo_controls_vr_description">VR način</string>
+    <string name="exo_download_completed">Preuzimanje je dovršeno</string>
+    <string name="exo_download_description">Preuzmi</string>
+    <string name="exo_download_downloading">Preuzimanje</string>
+    <string name="exo_download_failed">Preuzimanje nije uspjelo</string>
+    <string name="exo_download_notification_channel_name">Preuzimanja</string>
+    <string name="exo_download_removing">Uklanjanje preuzimanja</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativna verzija</string>
+    <string name="exo_track_role_closed_captions">Verzija s titlovima</string>
+    <string name="exo_track_role_commentary">Verzija s komentarima</string>
+    <string name="exo_track_role_supplementary">Dopunska verzija</string>
+    <string name="exo_track_selection_auto">Automatski</string>
+    <string name="exo_track_selection_none">Ništa</string>
+    <string name="exo_track_selection_title_audio">Audiozapis</string>
+    <string name="exo_track_selection_title_text">Tekst</string>
+    <string name="exo_track_selection_title_video">Videozapis</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Okružujući zvuk</string>
+    <string name="exo_track_surround_5_point_1">5.1-kanalni okružujući zvuk</string>
+    <string name="exo_track_surround_7_point_1">7.1-kanalni okružujući zvuk</string>
+    <string name="exo_track_unknown">Nepoznato</string>
+    <string name="liked_title">Ono što vam se svidjelo</string>
+    <string name="main_home_receive_alert_cancel">Odustani</string>
+    <string name="music_download_start_already_tip">Spremljeno</string>
+    <string name="music_download_start_tip">Spremanje</string>
+    <string name="music_download_status_download_failed">Neuspjelo spremanje. Dodirnite za ponovni pokušaj</string>
+    <string name="noti_permission_content">Pronađite opciju Obavijesti i uključite je</string>
+    <string name="noti_permission_title">Omogući obavijesti</string>
+    <string msgid="368094699078615544" name="s1">"Spremi sliku"</string>
+    <string msgid="4550830452390689489" name="s2">"Želite li dopustiti oglasu da spremi sliku u galeriju slika?"</string>
+    <string msgid="2435407834265420668" name="s3">"Prihvati"</string>
+    <string msgid="9167523597401839819" name="s4">"Odbij"</string>
+    <string msgid="1566682516266724847" name="s5">"Izradi događaj u kalendaru"</string>
+    <string msgid="5996672174517137271" name="s6">"Želite li dopustiti oglasu da izradi događaj u kalendaru?"</string>
+    <string msgid="7163549807207034258" name="s7">"Testni oglas"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Pretraži"</string>
+    <string name="setting_mobile_download_msg">Dozvoli korištenje mobilnog podatkovnog prijenosa za preuzimanje</string>
+    <string name="setting_mobile_download_title">Dozvoli korištenje mobilnog podatkovnog prijenosa za preuzimanje</string>
+    <string name="setting_storage_auth">(Autorizacija)</string>
+    <string name="setting_storage_default">Zadana telefonska kartica</string>
+    <string name="setting_storage_no_permission">(Nema dopuštenja)</string>
+    <string name="setting_storage_sdcard">Vanjska SD kartica</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">prije %s dana</string>
+    <string name="timer_ago_hours">prije %s sati</string>
+    <string name="timer_ago_minutes">prije %s minuta</string>
+    <string name="timer_ago_months">prije %s mjeseci</string>
+    <string name="timer_ago_one_day">prije 1 dan</string>
+    <string name="timer_ago_one_hour">prije 1 sat</string>
+    <string name="timer_ago_one_minute">prije 1 minutu</string>
+    <string name="timer_ago_one_month">prije 1 mjesec</string>
+    <string name="timer_ago_one_year">prije 1 godinu</string>
+    <string name="timer_ago_years">prije %s godina</string>
+</resources>

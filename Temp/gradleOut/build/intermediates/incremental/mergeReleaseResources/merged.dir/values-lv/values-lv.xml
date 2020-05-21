@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Pārvietoties uz sākuma ekrānu"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Pārvietoties uz augšu"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Citas opcijas"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Gatavs"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Skatīt visu"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Izvēlieties lietotni"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"IZSLĒGT"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"IESLĒGT"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alternēšanas taustiņš +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Vadīšanas taustiņš +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"dzēšanas taustiņš"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"ievadīšanas taustiņš"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funkcijas taustiņš +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta taustiņš +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Pārslēgšanas taustiņš +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"atstarpes taustiņš"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Simbolu taustiņš +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Poga Izvēlne +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Meklējiet…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Notīrīt vaicājumu"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Meklēšanas vaicājums"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Meklēt"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Iesniegt vaicājumu"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Meklēt ar balsi"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Kopīgot ar:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Kopīgot ar lietojumprogrammu <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Sakļaut"</string>
+    <string name="ad_offline_channel_download_offline_toast">Lietotne tiks automātiski lejupielādēta, kad savienojums ar tīklu darbosies!</string>
+    <string name="ad_offline_channel_download_online_toast">Lejupielādē...</string>
+    <string name="ad_offline_guide_network_dialog_connect">IZVEIDOT SAVIENOJUMU AR TĪKLU</string>
+    <string name="ad_offline_guide_network_dialog_refresh">Nē, paldies.</string>
+    <string name="ad_offline_guide_network_dialog_title">Ak vai! Lejupielāde neizdevās. Pārbaudiet interneta savienojumu.</string>
+    <string name="ad_offline_guide_network_dialog_title_cdn">Pievienots lejupielāžu uzdevumiem. Izveidojiet savienojumu ar tīklu, LAI SAŅEMTU TO TULĪT.</string>
+    <string name="ad_offline_guide_network_dialog_title_normal">Vai! Radās tīkla kļūda. Pārbaudiet interneta savienojumu.</string>
+    <string name="adshonor_auto_download_button_no">NĒ</string>
+    <string name="adshonor_auto_download_button_yes">JĀ</string>
+    <string name="adshonor_auto_download_title">Lietotne tiks lejupielādēta automātiski %d sekunžu laikā. Vai vēlaties to atcelt?</string>
+    <string name="adshonor_common_close_caps">Aizvērt</string>
+    <string name="adshonor_common_more">VAIRĀK</string>
+    <string name="adshonor_common_operate_replay">Atkārtot</string>
+    <string name="adshonor_common_operate_retry">Mēģināt vēlreiz</string>
+    <string name="adshonor_media_network_err_new_msg">Pārbaudiet tīklu</string>
+    <string name="adshonor_media_player_error_wrong">Kaut kas neizdodas...</string>
+    <string name="cleanit_title_text">CLEANit</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Iespējot"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāiespējo Google Play pakalpojumi."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play pakalpojumu iespējošana"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalēt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ierīcē ir jāinstalē Google Play pakalpojumi."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play pakalpojumu iegūšana"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play pakalpojumu pieejamība"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play pakalpojumu kļūda"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Lietotnē <ns1:g id="APP_NAME">%1$s</ns1:g> ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir nepieciešami Google Play pakalpojumi, taču jūsu ierīce tos neatbalsta."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atjaunināt"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, jums ir jāatjaunina Google Play pakalpojumi."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play pakalpojumu atjaunināšana"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Atvērt tālrunī"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Pierakstīties"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Pierakstīties ar Google kontu"</string>
+    <string name="common_unit_time_minute">Min.</string>
+    <string name="common_unit_time_second">Sek.</string>
+    <string name="download_action_confirm_dialog_mobile_download_cancel_btn">Kešot Wi-Fi</string>
+    <string name="download_action_confirm_dialog_mobile_download_msg">Jau apturēts datiem. Turpināt kešot, kad ieslēgts Wi-Fi. Nepārtrauktai kešošanai atveriet Iestatījumi, lai sāktu</string>
+    <string name="download_action_confirm_dialog_mobile_download_ok_btn">Atvērt Iestatīt</string>
+    <string name="download_btn_confirm_dialog_mobile_download_cancel_btn">Kešot Wi-Fi</string>
+    <string name="download_btn_confirm_dialog_mobile_download_msg">Pievienots kešošanas sarakstam. Jau apturēts datiem. Ja vēlaties turpināt kešošanu, atveriet Iestatījumi, lai sāktu</string>
+    <string name="download_btn_confirm_dialog_mobile_download_ok_btn">Atvērt Iestatīt</string>
+    <string name="download_center_empty_layout_text">Vēl nav failu, ko lejupielādēt.\n Kešatmiņai atsevišķā lapā var pieskarties lejupielādes ikonai.</string>
+    <string name="download_center_title">Lejupielāžu centrs</string>
+    <string name="download_control_cache_info">Arī kešotais numurs</string>
+    <string name="download_control_pause_all">Apturēt visu</string>
+    <string name="download_control_start_all">Sākt visu</string>
+    <string name="download_dialog_space_not_enough_cancel_btn">@string/main_home_receive_alert_cancel</string>
+    <string name="download_dialog_space_not_enough_ok_btn">@string/cleanit_title_text</string>
+    <string name="download_dialog_space_not_enough_title">Pievienots kešošanas sarakstam. Nepietiek vietas. Lai aizsargātu savu tālruni, iztīriet to tūlīt.</string>
+    <string name="download_editable_title">Izvēlēties vienumu</string>
+    <string name="download_noti_permission_content">Paziņojumu joslā var skatīt lejupielādes norisi</string>
+    <string name="download_noti_permission_title">Atvērt lejupielādes paziņojumu</string>
+    <string name="download_notification_download_all_success_msg">%1$s %2$s lejupielādēts sekmīgi. Pieskarieties, lai skatītu</string>
+    <string name="download_notification_download_failed_msg">Neizdevās lejupielādēt %1$s %2$s. Pieskarieties, lai skatītu</string>
+    <string name="download_notification_download_failed_title">Neizdevās lejupielādēt: %s.</string>
+    <string name="download_notification_download_part_success_msg">%1$s %2$s lejupielādētas sekmīgi. Dažas dziesmas %3$s neizdevās. Pieskarieties, lai skatītu</string>
+    <string name="download_notification_download_success_title">Lejupielādēts sekmīgi: %s</string>
+    <string name="download_notification_downloading_title">Lejupielādē %s</string>
+    <string name="download_notification_status_pause">Kešatmiņa pauzēta</string>
+    <string name="download_pop_tip_downloaded">Lejupielāde pabeigta</string>
+    <string name="download_pop_tip_downloading">Lejupielādē...</string>
+    <string name="download_pop_tip_msg">Pievienots lejupielāžu sarakstam</string>
+    <string name="download_pop_tip_view">Skatīt</string>
+    <string name="download_progress_empty_layout_text">Nav kešotu failu.</string>
+    <string name="download_progress_title">Lejupielādē</string>
+    <string name="download_resume_tip_message">Vai turpināt lejupielādi?</string>
+    <string name="download_resume_tip_title">Pastāv nepabeigti lejupielādes faili</string>
+    <string name="download_start_already_tip">Lejupielādēts</string>
+    <string name="download_start_tip">Lejupielādē</string>
+    <string name="download_start_tip_use_mobile">Lejupielāde, izmantojot mobilos datus</string>
+    <string name="download_status_download_failed">Lejupielāde neizdevās. Pieskarieties, lai mēģinātu vēlreiz</string>
+    <string name="download_status_download_mobile_pause">Apturēts datiem</string>
+    <string name="download_status_download_space_not_enough">Atmiņā nepietiek vietas </string>
+    <string name="download_status_downloaded">Lejupielādēts</string>
+    <string name="download_status_paused">Apturēts</string>
+    <string name="exo_controls_fastforward_description">Pārtīt uz priekšu</string>
+    <string name="exo_controls_fullscreen_description">Pilnekrāna režīms</string>
+    <string name="exo_controls_next_description">Nākamais ieraksts</string>
+    <string name="exo_controls_pause_description">Pauzēt</string>
+    <string name="exo_controls_play_description">Atskaņot</string>
+    <string name="exo_controls_previous_description">Iepriekšējais ieraksts</string>
+    <string name="exo_controls_repeat_all_description">Atkārtot visu</string>
+    <string name="exo_controls_repeat_off_description">Neatkārtot nevienu</string>
+    <string name="exo_controls_repeat_one_description">Atkārtot vienu</string>
+    <string name="exo_controls_rewind_description">Attīt atpakaļ</string>
+    <string name="exo_controls_shuffle_description">Atskaņot jauktā secībā</string>
+    <string name="exo_controls_stop_description">Apturēt</string>
+    <string name="exo_controls_vr_description">VR režīms</string>
+    <string name="exo_download_completed">Lejupielāde ir pabeigta</string>
+    <string name="exo_download_description">Lejupielādēt</string>
+    <string name="exo_download_downloading">Notiek lejupielāde</string>
+    <string name="exo_download_failed">Lejupielāde neizdevās</string>
+    <string name="exo_download_notification_channel_name">Lejupielādes</string>
+    <string name="exo_download_removing">Notiek lejupielāžu noņemšana</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Cits</string>
+    <string name="exo_track_role_closed_captions">Slēgtie paraksti</string>
+    <string name="exo_track_role_commentary">Komentāri</string>
+    <string name="exo_track_role_supplementary">Papildu</string>
+    <string name="exo_track_selection_auto">Automātisks</string>
+    <string name="exo_track_selection_none">Nav</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Teksts</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Ieskaujošā skaņa</string>
+    <string name="exo_track_surround_5_point_1">5.1 ieskaujošā skaņa</string>
+    <string name="exo_track_surround_7_point_1">7.1 ieskaujošā skaņa</string>
+    <string name="exo_track_unknown">Nezināms</string>
+    <string name="liked_title">Patika</string>
+    <string name="main_home_receive_alert_cancel">Atcelt</string>
+    <string name="music_download_start_already_tip">Saglabāts</string>
+    <string name="music_download_start_tip">Saglabā</string>
+    <string name="music_download_status_download_failed">Neizdevās saglabāt. Pieskarieties, lai mēģinātu vēlreiz</string>
+    <string name="noti_permission_content">Atrodiet paziņojumu opciju un ieslēdziet to</string>
+    <string name="noti_permission_title">Iespējot paziņojumu opciju</string>
+    <string msgid="368094699078615544" name="s1">"Attēla saglabāšana"</string>
+    <string msgid="4550830452390689489" name="s2">"Vai atļaut reklāmai saglabāt attēlu galerijā?"</string>
+    <string msgid="2435407834265420668" name="s3">"Piekrist"</string>
+    <string msgid="9167523597401839819" name="s4">"Noraidīt"</string>
+    <string msgid="1566682516266724847" name="s5">"Kalendāra pasākuma izveide"</string>
+    <string msgid="5996672174517137271" name="s6">"Vai atļaut reklāmai izveidot kalendāra pasākumu?"</string>
+    <string msgid="7163549807207034258" name="s7">"Testa reklāma"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Meklēt"</string>
+    <string name="setting_mobile_download_msg">Atļaut datu lietojumu lejupielādei</string>
+    <string name="setting_mobile_download_title">Atļaut datu lietojumu lejupielādei</string>
+    <string name="setting_storage_auth">(Autorizēties)</string>
+    <string name="setting_storage_default">Noklusējuma tālruņa karte</string>
+    <string name="setting_storage_no_permission">(Nav atļauju)</string>
+    <string name="setting_storage_sdcard">Ārējā SD karte</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="timer_ago_days">pirms %s dienām</string>
+    <string name="timer_ago_hours">pirms %s stundām</string>
+    <string name="timer_ago_minutes">pirms %s minūtēm</string>
+    <string name="timer_ago_months">pirms %s mēnešiem</string>
+    <string name="timer_ago_one_day">pirms 1 dienas</string>
+    <string name="timer_ago_one_hour">pirms 1 stundas</string>
+    <string name="timer_ago_one_minute">pirms 1 minūtes</string>
+    <string name="timer_ago_one_month">pirms 1 mēneša</string>
+    <string name="timer_ago_one_year">pirms 1 gada</string>
+    <string name="timer_ago_years">pirms %s gadiem</string>
+</resources>
