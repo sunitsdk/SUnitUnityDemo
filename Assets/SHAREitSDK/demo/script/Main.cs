@@ -13,7 +13,7 @@ public class Main : MonoBehaviour
     private const string TAG = "Main";
 
     public const string ENV_STORE_KEY = "shareitEnv";
-
+    public SHAREitSDK.SHAREitSDK shareitSDK;
     void Awake()
     {
 

@@ -13,6 +13,7 @@ public class Game : MonoBehaviour
 
     public Button loginInBtn;
     public Button loginOutBtn;
+    public Button rateBtn;
     public Text descText;
 
     private const string TAG = "Game";
@@ -29,6 +30,7 @@ public class Game : MonoBehaviour
 
         loginInBtn.onClick.AddListener(onLoginIn);
         loginOutBtn.onClick.AddListener(onLoginOut);
+        rateBtn.onClick.AddListener(onRateClick);
     }
 
     // Update is called once per frame
@@ -57,6 +59,11 @@ public class Game : MonoBehaviour
     {
         descText.text = "gameLeveleEnd upload,level = 1";
         shareitSDK.gameLevelEnd("1");
+        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
+        {
+            descText.text = "code is " + resultCode + ",reason :" + reason;
+        }));
+        descText.text = "after show rate dialog";
     }
 
     public void onLoginIn()
@@ -84,5 +91,12 @@ public class Game : MonoBehaviour
         bool isLoggout = shareitSDK.logout();
 
         descText.text = "loggout " + (isLoggout ? "successfully" : "failed");
+    }
+
+    public void onRateClick()
+    {
+        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
+               Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
+          }));
     }
 }
