@@ -5,7 +5,7 @@
 2. 新增接入Facebook SDK
 3. 新增谷歌安装归因来源统计
 
-接入改动(替换 shareit_sdk.gradle 文件):
+接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle) 文件):
 1. 添加接入AppsFlyer 和 Facebook SDK版本为
 ```
     ext {
@@ -68,8 +68,8 @@
  android:fullBackupContent="true"
 ```
 
-5. SD卡权限申请requestStoragePermissions() <br/>
-在启动app时主动调用此方法，不需要做权限判断(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
+5. 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
+    * Unity：SHAREitSDK.SHAREitSDK.requestStoragePermissions();
 
 6. 在build.gradle中applicationId下方增加account_type、content_authority(不添加会导致安装包冲突问题)<br/>
 ```
