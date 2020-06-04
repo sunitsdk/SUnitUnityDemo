@@ -31,7 +31,7 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
-        
+
         <!--Fix Manifest merger failed -->
         <activity
             android:name="com.facebook.ads.AudienceNetworkActivity"
@@ -40,14 +40,6 @@
             android:multiprocess="true"
             tools:replace="android:configChanges" />
         <!--SHAREit begin-->
-        <!-- ********************** Flurry Start **************************** -->
-      <meta-data
-          android:name="flurry.sdk.API_KEY"
-          android:value="KYY7JJ6XHZTD62C3M8HR" />
-          <!-- <meta-data
-          android:name="flurry.sdk.API_KEY"
-          android:value="FLURRY_API_KEY" /> -->
-      <!-- ********************** Flurry End **************************** -->
 
         <meta-data
             android:name="com.ushareit.ads.KEY_APP_ID"
@@ -55,6 +47,41 @@
         <!-- <meta-data
             android:name="com.ushareit.ads.KEY_APP_ID"
             android:value="YOUR_APP_ID"/> -->
+
+
+        <!-- ********************** Flurry Start **************************** -->
+        <meta-data
+          android:name="flurry.sdk.API_KEY"
+          android:value="KYY7JJ6XHZTD62C3M8HR" />
+          <!-- <meta-data
+          android:name="flurry.sdk.API_KEY"
+          android:value="FLURRY_API_KEY" /> -->
+      <!-- ********************** Flurry End **************************** -->
+
+      <!-- ********************** AppsFlyer Start **************************** -->
+            <meta-data
+                android:name="appsflyer.sdk.DEV_KEY"
+                android:value="Your AppsFlyer DEV_KEY" />
+            <!-- ********************** AppsFlyer End **************************** -->
+
+            <!-- ********************** Facebook Start **************************** -->
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="fb1644475872501583" />
+            <!-- <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="fb+Your Facebook appId" /> -->
+               <!-- 注意：必须是fb加上您的Facebook appId,不能只是appId。正确示例 android:value="fb1644475872501583" /> -->
+            <!-- ********************** Facebook End **************************** -->
+
+      <!-- ********************** Adjust Start **************************** -->
+           <meta-data
+               android:name="adjust.sdk.APP_TOKEN"
+               android:value="v1hljh3sobuo" />
+          <!-- <meta-data
+                   android:name="adjust.sdk.APP_TOKEN"
+                   android:value="Your adjust sdk app_token" /> -->
+      <!-- ********************** Adjust End **************************** -->
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
