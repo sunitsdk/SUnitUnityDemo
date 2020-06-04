@@ -5,7 +5,7 @@
 2. 新增接入Facebook SDK
 3. 新增谷歌安装归因来源统计
 
-接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle) 文件):
+接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_1.4.0/Assets/Plugins/Android/mainTemplate.gradle) 文件):
 1. 添加接入AppsFlyer 和 Facebook SDK版本为
 ```
     ext {
