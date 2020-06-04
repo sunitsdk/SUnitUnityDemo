@@ -1,3 +1,75 @@
+#### 1.7.0
+
+2020-06-03
+
+1. 新增接入Adjust SDK
+
+
+接入改动:使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_1.7.0/Assets/Plugins/Android/mainTemplate.gradle) 文件
+
+1. 添加接入Adjust SDK版本为
+
+```
+    ext {
+        VERSION_SUNIT = "1.7.0-beta-5"
+
+        VERSION_ADCOLONY_AD="4.1.0"
+        VERSION_ADMOB_AD = "18.3.0"
+        VERSION_ADMOB_M_FB = "5.6.1.0"
+        VERSION_ADMOB_M_MOPUB = "5.10.0.0"
+        VERSION_ADMOB_M_UNITYADS = "3.4.2.0"
+        VERSION_ADMOB_M_APPLOVIN = "9.11.4.0"
+
+        VERSION_APPLOVIN_AD = "9.11.4"
+        VERSION_FACEBOOK_AD = "5.6.1"
+        VERSION_FYBER_AD = "7.3.4"
+        VERSION_IRONSOURCE_AD = "6.10.2"
+        VERSION_UNITY_ADS_AD = "3.4.2"
+        VERSION_VUNGLE_AD = "6.4.11"
+        VERSION_MOPUB_AD = "5.10.0"
+        VERSION_MOPUB_M_ADMOB = "18.3.0.3"
+        VERSION_MOPUB_M_FB = "5.6.1.0"
+
+        VERSION_PLAY_SERVICES_LOCATION = "16.0.0"
+        VERSION_GSON = "2.8.1"
+        VERSION_OKHTTP3 = "3.10.0"
+        VERSION_FLURRY = "12.1.0"
+        //接入AppsFlyer 和 Facebook SDK需要以下两个依赖版本，如不接入可移除
+        VERSION_APPSFLYER= "5.2.0"
+        VERSION_FACEBOOK= "[5,6)"
+        <!-- 以下是新增项 接入Adjust SDK-->
+        VERSION_ADJUST="4.22.0"
+    	VERSION_PLAY_SERVICES_ADS="17.0.0"
+    	//如果已存在下方依赖版本号，不需重复引入
+    	VERSION_GOOGLE_REFERRER= "1.1.2"
+    }
+```
+
+2. 新增Adjust SDK依赖
+
+```
+    //Adjust sdk
+    implementation "com.adjust.sdk:adjust-android:$VERSION_ADJUST"
+    implementation "com.google.android.gms:play-services-ads-identifier:$VERSION_PLAY_SERVICES_ADS"
+    //如果已存在下方依赖 不需要重复引入
+    implementation "com.android.installreferrer:installreferrer:$VERSION_GOOGLE_REFERRER"
+```
+
+3. 新增manifest里的key
+
+```
+   <!-- ********************** Adjust Start **************************** -->
+        <meta-data
+            android:name="adjust.sdk.APP_TOKEN"
+            android:value="Your adjust sdk app_token" />
+   <!-- ********************** Adjust End **************************** -->
+```
+
+### 1.6.1.1
+2020-6-3
+
+升级到1.6.1.1不需要特殊的步骤
+
 
 ### [重要]1.5.1.0
 2020-05-12
@@ -6,6 +78,89 @@
 2. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle) 文件
 
 
+#### 1.4.0.5
+2020-04-28
+1. 新增接入AppsFlyer SDK
+2. 新增接入Facebook SDK
+3. 新增谷歌安装归因来源统计
+
+接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_1.4.0/Assets/Plugins/Android/mainTemplate.gradle) 文件):
+1. 添加接入AppsFlyer 和 Facebook SDK版本为
+```
+    ext {
+        VERSION_SUNIT = "1.4.0.5"
+
+        VERSIOVERSION_ADCOLONY_AD="4.1.0"
+        VERSION_ADMOB_AD = "18.3.0"
+        VERSION_ADMOB_M_FB = "5.6.1.0"
+        VERSION_ADMOB_M_MOPUB = "5.10.0.0"
+        VERSION_ADMOB_M_UNITYADS = "3.4.2.0"
+        VERSION_ADMOB_M_APPLOVIN = "9.11.4.0"
+
+        VERSION_APPLOVIN_AD = "9.11.4"
+        VERSION_FACEBOOK_AD = "5.6.1"
+        VERSION_FYBER_AD = "7.3.4"
+        VERSION_IRONSOURCE_AD = "6.10.2"
+        VERSION_UNITY_ADS_AD = "3.4.2"
+        VERSION_VUNGLE_AD = "6.4.11"
+        VERSION_MOPUB_AD = "5.10.0"
+        VERSION_MOPUB_M_ADMOB = "18.3.0.3"
+        VERSION_MOPUB_M_FB = "5.6.1.0"
+
+        VERSION_PLAY_SERVICES_LOCATION = "16.0.0"
+        VERSION_GSON = "2.8.1"
+        VERSION_OKHTTP3 = "3.10.0"
+        VERSION_FLURRY = "12.1.0"
+        <!-- 以下是新增项 -->
+        VERSION_GOOGLE_REFERRER= "1.1.2"
+        VERSION_APPSFLYER= "5.2.0"
+        VERSION_FACEBOOK= "[5,6)"
+    }
+ ```
+
+2. 新增ApssFlyer 和 Facebook 依赖
+```
+    //AppsFlyer
+    implementation "com.android.installreferrer:installreferrer:$VERSION_GOOGLE_REFERRER"
+    implementation "com.appsflyer:af-android-sdk:$VERSION_APPSFLYER"
+    //Facebook
+    implementation "com.facebook.android:facebook-android-sdk:$VERSION_FACEBOOK"
+```
+3. 新增manifest里的key
+```
+  <!-- ********************** AppsFlyer Start **************************** -->
+        <meta-data
+            android:name="appsflyer.sdk.DEV_KEY"
+            android:value="Your AppsFlyer DEV_KEY" />
+        <!-- ********************** AppsFlyer End **************************** -->
+
+        <!-- ********************** Facebook Start **************************** -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="fb+Your Facebook appId" />
+           <!-- 注意：必须是fb加上您的Facebook appId,不能只是appId。正确示例 android:value="fb1644475872501583" /> -->
+        <!-- ********************** Facebook End **************************** -->
+```
+4. 对于编译时出现 fullBackupContent 相关的错误需要在 AndroidManifest.xml 里添加
+```
+ tools:replace="android:fullBackupContent"
+ android:fullBackupContent="true"
+```
+
+5. 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
+    * Unity：SHAREitSDK.SHAREitSDK.requestStoragePermissions();
+
+6. 在build.gradle中applicationId下方增加account_type、content_authority(不添加会导致安装包冲突问题)<br/>
+```
+defaultConfig {
+        applicationId  “com.xx.xx”
+        //SHAREit begin
+        multiDexEnabled true
+        resValue "string", "account_type", "${applicationId}.type"
+        resValue "string", "content_authority", "${applicationId}.provider"
+        //SHAREit end
+}
+```
 
 ### [里程碑版本]1.3.1.1
 2020-04-20
