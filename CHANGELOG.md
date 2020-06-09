@@ -11,6 +11,7 @@
 
 ```
     ext {
+        //修改版本为1.7.0.1  如果接入adjust sdk，测试阶段需使用 VERSION_SUNIT = "1.7.0.1-sandbox-env" 使用adjust的sandbox环境
         VERSION_SUNIT = "1.7.0.1"
 
         VERSION_ADCOLONY_AD="4.1.0"
