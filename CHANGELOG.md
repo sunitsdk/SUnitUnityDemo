@@ -1,3 +1,9 @@
+### 1.8.0.1-beta
+
+2020-06-10
+
+使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_180/Assets/Plugins/Android/mainTemplate.gradle)
+
 ### 1.6.2.1
 2020-6-4
 
