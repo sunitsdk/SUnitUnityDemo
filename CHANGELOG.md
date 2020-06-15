@@ -3,6 +3,16 @@
 
 升级到1.6.2.1不需要特殊的步骤
 
+```
+如果需要接入评分功能，请按照以下方式接入:
+shareitSDK：SHAREitSDK.SHAREitSDK实例
+shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
+               Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
+          }));
+          
+在回调接口里有两个参数分别表示错误码和错误信息。如果当前无网络连接也会回调接口方法，即不能成功展示评分框。
+```
+
 ### [重要]1.5.1.3
 2020-05-12
 1. 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
@@ -45,7 +55,7 @@
         VERSION_OKHTTP3 = "3.10.0"
         VERSION_FLURRY = "12.1.0"
     }
- ```
+```
 
 2. 新增admob 聚合 adapter依赖
 ```
