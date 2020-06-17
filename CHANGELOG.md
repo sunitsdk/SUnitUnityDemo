@@ -1,8 +1,14 @@
-### 1.8.0.1-beta
+### 1.8.0.1
 
-2020-06-10
+2020-06-17
 
-使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_180/Assets/Plugins/Android/mainTemplate.gradle)
+FEATURE:
+- 升级支付版本.
+- 升级 FAN sdk 版本到5.9.0
+
+CHANGES:
+1. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_180/Assets/Plugins/Android/mainTemplate.gradle)
+2. gameLevelEnd 增加是否过关参数
 
 ### 1.6.2.1
 2020-6-4
