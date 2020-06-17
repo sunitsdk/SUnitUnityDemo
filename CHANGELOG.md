@@ -3,15 +3,14 @@
 
 升级到1.6.2.1不需要特殊的步骤
 
-```
 如果需要接入评分功能，请按照以下方式接入:
+```
 shareitSDK：SHAREitSDK.SHAREitSDK实例
 shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
                Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
           }));
-          
+```       
 在回调接口里有两个参数分别表示错误码和错误信息。如果当前无网络连接也会回调接口方法，即不能成功展示评分框。
-```
 
 ### [重要]1.5.1.3
 2020-05-12
