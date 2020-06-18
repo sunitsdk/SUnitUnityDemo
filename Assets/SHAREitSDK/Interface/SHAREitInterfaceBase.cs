@@ -34,7 +34,8 @@ namespace SHAREitSDK
 
         public virtual void gameLevelStart(string level){ }
 
-        public virtual void gameLevelEnd(string level) { }
+        //public virtual void gameLevelEnd(string level) { }
+        public virtual void gameLevelEnd(string level,bool isPass) { }
 
         public virtual void onEvent(string eventId, Dictionary<string, string> dictionary) { }
 

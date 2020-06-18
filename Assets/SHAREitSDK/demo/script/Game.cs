@@ -57,13 +57,10 @@ public class Game : MonoBehaviour
 
     public void onGameLevelEnd()
     {
-        descText.text = "gameLeveleEnd upload,level = 1";
-        shareitSDK.gameLevelEnd("1");
-        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
-        {
-            descText.text = "code is " + resultCode + ",reason :" + reason;
-        }));
-        descText.text = "after show rate dialog";
+        //根据玩家实际通关情况来设置此值，通关为 true ，失败或者游戏过程中点击重玩等情况为false
+        bool isPass = true;
+        shareitSDK.gameLevelEnd("1", isPass);
+        descText.text = "gameLeveleEnd upload,level = 1,isPass = " + isPass;
     }
 
     public void onLoginIn()
@@ -95,6 +92,7 @@ public class Game : MonoBehaviour
 
     public void onRateClick()
     {
+        //可选功能，若不需要接入可忽略
         shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
                Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
           }));

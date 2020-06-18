@@ -46,11 +46,19 @@ namespace SHAREitSDK
             sdkWrapper.Call("gameLevelStart",level);
         }
 
-        public override void gameLevelEnd(string level) {
-            if ( CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+        //public override void gameLevelEnd(string level) {
+        //    if ( CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+        //        return;
+
+        //    sdkWrapper.Call("gameLevelEnd",level);
+        //}
+
+        public override void gameLevelEnd(string level,bool isPass)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
                 return;
 
-            sdkWrapper.Call("gameLevelEnd",level);
+            sdkWrapper.Call("gameLevelEnd", level, isPass);
         }
 
         public override void onEvent(string eventId, Dictionary<string, string> dictionary) {

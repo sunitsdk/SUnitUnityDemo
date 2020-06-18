@@ -184,11 +184,17 @@ namespace SHAREitSDK {
             instance.gameLevelStart(level);
         }
 
-        public void gameLevelEnd(string level)
+        //public void gameLevelEnd(string level)
+        //{
+        //    if (instance == null)
+        //        return;
+        //    instance.gameLevelEnd(level);
+        //}
+        public void gameLevelEnd(string level,bool isPass)
         {
             if (instance == null)
                 return;
-            instance.gameLevelEnd(level);
+            instance.gameLevelEnd(level,isPass);
         }
 
         public void onEvent(string eventId, Dictionary<string, string> dictionary)
