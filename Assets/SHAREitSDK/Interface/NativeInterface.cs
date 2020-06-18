@@ -14,7 +14,9 @@ namespace SHAREitSDK
 
         void gameLevelStart(string level);
 
-        void gameLevelEnd(string level);
+        //void gameLevelEnd(string level);
+
+        void gameLevelEnd(string level,bool isPass);
 
         void onEvent(string eventId, Dictionary<string, string> dictionary);
 
