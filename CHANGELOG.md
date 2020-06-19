@@ -7,7 +7,7 @@ FEATURE:
 - 升级 Facebook Audience Network SDK 版本到5.9.0
 
 CHANGES:
-1. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle)
+1. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_181/Assets/Plugins/Android/mainTemplate.gradle)
 2. gameLevelEnd 增加是否过关参数
 
 
