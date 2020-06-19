@@ -32,7 +32,7 @@ CHANGES:
 2. 升级广告源版本: admob facebook mopub applovin unityAds
 3. 增加 admob 聚合 applovin, admob 聚合 unityAds
 
-接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_131/Assets/Plugins/Android/mainTemplate.gradle) 文件:
+接入改动(替换 [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_130/Assets/Plugins/Android/mainTemplate.gradle) 文件:
 1. 更改广告源版本为
 ```
     ext {
