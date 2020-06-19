@@ -14,17 +14,15 @@ CHANGES:
 ### 1.6.2.1
 2020-6-4
 
-升级到1.6.2.1不需要特殊的步骤
+- 升级到1.6.2.1不需要特殊的步骤
 
-新增[评分引导功能](https://github.com/sunitsdk/SUnitUnityDemo/wiki/%E8%AF%84%E5%88%86%E5%BC%95%E5%AF%BC%EF%BC%88%E5%8F%AF%E9%80%89%E5%8A%9F%E8%83%BD%29)
+- 新增[评分引导功能](https://github.com/sunitsdk/SUnitUnityDemo/wiki/%E8%AF%84%E5%88%86%E5%BC%95%E5%AF%BC%EF%BC%88%E5%8F%AF%E9%80%89%E5%8A%9F%E8%83%BD%29)
 
 ### [重要]1.5.1.3
 2020-05-12
-1. 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
+- 在第一个 Awake 时主动申请sd卡权限(方法内含有Id初始化相关策略，即使接入方自己申请了权限也需要调用此方法)
     * Unity：SHAREitSDK.SHAREitSDK.requestStoragePermissions();
-2. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_151/Assets/Plugins/Android/mainTemplate.gradle) 文件
-
-
+- 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_151/Assets/Plugins/Android/mainTemplate.gradle) 文件
 
 ### [里程碑版本]1.3.1.1
 2020-04-20
