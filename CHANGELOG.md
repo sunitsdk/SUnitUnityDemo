@@ -1,3 +1,16 @@
+### 1.8.1.3
+
+2020-06-19
+
+FEATURE:
+- 升级支付SDK版本.
+- 升级 Facebook Audience Network SDK 版本到5.9.0
+
+CHANGES:
+1. 使用最新  [mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/Assets/Plugins/Android/mainTemplate.gradle)
+2. gameLevelEnd 增加是否过关参数
+
+
 ### 1.6.2.1
 2020-6-4
 
