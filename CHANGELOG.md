@@ -27,8 +27,7 @@ CHANGES:
 
 ```
  defaultConfig {
-        minSdkVersion **MINSDKVERSION**
-        targetSdkVersion **TARGETSDKVERSION**
+         applicationId '**APPLICATIONID**'
          ......
         //SHAREit begin
           multiDexEnabled true
