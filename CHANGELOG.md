@@ -10,7 +10,7 @@
  defaultConfig {
         minSdkVersion **MINSDKVERSION**
         targetSdkVersion **TARGETSDKVERSION**
-         。。。
+         ......
         //SHAREit begin
           multiDexEnabled true
           resValue "string", "account_type", "${applicationId}.type"
