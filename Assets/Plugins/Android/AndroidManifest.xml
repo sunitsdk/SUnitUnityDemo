@@ -18,8 +18,7 @@
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:name="androidx.multidex.MultiDexApplication"
-        tools:replace="android:appComponentFactory,android:fullBackupContent"
-        android:fullBackupContent="true"
+        tools:replace="android:appComponentFactory"
         tools:ignore="UnusedAttribute"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:requestLegacyExternalStorage="true">
@@ -31,7 +30,7 @@
             </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
-        
+
         <!--Fix Manifest merger failed -->
         <activity
             android:name="com.facebook.ads.AudienceNetworkActivity"
