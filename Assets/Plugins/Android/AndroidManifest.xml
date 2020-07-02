@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:name="androidx.multidex.MultiDexApplication"
         tools:replace="android:appComponentFactory"
+        tools:remove="android:fullBackupContent"
         tools:ignore="UnusedAttribute"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:requestLegacyExternalStorage="true">
