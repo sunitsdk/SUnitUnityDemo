@@ -97,6 +97,16 @@ namespace SHAREitSDK {
 #endif
         }
 
+        public static string getCountryCode()
+        {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<string>("getCountryCode", CommonUtil.getContext());
+#else
+            return null;
+#endif
+        }
+
         void Awake()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
