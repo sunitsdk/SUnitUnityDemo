@@ -9,7 +9,7 @@ FEATURE:
 
 CHANGES：
 
-[小视频推广](https://github.com/sunitsdk/SUnitDemo/wiki/%E6%8E%A8%E5%B9%BF%E6%A8%A1%E5%9D%97#%E5%B0%8F%E8%A7%86%E9%A2%91%E6%8E%A8%E5%B9%BF)相关接口
+[小视频推广](https://github.com/sunitsdk/SUnitUnityDemo/wiki/%E6%8E%A8%E5%B9%BF%E6%A8%A1%E5%9D%97)相关接口
 
 ### 1.9.0.4
 
