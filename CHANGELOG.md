@@ -3,11 +3,13 @@
 2020-07-31
 
 FEATURE:
-- 增加静默下载安装sdk 
-- 增加小视频分发推荐位module
-- 推广球和小视频添加跳转浏览器打开和安装完成的监听埋点；
-- 增加AdsHonor激励视频
-- 悬浮球增加展示失败打点
+- 支持小视频推广功能
+- 支持推广弹窗功能
+- Bug fix
+
+CHANGES：
+
+[小视频推广](https://github.com/sunitsdk/SUnitDemo/wiki/%E6%8E%A8%E5%B9%BF%E6%A8%A1%E5%9D%97#%E5%B0%8F%E8%A7%86%E9%A2%91%E6%8E%A8%E5%B9%BF)相关接口
 
 ### 1.9.0.4
 
