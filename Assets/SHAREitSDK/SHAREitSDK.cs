@@ -387,6 +387,29 @@ namespace SHAREitSDK {
         {
             instance.hiddenBannerAd();
         }
+
+        public static bool canShowVideo(string scene)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return false;
+
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<bool>("canShowVideo", scene);
+#else
+            return false;
+#endif
+        }
+
+        public void showVideoDialog(int x, int y, string scene, bool isMute)
+        {
+            instance.showVideoDialog(x, y, scene, isMute);
+        }
+
+        public void hideVideoDialog()
+        {
+            instance.hideVideoDialog();
+        }
     }
 
 }

@@ -14,6 +14,8 @@ public class Game : MonoBehaviour
     public Button loginInBtn;
     public Button loginOutBtn;
     public Button rateBtn;
+    public Button showVideoBtn;
+    public Button hideVideoBtn;
     public Text descText;
 
     private const string TAG = "Game";
@@ -31,6 +33,8 @@ public class Game : MonoBehaviour
         loginInBtn.onClick.AddListener(onLoginIn);
         loginOutBtn.onClick.AddListener(onLoginOut);
         rateBtn.onClick.AddListener(onRateClick);
+        showVideoBtn.onClick.AddListener(onShowVideoClick);
+        hideVideoBtn.onClick.AddListener(onHideVideoClick);
     }
 
     // Update is called once per frame
@@ -92,10 +96,12 @@ public class Game : MonoBehaviour
 
     public void onRateClick()
     {
+        Debug.Log(TAG + " onRateClick");
         //可选功能，若不需要接入可忽略
         shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
         {
             Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
+<<<<<<< HEAD
         },() =>
             {
                 descText.text = "rate success";
@@ -103,6 +109,11 @@ public class Game : MonoBehaviour
     }
 
     //展示小电视
+=======
+        }));
+    }
+
+>>>>>>> 8acba2b... [SUnitUnityDemo]Add show video function
     public void onShowVideoClick()
     {
         Debug.Log(TAG + " onShowVideoClick");

@@ -67,5 +67,9 @@ namespace SHAREitSDK
         //void showBanner(string unitId, ViewGroup container);
 
         void hiddenBannerAd();
+
+        void showVideoDialog(int x, int y, string scene, bool isMute);
+
+        void hideVideoDialog();
     }
 }

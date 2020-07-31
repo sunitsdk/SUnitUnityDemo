@@ -256,6 +256,20 @@ namespace SHAREitSDK
                 return;
             sdkWrapper.Call("hiddenBannerAd");
         }
+
+        public override void showVideoDialog(int x, int y, string scene, bool isMute)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+            sdkWrapper.Call("showVideoDialog", x, y, scene, isMute);
+        }
+
+        public override void hideVideoDialog()
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+            sdkWrapper.Call("hideVideoDialog");
+        }
     }
 }
 #endif

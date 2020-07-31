@@ -103,5 +103,9 @@ namespace SHAREitSDK
         public virtual void hiddenBannerAd()
         {
         }
+
+        public virtual void showVideoDialog(int x, int y, string scene, bool isMute) { }
+
+        public virtual void hideVideoDialog() { }
     }
 }
