@@ -108,6 +108,55 @@ namespace SHAREitSDK {
 #endif
         }
 
+        public static bool hasConfig(string key, bool needLog) {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<bool>("hasConfig", key, needLog);
+#else
+            return false;
+#endif
+        }
+
+        public static string getStringConfig(string key, string defaultValue, bool needLog)
+        {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<string>("getStringConfig", key, defaultValue, needLog);
+#else
+            return "";
+#endif
+        }
+
+        public static int getIntConfig(string key, int defaultValue, bool needLog)
+        {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<int>("getIntConfig", key, defaultValue, needLog);
+#else
+            return 0;
+#endif
+        }
+
+        public static long getLongConfig(string key, long defaultValue, bool needLog)
+        {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<long>("getLongConfig", key, defaultValue, needLog);
+#else
+            return 0;
+#endif
+        }
+
+        public static bool getBooleanConfig(string key, bool defaultValue, bool needLog)
+        {
+#if UNITY_ANDROID
+            AndroidJavaObject androidJavaObject = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper");
+            return androidJavaObject.CallStatic<bool>("getBooleanConfig", key, defaultValue, needLog);
+#else
+            return false;
+#endif
+        }
+
         void Awake()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR

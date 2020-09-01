@@ -101,7 +101,6 @@ public class Game : MonoBehaviour
         shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
         {
             Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
-<<<<<<< HEAD
         },() =>
             {
                 descText.text = "rate success";
@@ -109,11 +108,6 @@ public class Game : MonoBehaviour
     }
 
     //展示小电视
-=======
-        }));
-    }
-
->>>>>>> 8acba2b... [SUnitUnityDemo]Add show video function
     public void onShowVideoClick()
     {
         Debug.Log(TAG + " onShowVideoClick");

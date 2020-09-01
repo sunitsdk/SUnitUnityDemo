@@ -54,6 +54,8 @@ public class Main : MonoBehaviour
 
         //request storage permission
         SHAREitSDK.SHAREitSDK.requestStoragePermissions();
+        // init cloud config
+        initCloudConfig();
     }
 
     // Start is called before the first frame update
@@ -69,6 +71,16 @@ public class Main : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
+    }
+
+    void initCloudConfig()
+    {
+        //test key, need change to your right key
+        string testKey = "key_interstitial_show_enable";
+        if (SHAREitSDK.SHAREitSDK.hasConfig(testKey, true))
+        {
+            bool config = SHAREitSDK.SHAREitSDK.getBooleanConfig(testKey, true, true);
+        }
     }
 
     public void onPaymentClick()
