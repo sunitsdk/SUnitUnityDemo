@@ -21,13 +21,10 @@ namespace SHAREitSDK
     {
         public delegate void OnRateShowFail(int showRateResultCode, string msg);
         public OnRateShowFail onRateShowFail;
-        public delegate void OnRateSuccess();
-        public OnRateSuccess onRateSuccess;
 
-        public RateListener(OnRateShowFail onRateShowFail,OnRateSuccess onRateSuccess)
+        public RateListener(OnRateShowFail onRateShowFail)
         {
             this.onRateShowFail = onRateShowFail;
-            this.onRateSuccess = onRateSuccess;
         }
     }
 

@@ -101,10 +101,7 @@ public class Game : MonoBehaviour
         shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
         {
             Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
-        },() =>
-            {
-                descText.text = "rate success";
-            }));
+        }));
     }
 
     //展示小电视
