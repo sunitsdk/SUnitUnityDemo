@@ -93,8 +93,29 @@ public class Game : MonoBehaviour
     public void onRateClick()
     {
         //可选功能，若不需要接入可忽略
-        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) => {
-               Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
-          }));
+        shareitSDK.showRateDialog(new SHAREitSDK.RateListener((int resultCode, string reason) =>
+        {
+            Debug.Log(TAG + "code is " + resultCode + ",reason :" + reason);
+        },() =>
+            {
+                descText.text = "rate success";
+            }));
+    }
+
+    //展示小电视
+    public void onShowVideoClick()
+    {
+        Debug.Log(TAG + " onShowVideoClick");
+        string scene = "Game Page";
+        if (SHAREitSDK.SHAREitSDK.canShowVideo(scene))
+        {
+            shareitSDK.showVideoDialog(0, 300, scene, false);
+        }
+    }
+
+    public void onHideVideoClick()
+    {
+        Debug.Log(TAG + " onHideVideoClick");
+        shareitSDK.hideVideoDialog();
     }
 }

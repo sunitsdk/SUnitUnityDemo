@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,9 +21,14 @@ namespace SHAREitSDK
     {
         public delegate void OnRateShowFail(int showRateResultCode, string msg);
         public OnRateShowFail onRateShowFail;
-        public RateListener(OnRateShowFail onRateShowFail)
+        public delegate void OnRateSuccess();
+        public OnRateSuccess onRateSuccess;
+        private Action<int, string> p;
+
+        public RateListener(OnRateShowFail onRateShowFail,OnRateSuccess onRateSuccess)
         {
             this.onRateShowFail = onRateShowFail;
+            this.onRateSuccess = onRateSuccess;
         }
     }
 

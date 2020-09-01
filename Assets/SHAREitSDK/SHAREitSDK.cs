@@ -29,6 +29,7 @@ namespace SHAREitSDK {
 
         public const string ACTION_TYPE_LOGIN_SUCCESS = "loginSuccess";
         public const string ACTION_TYPE_SHOW_RATE_FAIL = "showRateFail";
+        public const string ACTION_TYPE_RATE_SUCCESSL = "rateSuccess";
         public const string ACTION_TYPE_PAY_RESULT = "payResult";
         public const string ACTION_TYPE_INTERSTITIAL_AD_LOAD = "interstitialAdLoad";
         public const string ACTION_TYPE_INTERSTITIAL_AD_SHOW = "InterstitialAdShow";
@@ -143,6 +144,10 @@ namespace SHAREitSDK {
                 case ACTION_TYPE_SHOW_RATE_FAIL:
                     if (rateListener != null)
                         rateListener.onRateShowFail((int)jsonData["resultCode"], (string)jsonData["msg"]);
+                    break;
+                case ACTION_TYPE_RATE_SUCCESSL:
+                    if (rateListener != null)
+                        rateListener.onRateSuccess();
                     break;
                 case ACTION_TYPE_PAY_RESULT:
                     if (payResultListener != null)
