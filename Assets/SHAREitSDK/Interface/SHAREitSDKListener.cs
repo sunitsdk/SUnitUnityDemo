@@ -23,7 +23,6 @@ namespace SHAREitSDK
         public OnRateShowFail onRateShowFail;
         public delegate void OnRateSuccess();
         public OnRateSuccess onRateSuccess;
-        private Action<int, string> p;
 
         public RateListener(OnRateShowFail onRateShowFail,OnRateSuccess onRateSuccess)
         {
