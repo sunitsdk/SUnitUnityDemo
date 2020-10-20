@@ -107,17 +107,19 @@ public class Game : MonoBehaviour
     //展示小电视
     public void onShowVideoClick()
     {
-        Debug.Log(TAG + " onShowVideoClick");
-        string scene = "Game Page";
-        if (SHAREitSDK.SHAREitSDK.canShowVideo(scene))
-        {
-            shareitSDK.showVideoDialog(0, 300, scene, false);
-        }
+        //From V2.3.0.0 ,need not invoke show video function
+        //Debug.Log(TAG + " onShowVideoClick");
+        //string scene = "Game Page";
+        //if (SHAREitSDK.SHAREitSDK.canShowVideo(scene))
+        //{
+        //    shareitSDK.showVideoDialog(0, 300, scene, false);
+        //}
     }
 
     public void onHideVideoClick()
     {
-        Debug.Log(TAG + " onHideVideoClick");
-        shareitSDK.hideVideoDialog();
+        //From V2.3.0.0 ,need not invoke show video function
+        //Debug.Log(TAG + " onHideVideoClick");
+        //shareitSDK.hideVideoDialog();
     }
 }
