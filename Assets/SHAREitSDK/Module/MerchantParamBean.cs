@@ -11,28 +11,28 @@ public class MerchantParamBean
 
     private const string KEY_MERCHANT_ID = "merchantId"; //商户Id
     private const string KEY_ORDER_ID = "orderId"; //商户订单Id
-    private const string KEY_TOTAL_AMOUNT = "totalAmount"; //总金额
+    private const string KEY_TOTAL_AMOUNT = "price"; //总金额
     private const string KEY_CURRENCY = "currency"; //货币代码
 
     private const string KEY_CALLBACK_URL = "callbackUrl"; //商户回调地址
     private const string KEY_CUST_ID = "custId"; //商户用户id
-    private const string KEY_SUBJECT = "subject"; //订单标题
+    private const string KEY_SUBJECT = "productName"; //订单标题
     private const string KEY_TOKEN = "token";
     private const string KEY_COUNTRY_CODE = "countryCode"; //2位大写国家码，参考：ISO 3166-1 alpha-2
+    private const string KEY_PRODUCT_CODE = "productCode"; //IAP商品Id（not merchant product id)
 
     //可选字段
     private const string KEY_LANGUAGE = "language"; //当前语言
-    private const string KEY_MOBILE_NO = "mobileNo"; //手机号
-    private const string KEY_MAIL = "mail"; //邮箱
     private const string KEY_DESCRIPTION = "description"; //商户自定义信息
     private const string KEY_EXTRA = "extra"; //商户自定义数据
-    private const string KEY_RETURN_URL = "returnUrl"; //商户成功跳转界面
+
     //使用支付结果页类型, "0"：使用SDK结果页；"1"：使用商户结果页
     private const string KEY_PAY_RESULT_TYPE = "usePayResultType";
     //支付有效时长，单位: 秒
     private const string KEY_PAY_VALID_DURATION = "payValidDuration";
-
-
+    private const string KEY_PAYMENT_DETAIL = "paymentDetail";
+    private const string KEY_USER_DETAIL = "userDetail";
+    private const string KEY_BIZ_TYPE = "bizType";
 
 
     private Dictionary<string, string> paraDic = new Dictionary<string, string>();
@@ -53,6 +53,19 @@ public class MerchantParamBean
     public class Builder
     {
         private Dictionary<string, string> paraMap = new Dictionary<string, string>();
+
+        public Builder addParams(Dictionary<string, string> paramDic)
+        {
+            if (paramDic != null)
+            {
+                foreach (KeyValuePair<string, string> kv in paramDic)
+                {
+                    paraMap.Add(kv.Key, kv.Value);
+                }
+            }
+            return this;
+        }
+
         public Builder setMerchantId(string merchantId)
         {
             paraMap.Add(KEY_MERCHANT_ID, merchantId);
@@ -89,7 +102,7 @@ public class MerchantParamBean
             return this;
         }
 
-        public Builder setCustId(string custId)
+        public Builder setUserId(string custId)
         {
             paraMap.Add(KEY_CUST_ID, custId);
             return this;
@@ -101,21 +114,9 @@ public class MerchantParamBean
             return this;
         }
 
-        public Builder setMail(string mail)
+        public Builder setReference(string reference)
         {
-            paraMap.Add(KEY_MAIL, mail);
-            return this;
-        }
-
-        public Builder setMobileNo(string mobileNo)
-        {
-            paraMap.Add(KEY_MOBILE_NO, mobileNo);
-            return this;
-        }
-
-        public Builder setExtra(string extra)
-        {
-            paraMap.Add(KEY_EXTRA, extra);
+            paraMap.Add(KEY_EXTRA, reference);
             return this;
         }
 
@@ -137,7 +138,7 @@ public class MerchantParamBean
             return this;
         }
 
-        public Builder setResultPageShowType(string payResultType)
+        public Builder setShowResult(string payResultType)
         {
             paraMap.Add(KEY_PAY_RESULT_TYPE, payResultType);
             return this;
@@ -147,6 +148,38 @@ public class MerchantParamBean
         public Builder setTimeoutInSeconds(long duration)
         {
             paraMap.Add(KEY_PAY_VALID_DURATION, duration + "");
+            return this;
+        }
+
+        public Builder setProductDetail(ProductDetailBean detail)
+        {
+            if (detail != null)
+            {
+                paraMap.Add(KEY_TOTAL_AMOUNT, detail.price);
+                paraMap.Add(KEY_CURRENCY, detail.currency);
+                paraMap.Add(KEY_SUBJECT, detail.productName);
+                paraMap.Add(KEY_DESCRIPTION, detail.productDesc);
+                paraMap.Add(KEY_PRODUCT_CODE, detail.productCode);
+                paraMap[KEY_COUNTRY_CODE] = detail.country;
+            }
+            return this;
+        }
+
+        public Builder setPaymentDetail(string paymentDetail)
+        {
+            paraMap.Add(KEY_PAYMENT_DETAIL, paymentDetail);
+            return this;
+        }
+
+        public Builder setUserDetail(string userDetail)
+        {
+            paraMap.Add(KEY_USER_DETAIL, userDetail);
+            return this;
+        }
+
+        public Builder setBizType(string bizType)
+        {
+            paraMap.Add(KEY_BIZ_TYPE, bizType);
             return this;
         }
 

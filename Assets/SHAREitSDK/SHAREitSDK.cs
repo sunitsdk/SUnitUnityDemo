@@ -30,6 +30,10 @@ namespace SHAREitSDK {
         public const string ACTION_TYPE_LOGIN_SUCCESS = "loginSuccess";
         public const string ACTION_TYPE_SHOW_RATE_FAIL = "showRateFail";
         public const string ACTION_TYPE_PAY_RESULT = "payResult";
+        public const string ACTION_TYPE_PAY_QUERY_PRODUCTS = "payQueryProducts";
+        public const string ACTION_TYPE_PAY_LAUNCH_BILLING_FLOW_RESULT = "payLaunchBillingFlowResult";
+        public const string ACTION_TYPE_PAY_QUERY_PURCHASE_RESULT = "payQueryPurchaseResult";
+        public const string ACTION_TYPE_PAY_CONSUME_RESULT = "payConsumeResult";
         public const string ACTION_TYPE_INTERSTITIAL_AD_LOAD = "interstitialAdLoad";
         public const string ACTION_TYPE_INTERSTITIAL_AD_SHOW = "InterstitialAdShow";
         public const string ACTION_TYPE_REWARDED_AD_LOAD = "rewardAdLoad";
@@ -37,7 +41,11 @@ namespace SHAREitSDK {
 
         private NativeInterface instance;
 
-        private PayResultListener payResultListener = null;
+        private PaymentListener.OnResultCallback payResultCallback;
+        private PaymentListener.OnProductResponseCallback payProductResponseCallback;
+        private PaymentListener.OnPurchaseResponseCallback payPurchaseResponseCallback;
+        private PaymentListener.OnQueryPurchaseResponseCallback payQueryPurchaseResponseCallback;
+        private PaymentListener.OnConsumeResponseCallback payConsumeResponseCallback;
         private LoginListener loginListener = null;
         private RateListener rateListener = null;
         private AdLoadListener interstitialAdLoadListener = null;
@@ -194,8 +202,38 @@ namespace SHAREitSDK {
                         rateListener.onRateShowFail((int)jsonData["resultCode"], (string)jsonData["msg"]);
                     break;
                 case ACTION_TYPE_PAY_RESULT:
-                    if (payResultListener != null)
-                        payResultListener.onResult((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["extra"]);
+                    payResultCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
+                    break;
+                case ACTION_TYPE_PAY_QUERY_PRODUCTS:
+                    if (payProductResponseCallback != null)
+                    {
+                        //string jsonStr = "{\"actionType\":\"1\",\"code\":10000,\"message\":\"\",\"dataList\":\"[{\\\"appCode\\\":\\\"GTW0001\\\",\\\"country\\\":\\\"ID\\\",\\\"productId\\\":\\\"GoosCode-Rant_01\\\",\\\"productDesc\\\":\\\"第1个商品\\\",\\\"productCode\\\":\\\"GoosId-Rant_01\\\",\\\"productName\\\":\\\"R_GOODS_NAME_id\\\",\\\"type\\\":0,\\\"originalCurrency\\\":\\\"IDR\\\",\\\"originalPrice\\\":\\\"5000.00\\\",\\\"exchangeRate\\\":\\\"\\\",\\\"currency\\\":\\\"IDR\\\",\\\"price\\\":\\\"5000.00\\\"},{\\\"appCode\\\":\\\"GTW0001\\\",\\\"country\\\":\\\"DEFAULT\\\",\\\"productId\\\":\\\"GoosCode-Rant_02\\\",\\\"productDesc\\\":\\\"第2个商品\\\",\\\"productCode\\\":\\\"GoosId-Rant_02\\\",\\\"productName\\\":\\\"R_GOODS_NAME_2DEFAULT\\\",\\\"type\\\":0,\\\"originalCurrency\\\":\\\"USD\\\",\\\"originalPrice\\\":\\\"100.00\\\",\\\"exchangeRate\\\":\\\"15147.6261642555\\\",\\\"currency\\\":\\\"IDR\\\",\\\"price\\\":\\\"1514763.00\\\"}]\"}";
+                        //JsonData jo = JsonMapper.ToObject(jsonStr);
+                        string dataStr = "{\"Items\":" + jsonData["dataList"] + "}";
+                        ProductDetailBean[] productDetails = JsonHelper.FromJson<ProductDetailBean>(dataStr);
+                        List<ProductDetailBean> productDetailsList = null;
+                        if (productDetails != null)
+                            productDetailsList = new List<ProductDetailBean>(productDetails);
+
+                        payProductResponseCallback((int)jsonData["code"], (string)jsonData["message"], productDetailsList);
+                    }
+                    break;
+                case ACTION_TYPE_PAY_LAUNCH_BILLING_FLOW_RESULT:
+                    payPurchaseResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
+                    break;
+                case ACTION_TYPE_PAY_QUERY_PURCHASE_RESULT:
+                    if (payQueryPurchaseResponseCallback != null)
+                    {
+                        string dataStr = "{\"Items\":" + jsonData["dataList"] + "}";
+                        QueryDetailBean[] queryDetails = JsonHelper.FromJson<QueryDetailBean>(dataStr);
+                        List<QueryDetailBean> queryDetailsList = null;
+                        if (queryDetails != null)
+                            queryDetailsList = new List<QueryDetailBean>(queryDetails);
+                        payQueryPurchaseResponseCallback((int)jsonData["code"], (string)jsonData["message"], queryDetailsList);
+                    }
+                    break;
+                case ACTION_TYPE_PAY_CONSUME_RESULT:
+                    payConsumeResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["message"]);
                     break;
                 case ACTION_TYPE_INTERSTITIAL_AD_LOAD:
                     handleAdLoad(false, jsonData);
@@ -213,13 +251,49 @@ namespace SHAREitSDK {
             }
         }
 
-        public void startPayActivity(MerchantParamBean merchantParamBean, PayResultListener payResultListener)
+        public void purchase(MerchantParamBean merchantParamBean, PaymentListener.OnResultCallback callback)
         {
             if (instance == null || merchantParamBean == null)
                 return;
-            Debug.Log("startPayActivity");
-            this.payResultListener = payResultListener;
-            instance.startPayActivity(merchantParamBean.getParams());
+            Debug.Log("purchase");
+            payResultCallback = callback;
+            instance.purchase(merchantParamBean.getParams());
+        }
+
+        public void queryProducts(ProductParamBean productParamBean, string[] productIds, PaymentListener.OnProductResponseCallback callback)
+        {
+            if (instance == null || productParamBean == null)
+                return;
+            Debug.Log("queryProducts");
+            payProductResponseCallback = callback;
+            instance.queryProducts(productParamBean.getParams(), productIds);
+        }
+
+        public void launchBillingFlow(MerchantParamBean merchantParamBean, PaymentListener.OnPurchaseResponseCallback callback)
+        {
+            if (instance == null || merchantParamBean == null)
+                return;
+            Debug.Log("launchBillingFlow");
+            payPurchaseResponseCallback = callback;
+            instance.launchBillingFlow(merchantParamBean.getParams());
+        }
+
+        public void queryPurchases(QueryPurchaseParamBean queryPurchaseParamBean, PaymentListener.OnQueryPurchaseResponseCallback callback)
+        {
+            if (instance == null || queryPurchaseParamBean == null)
+                return;
+            Debug.Log("queryPurchases");
+            payQueryPurchaseResponseCallback = callback;
+            instance.queryPurchases(queryPurchaseParamBean.getParams());
+        }
+
+        public void consume(ConsumeParamBean consumeParamBean, PaymentListener.OnProductResponseCallback callback)
+        {
+            if (instance == null || consumeParamBean == null)
+                return;
+            Debug.Log("consume");
+            payProductResponseCallback = callback;
+            instance.consume(consumeParamBean.getParams());
         }
 
         //public void gameStart()

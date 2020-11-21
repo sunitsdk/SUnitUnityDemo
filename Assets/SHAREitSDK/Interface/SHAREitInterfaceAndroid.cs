@@ -16,13 +16,53 @@ namespace SHAREitSDK
             sdkWrapper = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper", gameObjectName);
         }
 
-        public override void startPayActivity(Dictionary<string, string> dictionary) {
+        public override void purchase(Dictionary<string, string> dictionary) {
             if ( CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
                 return;
 
-            Debug.Log(TAG + " startPayActivity");
+            Debug.Log(TAG + " purchase");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("startPayActivity", getContext(), paras);
+            sdkWrapper.Call("purchase", getContext(), paras);
+        }
+
+        public override void queryProducts(Dictionary<string, string> dictionary, string[] productIds)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+
+            Debug.Log(TAG + " queryProducts");
+            AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
+            sdkWrapper.Call("queryProducts", getContext(), paras, productIds);
+        }
+
+        public override void launchBillingFlow(Dictionary<string, string> dictionary)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+
+            Debug.Log(TAG + " launchBillingFlow");
+            AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
+            sdkWrapper.Call("launchBillingFlow", getContext(), paras);
+        }
+
+        public override void queryPurchases(Dictionary<string, string> dictionary)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+
+            Debug.Log(TAG + " queryPurchases");
+            AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
+            sdkWrapper.Call("queryPurchases", getContext(), paras);
+        }
+
+        public override void consume(Dictionary<string, string> dictionary)
+        {
+            if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
+                return;
+
+            Debug.Log(TAG + " consume");
+            AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
+            sdkWrapper.Call("consume", getContext(), paras);
         }
 
         //public override void gameStart() {
