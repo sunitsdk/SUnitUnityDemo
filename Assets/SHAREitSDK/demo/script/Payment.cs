@@ -293,7 +293,7 @@ public class Payment : MonoBehaviour
         int childCount = productListRoot.transform.childCount;
         for (int i = 0; i < childCount; i++)
         {
-            Destroy(productListRoot.transform.GetChild(0).gameObject);
+            Destroy(productListRoot.transform.GetChild(i).gameObject);
         }
 
         string env = PlayerPrefs.GetString(Main.ENV_STORE_KEY);
