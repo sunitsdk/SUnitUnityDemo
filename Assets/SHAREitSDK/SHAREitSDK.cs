@@ -41,7 +41,6 @@ namespace SHAREitSDK {
 
         private NativeInterface instance;
 
-        private PaymentListener.OnResultCallback payResultCallback;
         private PaymentListener.OnProductResponseCallback payProductResponseCallback;
         private PaymentListener.OnPurchaseResponseCallback payPurchaseResponseCallback;
         private PaymentListener.OnQueryPurchaseResponseCallback payQueryPurchaseResponseCallback;
@@ -202,7 +201,7 @@ namespace SHAREitSDK {
                         rateListener.onRateShowFail((int)jsonData["resultCode"], (string)jsonData["msg"]);
                     break;
                 case ACTION_TYPE_PAY_RESULT:
-                    payResultCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
+                    payPurchaseResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
                     break;
                 case ACTION_TYPE_PAY_QUERY_PRODUCTS:
                     if (payProductResponseCallback != null)
@@ -251,12 +250,12 @@ namespace SHAREitSDK {
             }
         }
 
-        public void purchase(MerchantParamBean merchantParamBean, PaymentListener.OnResultCallback callback)
+        public void purchase(MerchantParamBean merchantParamBean, PaymentListener.OnPurchaseResponseCallback callback)
         {
             if (instance == null || merchantParamBean == null)
                 return;
             Debug.Log("purchase");
-            payResultCallback = callback;
+            payPurchaseResponseCallback = callback;
             instance.purchase(merchantParamBean.getParams());
         }
 
@@ -287,12 +286,12 @@ namespace SHAREitSDK {
             instance.queryPurchases(queryPurchaseParamBean.getParams());
         }
 
-        public void consume(ConsumeParamBean consumeParamBean, PaymentListener.OnProductResponseCallback callback)
+        public void consume(ConsumeParamBean consumeParamBean, PaymentListener.OnConsumeResponseCallback callback)
         {
             if (instance == null || consumeParamBean == null)
                 return;
             Debug.Log("consume");
-            payProductResponseCallback = callback;
+            payConsumeResponseCallback = callback;
             instance.consume(consumeParamBean.getParams());
         }
 

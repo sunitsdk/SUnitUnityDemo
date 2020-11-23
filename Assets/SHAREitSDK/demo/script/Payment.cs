@@ -344,7 +344,7 @@ public class Payment : MonoBehaviour
             try
             {
                 long duration = int.Parse(durationStr);
-                builder.setTimeoutInSeconds(duration);
+                builder.setExpireTime(duration);
             }
             catch (Exception e)
             {
@@ -412,7 +412,7 @@ public class Payment : MonoBehaviour
             try
             {
                 long duration = int.Parse(durationStr);
-                builder.setTimeoutInSeconds(duration);
+                builder.setExpireTime(duration);
             }
             catch (Exception e)
             {
@@ -425,9 +425,9 @@ public class Payment : MonoBehaviour
         merchantParamBean = builder.build();
 
 
-        shareitSDK.launchBillingFlow(merchantParamBean, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string orderId, string payMessage, string payExtra) =>
+        shareitSDK.launchBillingFlow(merchantParamBean, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string merchantOrderNo, string payMessage, string payExtra) =>
         {
-            string result = "code=" + code + " orderId=" + orderId + " message=" + payMessage + " extra=" + payExtra;
+            string result = "code=" + code + " merchantOrderNo=" + merchantOrderNo + " message=" + payMessage + " extra=" + payExtra;
             Debug.Log(TAG + " onPurchase result " + result);
             if (code == 10000)
                 Debug.Log(TAG + " Payment success");
@@ -554,9 +554,9 @@ public class Payment : MonoBehaviour
             .setProductDetail(bean)
             .setOrderId(createOrderId())
             .build();
-        shareitSDK.launchBillingFlow(merchantParam, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string orderId, string message, string reference) =>
+        shareitSDK.launchBillingFlow(merchantParam, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string merchantOrderNo, string message, string reference) =>
         {
-            string result = "code=" + code + " orderId=" + orderId + " message=" + message + " extra=" + reference;
+            string result = "code=" + code + " merchantOrderNo=" + merchantOrderNo + " message=" + message + " extra=" + reference;
             Debug.Log(TAG + " launchBillingFlow result " + result);
             if (code == 10000)
                 Debug.Log(TAG + " Payment success");

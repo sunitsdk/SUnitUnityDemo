@@ -145,7 +145,7 @@ public class MerchantParamBean
         }
 
         // unit: s
-        public Builder setTimeoutInSeconds(long duration)
+        public Builder setExpireTime(long duration)
         {
             paraMap.Add(KEY_PAY_VALID_DURATION, duration + "");
             return this;
