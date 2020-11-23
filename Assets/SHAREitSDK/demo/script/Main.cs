@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,6 +15,8 @@ public class Main : MonoBehaviour
 
     public const string ENV_STORE_KEY = "shareitEnv";
     public SHAREitSDK.SHAREitSDK shareitSDK;
+
+    private string[] envArray = new string[] { SHAREitSDK.SHAREitSDK.ENV_TEST, SHAREitSDK.SHAREitSDK.ENV_PROD };
     void Awake()
     {
 
@@ -26,7 +29,7 @@ public class Main : MonoBehaviour
         }
         SHAREitSDK.SHAREitSDK.setEnv(storeEnv);
 
-        envDropdown.captionText.text = storeEnv;
+        envDropdown.value = Array.IndexOf(envArray, storeEnv);
 
         Debug.Log(TAG + " storeEnv " + storeEnv);
 

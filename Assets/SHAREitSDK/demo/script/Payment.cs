@@ -43,6 +43,9 @@ public class Payment : MonoBehaviour
     private const string DEFAULT_URL = "";
     private const string DEFAULT_USER_ID = "";
 
+    private string[] bizTypeArray = new string[] { "STANDARD", "IN_CB" };
+    private string[] languageArray = new string[] { "en", "hi", "fil", "in", "ms", "zh", "kn", "ml", "pa", "ta", "te", "mr"};
+
     public Button backBtn;
     public Text envText;
     public Dropdown bizTypeDropdown;
@@ -105,7 +108,7 @@ public class Payment : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-            SceneManager.LoadScene("MainScene");
+            onBackPress();
     }
 
     public void onGenerateToken()
@@ -132,10 +135,10 @@ public class Payment : MonoBehaviour
         initEditText(currencyInput, KEY_CURRENCY);
 
         string language = PlayerPrefs.GetString(KEY_LANGUAGE, "en");
-        languageDropdown.captionText.text = language;
+        languageDropdown.value = Array.IndexOf(languageArray, language);
 
         string bizType = PlayerPrefs.GetString(KEY_BIZ_TYPE, "STDANDARD");
-        bizTypeDropdown.captionText.text = bizType;
+        bizTypeDropdown.value = Array.IndexOf(bizTypeArray, bizType);
 
         initEditText(userDetailInput, KEY_USER_DETAIL);
         initEditText(extraInput, KEY_REFERENCE);
@@ -438,6 +441,11 @@ public class Payment : MonoBehaviour
     }
 
     public void onBack() {
+        onBackPress();
+     }
+
+    private void onBackPress()
+    {
         if (productListUI.activeSelf)
         {
             paymentUI.SetActive(true);
@@ -447,7 +455,7 @@ public class Payment : MonoBehaviour
         {
             SceneManager.LoadScene("MainScene");
         }
-     }
+    }
 
     private void showDialog(string context)
     {
