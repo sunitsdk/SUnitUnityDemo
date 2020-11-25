@@ -49,6 +49,8 @@ public class TokenHelper : MonoBehaviour
         paras.Add("secretKey", secretKey);
         string url = getTokenUrl(env);
 
+        Debug.Log("sendToken: merchantId" + merchantId + " url=" + url + " env=" + env);
+
         UnityWebRequest request = UnityWebRequest.Post(url, paras);
         request.downloadHandler = new DownloadHandlerBuffer();
         request.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded");

@@ -52,7 +52,7 @@ namespace SHAREitSDK
 
             Debug.Log(TAG + " queryPurchases");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("queryPurchases", getContext(), paras);
+            sdkWrapper.Call("queryPurchases", paras);
         }
 
         public override void consume(Dictionary<string, string> dictionary)
@@ -62,7 +62,7 @@ namespace SHAREitSDK
 
             Debug.Log(TAG + " consume");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("consume", getContext(), paras);
+            sdkWrapper.Call("consume", paras);
         }
 
         //public override void gameStart() {

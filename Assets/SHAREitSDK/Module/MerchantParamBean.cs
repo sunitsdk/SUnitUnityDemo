@@ -33,6 +33,8 @@ public class MerchantParamBean
     private const string KEY_PAYMENT_DETAIL = "paymentDetail";
     private const string KEY_USER_DETAIL = "userDetail";
     private const string KEY_BIZ_TYPE = "bizType";
+    private const string KEY_ORIGINAL_CURRENCY = "originalCurrency";
+    private const string KEY_ORIGINAL_PRICE = "originalPrice";
 
 
     private Dictionary<string, string> paraDic = new Dictionary<string, string>();
@@ -155,12 +157,20 @@ public class MerchantParamBean
         {
             if (detail != null)
             {
-                paraMap.Add(KEY_TOTAL_AMOUNT, detail.price);
-                paraMap.Add(KEY_CURRENCY, detail.currency);
-                paraMap.Add(KEY_SUBJECT, detail.productName);
-                paraMap.Add(KEY_DESCRIPTION, detail.productDesc);
-                paraMap.Add(KEY_PRODUCT_CODE, detail.productCode);
+                paraMap[KEY_TOTAL_AMOUNT] = detail.price;
+                paraMap[KEY_CURRENCY] = detail.currency;
+                paraMap[KEY_SUBJECT] = detail.productName;
+                paraMap[KEY_DESCRIPTION] = detail.productDesc;
+                paraMap[KEY_PRODUCT_CODE] = detail.productCode;
                 paraMap[KEY_COUNTRY_CODE] = detail.country;
+                if (string.IsNullOrEmpty(detail.originalPrice))
+                    paraMap[KEY_ORIGINAL_PRICE] = detail.price;
+                else
+                    paraMap[KEY_ORIGINAL_PRICE] = detail.originalPrice;
+                if (string.IsNullOrEmpty(detail.originalCurrency))
+                    paraMap[KEY_ORIGINAL_CURRENCY] = detail.currency;
+                else
+                    paraMap[KEY_ORIGINAL_CURRENCY] = detail.originalCurrency;
             }
             return this;
         }

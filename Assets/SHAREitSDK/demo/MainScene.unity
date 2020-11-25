@@ -898,6 +898,7 @@ GameObject:
   - component: {fileID: 731535750}
   - component: {fileID: 731535747}
   - component: {fileID: 731535746}
+  - component: {fileID: 731535751}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1001,7 +1002,19 @@ MonoBehaviour:
   adBtn: {fileID: 1911628093}
   gameBtn: {fileID: 343903740}
   envDropdown: {fileID: 2075545563}
-  shareitSDK: {fileID: 0}
+  shareitSDK: {fileID: 731535751}
+--- !u!114 &731535751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731535745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5a79ea7131d41f198643d9232ab0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &746972075
 GameObject:
   m_ObjectHideFlags: 0
