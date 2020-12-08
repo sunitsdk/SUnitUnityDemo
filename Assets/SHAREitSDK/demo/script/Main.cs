@@ -141,9 +141,9 @@ public class Main : MonoBehaviour
                                     ConsumeParamBean consumeParams = new ConsumeParamBean.Builder()
                                         .setMerchantId(merchantId)
                                         .setToken(token)
-                                        .setMerchantOrderNo(dataList[i].MerchantOrderNo)
+                                        .setMerchantOrderNo(dataList[i].merchantOrderNo)
                                         .build();
-                                    Debug.Log(TAG + " checkNonConsumableProducts consumeParams");
+                                    Debug.Log(TAG + " checkNonConsumableProducts consumeParams orderNo=" + dataList[i].merchantOrderNo);
                                     shareitSDK.consume(consumeParams, null);
                                 }
                             }
