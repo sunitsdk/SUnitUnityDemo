@@ -1,6 +1,6 @@
 # SUnit SDK(Unity)
-* Modified: 2020-09-30
-* SDK Version: 2.3.0.0
+* Modified: 2021-01-06
+* SDK Version: 2.4.2.0
 * [ChangeLog](https://github.com/sunitsdk/SUnitUnityDemo/blob/master/CHANGELOG.md)
 
 ## Overview
