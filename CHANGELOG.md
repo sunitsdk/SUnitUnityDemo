@@ -1,3 +1,14 @@
+### 2.4.2.0
+
+2021-01-06
+
+FEATURE:
+- 增加TopOn广告源
+
+CHANGES:
+- 使用最新[mainTemplate.gradle](https://github.com/sunitsdk/SUnitUnityDemo/blob/master_240/Assets/Plugins/Android/mainTemplate.gradle)
+
+
 ### 2.3.0.0
 
 2020-09-30
