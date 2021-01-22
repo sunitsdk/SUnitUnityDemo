@@ -69,60 +69,51 @@
     <Compile Include="Assets\SHAREitSDK\demo\script\Game.cs" />
     <Compile Include="Assets\SHAREitSDK\demo\script\Main.cs" />
     <Compile Include="Assets\SHAREitSDK\demo\script\Payment.cs" />
-    <Compile Include="Assets\SHAREitSDK\demo\script\ProductItem.cs" />
-    <Compile Include="Assets\SHAREitSDK\demo\script\TokenHelper.cs" />
     <Compile Include="Assets\SHAREitSDK\Interface\NativeInterface.cs" />
     <Compile Include="Assets\SHAREitSDK\Interface\SHAREitInterfaceAndroid.cs" />
     <Compile Include="Assets\SHAREitSDK\Interface\SHAREitInterfaceBase.cs" />
     <Compile Include="Assets\SHAREitSDK\Interface\SHAREitSDKListener.cs" />
     <Compile Include="Assets\SHAREitSDK\Module\BaseBean.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\ConsumeParamBean.cs" />
     <Compile Include="Assets\SHAREitSDK\Module\InitBean.cs" />
     <Compile Include="Assets\SHAREitSDK\Module\MerchantParamBean.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\ProductDetailBean.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\ProductParamBean.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\ProductType.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\QueryDetailBean.cs" />
-    <Compile Include="Assets\SHAREitSDK\Module\QueryPurchaseParamBean.cs" />
     <Compile Include="Assets\SHAREitSDK\Module\SHAREitEnv.cs" />
     <Compile Include="Assets\SHAREitSDK\SHAREitSDK.cs" />
     <Compile Include="Assets\SHAREitSDK\Utils\CommonUtil.cs" />
-    <Compile Include="Assets\SHAREitSDK\Utils\JsonHelper.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -296,16 +287,16 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Assets/Plugins/LitJson.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Assets/Plugins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/anjingshuai/sdkdemo/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/huanting/Desktop/code/ShareitAggregation/SUnitUnityDemo_noIAP/SUnitUnityDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

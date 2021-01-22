@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,8 +14,6 @@ public class Main : MonoBehaviour
 
     public const string ENV_STORE_KEY = "shareitEnv";
     public SHAREitSDK.SHAREitSDK shareitSDK;
-
-    private string[] envArray = new string[] { SHAREitSDK.SHAREitSDK.ENV_TEST, SHAREitSDK.SHAREitSDK.ENV_PROD };
     void Awake()
     {
 
@@ -29,7 +26,7 @@ public class Main : MonoBehaviour
         }
         SHAREitSDK.SHAREitSDK.setEnv(storeEnv);
 
-        envDropdown.value = Array.IndexOf(envArray, storeEnv);
+        envDropdown.captionText.text = storeEnv;
 
         Debug.Log(TAG + " storeEnv " + storeEnv);
 
@@ -45,8 +42,7 @@ public class Main : MonoBehaviour
         }); 
         Debug.Log(TAG + " unity SHAREitSDK init");
 
-        StartCoroutine(checkNonConsumableProducts());
-        //checkNonConsumableProducts();
+
         //InitBean bean = new InitBean();
         //bean.Env = SHAREitSDK.SHAREitSDK.ENV_TEST.Equals(storeEnv) ? SHAREitEnv.Test : SHAREitEnv.Prod;
         //bean.MainHostClass = "com.unity3d.player.UnityPlayerActivity";
@@ -103,55 +99,6 @@ public class Main : MonoBehaviour
     {
         Debug.Log(TAG + " onGameClick");
         SceneManager.LoadScene("Game");
-    }
-
-    IEnumerator checkNonConsumableProducts()
-    {
-        yield return new WaitForSeconds(10);
-
-        string merchantId = PlayerPrefs.GetString(Payment.KEY_MERCHANT_ID);
-        string secretKey = PlayerPrefs.GetString(Payment.KEY_SECRET_KEY);
-        string env = PlayerPrefs.GetString(ENV_STORE_KEY);
-
-        Debug.Log(TAG + "checkNonConsumableProducts sendToken sendToken env=" + env + " merchantId=" + merchantId);
-        StartCoroutine(TokenHelper.Instance.sendToken(env, merchantId, secretKey, (int tokenCode, string data) =>
-            {
-                Debug.Log(TAG + " checkNonConsumableProducts sendToken code=" + tokenCode + " data=" + data);
-                if (tokenCode == 1)
-                {
-                    string userId = PlayerPrefs.GetString(Payment.KEY_USER_ID);
-                    string token = data;
-
-                    QueryPurchaseParamBean paramBean = new QueryPurchaseParamBean.Builder()
-                        .setMerchantId(merchantId)
-                        .setToken(token)
-                        .setUserId(userId)
-                        .build();
-
-                    Debug.Log(TAG + " checkNonConsumableProducts queryPurchases userId=" + userId + " merchantId=" + merchantId);
-                    shareitSDK.queryPurchases(paramBean, new SHAREitSDK.PaymentListener.OnQueryPurchaseResponseCallback((int code, string message, List < QueryDetailBean > dataList) =>
-                    {
-                        Debug.Log(TAG + " checkNonConsumableProducts queryPurchases code=" + code + " message=" + message + " dataList =" + dataList?.Count);
-                        if (code == 10000)
-                        {
-                            if (dataList != null && dataList.Count > 0)
-                            {
-                                for (int i = 0; i < dataList.Count; i++)
-                                {
-                                    ConsumeParamBean consumeParams = new ConsumeParamBean.Builder()
-                                        .setMerchantId(merchantId)
-                                        .setToken(token)
-                                        .setMerchantOrderNo(dataList[i].merchantOrderNo)
-                                        .build();
-                                    Debug.Log(TAG + " checkNonConsumableProducts consumeParams orderNo=" + dataList[i].merchantOrderNo);
-                                    shareitSDK.consume(consumeParams, null);
-                                }
-                            }
-                        }
-                    }));
-               }
-            })
-        );
     }
 
 }

@@ -5,15 +5,17 @@ using UnityEngine;
 
 namespace SHAREitSDK
 {
-    //payment end
-    public class PaymentListener
+
+    public class RechargeResultListener
     {
-        public delegate void OnProductResponseCallback(int code, string message, List<ProductDetailBean> productDetailList);
-        public delegate void OnPurchaseResponseCallback(int code, string merchantOrderNo, string message, string reference);
-        public delegate void OnQueryPurchaseResponseCallback(int code, string message, List<QueryDetailBean> productDetailList);
-        public delegate void OnConsumeResponseCallback(int code, string message);
+        public delegate void OnResult(int payCode, string payOrderId, string payMessage, string payExtra);
+        public OnResult onResult;
+
+        public RechargeResultListener(OnResult onResult )
+        {
+            this.onResult = onResult;
+        }
     }
-    //payment end
 
     public class RateListener
     {
