@@ -7,13 +7,13 @@ namespace SHAREitSDK
     public interface NativeInterface
     {
         //payment start
-        void purchase(Dictionary<string, string> dictionary);
+        void recharge(Dictionary<string, string> dictionary);
 
         void queryProducts(Dictionary<string, string> dictionary, string[] productIds);
 
         void launchBillingFlow(Dictionary<string, string> dictionary);
 
-        void queryPurchases(Dictionary<string, string> dictionary);
+        void queryRecharges(Dictionary<string, string> dictionary);
 
         void consume(Dictionary<string, string> dictionary);
         //payment end

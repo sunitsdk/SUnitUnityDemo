@@ -32,7 +32,7 @@ namespace SHAREitSDK {
         public const string ACTION_TYPE_PAY_RESULT = "payResult";
         public const string ACTION_TYPE_PAY_QUERY_PRODUCTS = "payQueryProducts";
         public const string ACTION_TYPE_PAY_LAUNCH_BILLING_FLOW_RESULT = "payLaunchBillingFlowResult";
-        public const string ACTION_TYPE_PAY_QUERY_PURCHASE_RESULT = "payQueryPurchaseResult";
+        public const string ACTION_TYPE_PAY_QUERY_RECHARGE_RESULT = "payQueryRechargeResult";
         public const string ACTION_TYPE_PAY_CONSUME_RESULT = "payConsumeResult";
         public const string ACTION_TYPE_INTERSTITIAL_AD_LOAD = "interstitialAdLoad";
         public const string ACTION_TYPE_INTERSTITIAL_AD_SHOW = "InterstitialAdShow";
@@ -41,10 +41,10 @@ namespace SHAREitSDK {
 
         private NativeInterface instance;
 
-        private PaymentListener.OnProductResponseCallback payProductResponseCallback;
-        private PaymentListener.OnPurchaseResponseCallback payPurchaseResponseCallback;
-        private PaymentListener.OnQueryPurchaseResponseCallback payQueryPurchaseResponseCallback;
-        private PaymentListener.OnConsumeResponseCallback payConsumeResponseCallback;
+        private RechargeListener.OnProductResponseCallback payProductResponseCallback;
+        private RechargeListener.onRechargeResponseCallback payRechargeResponseCallback;
+        private RechargeListener.OnQueryRechargeResponseCallback payQueryRechargeResponseCallback;
+        private RechargeListener.OnConsumeResponseCallback payConsumeResponseCallback;
         private LoginListener loginListener = null;
         private RateListener rateListener = null;
         private AdLoadListener interstitialAdLoadListener = null;
@@ -201,7 +201,7 @@ namespace SHAREitSDK {
                         rateListener.onRateShowFail((int)jsonData["resultCode"], (string)jsonData["msg"]);
                     break;
                 case ACTION_TYPE_PAY_RESULT:
-                    payPurchaseResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
+                    payRechargeResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
                     break;
                 case ACTION_TYPE_PAY_QUERY_PRODUCTS:
                     if (payProductResponseCallback != null)
@@ -218,17 +218,17 @@ namespace SHAREitSDK {
                     }
                     break;
                 case ACTION_TYPE_PAY_LAUNCH_BILLING_FLOW_RESULT:
-                    payPurchaseResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
+                    payRechargeResponseCallback?.Invoke((int)jsonData["code"], (string)jsonData["orderId"], (string)jsonData["message"], (string)jsonData["reference"]);
                     break;
-                case ACTION_TYPE_PAY_QUERY_PURCHASE_RESULT:
-                    if (payQueryPurchaseResponseCallback != null)
+                case ACTION_TYPE_PAY_QUERY_RECHARGE_RESULT:
+                    if (payQueryRechargeResponseCallback != null)
                     {
                         string dataStr = "{\"Items\":" + jsonData["dataList"] + "}";
                         QueryDetailBean[] queryDetails = JsonHelper.FromJson<QueryDetailBean>(dataStr);
                         List<QueryDetailBean> queryDetailsList = null;
                         if (queryDetails != null)
                             queryDetailsList = new List<QueryDetailBean>(queryDetails);
-                        payQueryPurchaseResponseCallback((int)jsonData["code"], (string)jsonData["message"], queryDetailsList);
+                        payQueryRechargeResponseCallback((int)jsonData["code"], (string)jsonData["message"], queryDetailsList);
                     }
                     break;
                 case ACTION_TYPE_PAY_CONSUME_RESULT:
@@ -250,16 +250,16 @@ namespace SHAREitSDK {
             }
         }
 
-        public void purchase(MerchantParamBean merchantParamBean, PaymentListener.OnPurchaseResponseCallback callback)
+        public void recharge(MerchantParamBean merchantParamBean, RechargeListener.onRechargeResponseCallback callback)
         {
             if (instance == null || merchantParamBean == null)
                 return;
-            Debug.Log("purchase");
-            payPurchaseResponseCallback = callback;
-            instance.purchase(merchantParamBean.getParams());
+            Debug.Log("recharge");
+            payRechargeResponseCallback = callback;
+            instance.recharge(merchantParamBean.getParams());
         }
 
-        public void queryProducts(ProductParamBean productParamBean, string[] productIds, PaymentListener.OnProductResponseCallback callback)
+        public void queryProducts(ProductParamBean productParamBean, string[] productIds, RechargeListener.OnProductResponseCallback callback)
         {
             if (instance == null || productParamBean == null)
                 return;
@@ -268,25 +268,25 @@ namespace SHAREitSDK {
             instance.queryProducts(productParamBean.getParams(), productIds);
         }
 
-        public void launchBillingFlow(MerchantParamBean merchantParamBean, PaymentListener.OnPurchaseResponseCallback callback)
+        public void launchBillingFlow(MerchantParamBean merchantParamBean, RechargeListener.onRechargeResponseCallback callback)
         {
             if (instance == null || merchantParamBean == null)
                 return;
             Debug.Log("launchBillingFlow");
-            payPurchaseResponseCallback = callback;
+            payRechargeResponseCallback = callback;
             instance.launchBillingFlow(merchantParamBean.getParams());
         }
 
-        public void queryPurchases(QueryPurchaseParamBean queryPurchaseParamBean, PaymentListener.OnQueryPurchaseResponseCallback callback)
+        public void queryRecharges(QueryRechargeParamBean queryRechargeParamBean, RechargeListener.OnQueryRechargeResponseCallback callback)
         {
-            if (instance == null || queryPurchaseParamBean == null)
+            if (instance == null || queryRechargeParamBean == null)
                 return;
-            Debug.Log("queryPurchases");
-            payQueryPurchaseResponseCallback = callback;
-            instance.queryPurchases(queryPurchaseParamBean.getParams());
+            Debug.Log("queryRecharges");
+            payQueryRechargeResponseCallback = callback;
+            instance.queryRecharges(queryRechargeParamBean.getParams());
         }
 
-        public void consume(ConsumeParamBean consumeParamBean, PaymentListener.OnConsumeResponseCallback callback)
+        public void consume(ConsumeParamBean consumeParamBean, RechargeListener.OnConsumeResponseCallback callback)
         {
             if (instance == null || consumeParamBean == null)
                 return;

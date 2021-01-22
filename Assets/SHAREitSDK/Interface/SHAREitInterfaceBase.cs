@@ -28,13 +28,13 @@ namespace SHAREitSDK
 
         //payment start
 
-        public virtual void purchase(Dictionary<string, string> dictionary) { }
+        public virtual void recharge(Dictionary<string, string> dictionary) { }
 
         public virtual void queryProducts(Dictionary<string, string> dictionary, string[] productIds) { }
 
         public virtual void launchBillingFlow(Dictionary<string, string> dictionary) { }
 
-        public virtual void queryPurchases(Dictionary<string, string> dictionary) { }
+        public virtual void queryRecharges(Dictionary<string, string> dictionary) { }
 
         public virtual void consume(Dictionary<string, string> dictionary) { }
       //payment end

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class QueryPurchaseParamBean
+public class QueryRechargeParamBean
 {
 
     private const string KEY_MERCHANT_ID = "merchantId"; //商户Id
@@ -12,7 +12,7 @@ public class QueryPurchaseParamBean
 
     private Dictionary<string, string> paraDic = new Dictionary<string, string>();
 
-    public QueryPurchaseParamBean(Dictionary<string, string> dic)
+    public QueryRechargeParamBean(Dictionary<string, string> dic)
     {
         foreach(KeyValuePair<string, string> pair in dic)
         {
@@ -46,9 +46,9 @@ public class QueryPurchaseParamBean
             return this;
         }
 
-        public QueryPurchaseParamBean build()
+        public QueryRechargeParamBean build()
         {
-            return new QueryPurchaseParamBean(paraMap);
+            return new QueryRechargeParamBean(paraMap);
         }
     }
 }

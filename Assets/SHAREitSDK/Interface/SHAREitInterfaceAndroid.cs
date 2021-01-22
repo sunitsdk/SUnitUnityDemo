@@ -16,13 +16,13 @@ namespace SHAREitSDK
             sdkWrapper = new AndroidJavaObject("com.ushareit.aggregationsdk.SHAREitGameWrapper", gameObjectName);
         }
 
-        public override void purchase(Dictionary<string, string> dictionary) {
+        public override void recharge(Dictionary<string, string> dictionary) {
             if ( CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
                 return;
 
-            Debug.Log(TAG + " purchase");
+            Debug.Log(TAG + " recharge");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("purchase", getContext(), paras);
+            sdkWrapper.Call("recharge", getContext(), paras);
         }
 
         public override void queryProducts(Dictionary<string, string> dictionary, string[] productIds)
@@ -45,14 +45,14 @@ namespace SHAREitSDK
             sdkWrapper.Call("launchBillingFlow", getContext(), paras);
         }
 
-        public override void queryPurchases(Dictionary<string, string> dictionary)
+        public override void queryRecharges(Dictionary<string, string> dictionary)
         {
             if (CommonUtil.IsInvalidRuntime(RuntimePlatform.Android))
                 return;
 
-            Debug.Log(TAG + " queryPurchases");
+            Debug.Log(TAG + " queryRecharges");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("queryPurchases", paras);
+            sdkWrapper.Call("queryRecharges", getContext(), paras);
         }
 
         public override void consume(Dictionary<string, string> dictionary)
@@ -62,7 +62,7 @@ namespace SHAREitSDK
 
             Debug.Log(TAG + " consume");
             AndroidJavaObject paras = CommonUtil.dicToMap(dictionary);
-            sdkWrapper.Call("consume", paras);
+            sdkWrapper.Call("consume", getContext(), paras);
         }
 
         //public override void gameStart() {

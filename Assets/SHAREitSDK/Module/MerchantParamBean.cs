@@ -9,39 +9,39 @@ public class MerchantParamBean
     public const string PAY_RESULT_TYPE_SDK = "1";
     public const string PAY_RESULT_TYPE_MERCHANT = "0";
 
-    private const string KEY_MERCHANT_ID = "merchantId"; //商户Id
-    private const string KEY_ORDER_ID = "orderId"; //商户订单Id
-    private const string KEY_TOTAL_AMOUNT = "price"; //总金额
-    private const string KEY_CURRENCY = "currency"; //货币代码
+    protected const string KEY_MERCHANT_ID = "merchantId"; //商户Id
+    protected const string KEY_ORDER_ID = "orderId"; //商户订单Id
+    protected const string KEY_PRICE = "price"; //总金额
+    protected const string KEY_CURRENCY = "currency"; //货币代码
 
-    private const string KEY_CALLBACK_URL = "callbackUrl"; //商户回调地址
-    private const string KEY_CUST_ID = "custId"; //商户用户id
-    private const string KEY_SUBJECT = "productName"; //订单标题
-    private const string KEY_TOKEN = "token";
-    private const string KEY_COUNTRY_CODE = "countryCode"; //2位大写国家码，参考：ISO 3166-1 alpha-2
-    private const string KEY_PRODUCT_CODE = "productCode"; //IAP商品Id（not merchant product id)
+    protected const string KEY_CALLBACK_URL = "callbackUrl"; //商户回调地址
+    protected const string KEY_USER_ID = "custId"; //商户用户id
+    protected const string KEY_SUBJECT = "subject"; //订单标题
+    protected const string KEY_TOKEN = "token";
+    protected const string KEY_COUNTRY_CODE = "countryCode"; //2位大写国家码，参考：ISO 3166-1 alpha-2
+    protected const string KEY_PRODUCT_CODE = "productCode"; //IAP商品Id（not merchant product id)
 
     //可选字段
-    private const string KEY_LANGUAGE = "language"; //当前语言
-    private const string KEY_DESCRIPTION = "description"; //商户自定义信息
-    private const string KEY_EXTRA = "extra"; //商户自定义数据
+    protected const string KEY_LANGUAGE = "language"; //当前语言
+    protected const string KEY_DESCRIPTION = "description"; //商户自定义信息
+    protected const string KEY_EXTRA = "extra"; //商户自定义数据
 
     //使用支付结果页类型, "0"：使用SDK结果页；"1"：使用商户结果页
-    private const string KEY_PAY_RESULT_TYPE = "usePayResultType";
+    protected const string KEY_RESULT_TYPE = "usePayResultType";
     //支付有效时长，单位: 秒
-    private const string KEY_PAY_VALID_DURATION = "payValidDuration";
-    private const string KEY_PAYMENT_DETAIL = "paymentDetail";
-    private const string KEY_USER_DETAIL = "userDetail";
-    private const string KEY_BIZ_TYPE = "bizType";
-    private const string KEY_ORIGINAL_CURRENCY = "originalCurrency";
-    private const string KEY_ORIGINAL_PRICE = "originalPrice";
+    protected const string KEY_EXPIRE_TIME = "payValidDuration";
+    protected const string KEY_BILLING_DETAIL = "paymentDetail";
+    protected const string KEY_USER_DETAIL = "userDetail";
+    protected const string KEY_BIZ_TYPE = "bizType";
+    protected const string KEY_ORIGINAL_CURRENCY = "originalCurrency";
+    protected const string KEY_ORIGINAL_PRICE = "originalPrice";
 
 
     private Dictionary<string, string> paraDic = new Dictionary<string, string>();
 
     public MerchantParamBean(Dictionary<string, string> dic)
     {
-        foreach(KeyValuePair<string, string> pair in dic)
+        foreach (KeyValuePair<string, string> pair in dic)
         {
             paraDic.Add(pair.Key, pair.Value);
         }
@@ -52,112 +52,13 @@ public class MerchantParamBean
         return paraDic;
     }
 
-    public class Builder
+    public class Builder : BuilderInner<MerchantParamBean.Builder>
     {
-        private Dictionary<string, string> paraMap = new Dictionary<string, string>();
-
-        public Builder addParams(Dictionary<string, string> paramDic)
-        {
-            if (paramDic != null)
-            {
-                foreach (KeyValuePair<string, string> kv in paramDic)
-                {
-                    paraMap.Add(kv.Key, kv.Value);
-                }
-            }
-            return this;
-        }
-
-        public Builder setMerchantId(string merchantId)
-        {
-            paraMap.Add(KEY_MERCHANT_ID, merchantId);
-            return this;
-        }
-
-        public Builder setOrderId(string orderId)
-        {
-            paraMap.Add(KEY_ORDER_ID, orderId);
-            return this;
-        }
-
-        public Builder setAmount(string totalAmount)
-        {
-            paraMap.Add(KEY_TOTAL_AMOUNT, totalAmount);
-            return this;
-        }
-
-        public Builder setCurrency(string currentcy)
-        {
-            paraMap.Add(KEY_CURRENCY, currentcy);
-            return this;
-        }
-
-        public Builder setCallbackUrl(string callbackUrl)
-        {
-            paraMap.Add(KEY_CALLBACK_URL, callbackUrl);
-            return this;
-        }
-
-        public Builder setSubject(string subject)
-        {
-            paraMap.Add(KEY_SUBJECT, subject);
-            return this;
-        }
-
-        public Builder setUserId(string custId)
-        {
-            paraMap.Add(KEY_CUST_ID, custId);
-            return this;
-        }
-
-        public Builder setDescription(string description)
-        {
-            paraMap.Add(KEY_DESCRIPTION, description);
-            return this;
-        }
-
-        public Builder setReference(string reference)
-        {
-            paraMap.Add(KEY_EXTRA, reference);
-            return this;
-        }
-
-        public Builder setToken(string token)
-        {
-            paraMap.Add(KEY_TOKEN, token);
-            return this;
-        }
-
-        public Builder setCountryCode(string countryCode)
-        {
-            paraMap.Add(KEY_COUNTRY_CODE, countryCode);
-            return this;
-        }
-
-        public Builder setLanguage(string language)
-        {
-            paraMap.Add(KEY_LANGUAGE, language);
-            return this;
-        }
-
-        public Builder setShowResult(string payResultType)
-        {
-            paraMap.Add(KEY_PAY_RESULT_TYPE, payResultType);
-            return this;
-        }
-
-        // unit: s
-        public Builder setExpireTime(long duration)
-        {
-            paraMap.Add(KEY_PAY_VALID_DURATION, duration + "");
-            return this;
-        }
-
         public Builder setProductDetail(ProductDetailBean detail)
         {
             if (detail != null)
             {
-                paraMap[KEY_TOTAL_AMOUNT] = detail.price;
+                paraMap[KEY_PRICE] = detail.price;
                 paraMap[KEY_CURRENCY] = detail.currency;
                 paraMap[KEY_SUBJECT] = detail.productName;
                 paraMap[KEY_DESCRIPTION] = detail.productDesc;
@@ -174,28 +75,140 @@ public class MerchantParamBean
             }
             return this;
         }
+    }
 
-        public Builder setPaymentDetail(string paymentDetail)
+    public class BuilderInner<T> where T : BuilderInner<T>
+    {
+        protected Dictionary<string, string> paraMap = new Dictionary<string, string>();
+
+        public T addParams(Dictionary<string, string> paramDic)
         {
-            paraMap.Add(KEY_PAYMENT_DETAIL, paymentDetail);
-            return this;
+            if (paramDic != null)
+            {
+                foreach (KeyValuePair<string, string> kv in paramDic)
+                {
+                    paraMap.Add(kv.Key, kv.Value);
+                }
+            }
+            return (T)this;
         }
 
-        public Builder setUserDetail(string userDetail)
+        public T setMerchantId(string merchantId)
+        {
+            paraMap.Add(KEY_MERCHANT_ID, merchantId);
+            return (T)this;
+        }
+
+        public T setToken(string token)
+        {
+            paraMap.Add(KEY_TOKEN, token);
+            return (T)this;
+        }
+
+        public T setCountryCode(string countryCode)
+        {
+            paraMap.Add(KEY_COUNTRY_CODE, countryCode);
+            return (T)this;
+        }
+
+        public T setOrderId(string orderId)
+        {
+            paraMap.Add(KEY_ORDER_ID, orderId);
+            return (T)this;
+        }
+
+        public T setCallbackUrl(string callbackUrl)
+        {
+            paraMap.Add(KEY_CALLBACK_URL, callbackUrl);
+            return (T)this;
+        }
+
+        public T setUserId(string userId)
+        {
+            paraMap.Add(KEY_USER_ID, userId);
+            return (T)this;
+        }
+
+        public T setReference(string reference)
+        {
+            paraMap.Add(KEY_EXTRA, reference);
+            return (T)this;
+        }
+
+        public T setLanguage(string language)
+        {
+            paraMap.Add(KEY_LANGUAGE, language);
+            return (T)this;
+        }
+
+        public T setShowResult(string resultType)
+        {
+            paraMap.Add(KEY_RESULT_TYPE, resultType);
+            return (T)this;
+        }
+
+        // unit: s
+        public T setExpireTime(long duration)
+        {
+            paraMap.Add(KEY_EXPIRE_TIME, duration + "");
+            return (T)this;
+        }
+
+        public T setBillingDetail(string billingDetail)
+        {
+            paraMap.Add(KEY_BILLING_DETAIL, billingDetail);
+            return (T)this;
+        }
+
+        public T setUserDetail(string userDetail)
         {
             paraMap.Add(KEY_USER_DETAIL, userDetail);
-            return this;
+            return (T)this;
         }
 
-        public Builder setBizType(string bizType)
+        public T setBizType(string bizType)
         {
             paraMap.Add(KEY_BIZ_TYPE, bizType);
-            return this;
+            return (T)this;
         }
 
         public MerchantParamBean build()
         {
             return new MerchantParamBean(paraMap);
         }
+    }
+}
+
+public class WoSkuMerchantParamBean : MerchantParamBean
+{
+    public WoSkuMerchantParamBean(Dictionary<string, string> dic) : base(dic)
+    {
+    }
+
+    new public class Builder : BuilderInner<WoSkuMerchantParamBean.Builder>
+    {
+        public Builder setProductName(string productName)
+        {
+            paraMap.Add(KEY_SUBJECT, productName);
+            return this;
+        }
+
+        public Builder setCurrency(string currency)
+        {
+            paraMap.Add(KEY_CURRENCY, currency);
+            return this;
+        }
+
+        public Builder setPrice(string price)
+        {
+            paraMap.Add(KEY_PRICE, price);
+            return this;
+        }
+
+        new public WoSkuMerchantParamBean build()
+        {
+            return new WoSkuMerchantParamBean(paraMap);
+        }
+
     }
 }

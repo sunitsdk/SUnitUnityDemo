@@ -274,7 +274,7 @@ public class Payment : MonoBehaviour
         if (enableNoIapProductToggle.isOn)
         {
             //不使用IAP产品列表
-            onPurchase();
+            onRecharge();
         }
         else
         {
@@ -307,7 +307,7 @@ public class Payment : MonoBehaviour
         string token = tokenInput.text;
         string secretKey = secretKeyInput.text;
         string countryCode = countryCodeInput.text;
-        string paymentDetail = paymentDetailInput.text;
+        string billingDetail = paymentDetailInput.text;
         string userDetail = userDetailInput.text;
 
         string language = languageDropdown.captionText.text;
@@ -350,15 +350,15 @@ public class Payment : MonoBehaviour
             {
             }
         }
-        if(!string.IsNullOrEmpty(paymentDetail))
+        if(!string.IsNullOrEmpty(billingDetail))
         {
-            builder.setPaymentDetail(paymentDetail);
+            builder.setBillingDetail(billingDetail);
         }
         merchantParamBean = builder.build();
         getProductList();
     }
 
-    private void onPurchase()
+    private void onRecharge()
     {
         paymentUI.SetActive(true);
         productListUI.SetActive(false);
@@ -374,7 +374,7 @@ public class Payment : MonoBehaviour
         string token = tokenInput.text;
         string secretKey = secretKeyInput.text;
         string countryCode = countryCodeInput.text;
-        string paymentDetail = paymentDetailInput.text;
+        string billingDetail = paymentDetailInput.text;
         string userDetail = userDetailInput.text;
 
         string language = languageDropdown.captionText.text;
@@ -388,25 +388,21 @@ public class Payment : MonoBehaviour
             + " secretKey=" + secretKey + " countryCode=" + countryCode + " language=" + language
             + " extra=" + extra + " durationStr=" + durationStr + " usePayResult=" + userMerchantResultUIToggle);
 
-        ProductDetailBean detailBean = new ProductDetailBean();
-        detailBean.productCode = productCodeInput.text;
-        detailBean.productName = title;
-        detailBean.price = amount;
-        detailBean.currency = currency;
-        detailBean.country = countryCode;
-
-        MerchantParamBean.Builder builder = new MerchantParamBean.Builder()
-            .setMerchantId(merchantId)
-            .setOrderId(merchantOrderId)
-            .setUserId(custId)
-            .setToken(token)
-            .setProductDetail(detailBean)
-            .setUserDetail(userDetail)
-            .setBizType(bizType)
-            .setReference(extra)
-            .setCallbackUrl(callUrl)
-            .setLanguage(language)
-            .setShowResult(useMerchantPayResult ? MerchantParamBean.PAY_RESULT_TYPE_MERCHANT : MerchantParamBean.PAY_RESULT_TYPE_SDK);
+WoSkuMerchantParamBean.Builder builder = new WoSkuMerchantParamBean.Builder()
+    .setMerchantId(merchantId)
+    .setOrderId(merchantOrderId)
+    .setUserId(custId)
+    .setToken(token)
+    .setProductName(title)
+    .setPrice(amount)
+    .setCurrency(currency)
+    .setCountryCode(countryCode)
+    .setUserDetail(userDetail)
+    .setBizType(bizType)
+    .setReference(extra)
+    .setCallbackUrl(callUrl)
+    .setLanguage(language)
+    .setShowResult(useMerchantPayResult ? MerchantParamBean.PAY_RESULT_TYPE_MERCHANT : MerchantParamBean.PAY_RESULT_TYPE_SDK);
         if (!string.IsNullOrEmpty(durationStr))
         {
             try
@@ -418,17 +414,17 @@ public class Payment : MonoBehaviour
             {
             }
         }
-        if (!string.IsNullOrEmpty(paymentDetail))
+        if (!string.IsNullOrEmpty(billingDetail))
         {
-            builder.setPaymentDetail(paymentDetail);
+            builder.setBillingDetail(billingDetail);
         }
-        merchantParamBean = builder.build();
+        WoSkuMerchantParamBean woSkuMerchantParamBean = builder.build();
 
 
-        shareitSDK.launchBillingFlow(merchantParamBean, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string merchantOrderNo, string payMessage, string payExtra) =>
+        shareitSDK.recharge(woSkuMerchantParamBean, new SHAREitSDK.RechargeListener.onRechargeResponseCallback((int code, string merchantOrderNo, string payMessage, string payExtra) =>
         {
             string result = "code=" + code + " merchantOrderNo=" + merchantOrderNo + " message=" + payMessage + " extra=" + payExtra;
-            Debug.Log(TAG + " onPurchase result " + result);
+            Debug.Log(TAG + " onRecharge result " + result);
             if (code == 10000)
                 Debug.Log(TAG + " Payment success");
             else if (code == 10001)
@@ -498,7 +494,7 @@ public class Payment : MonoBehaviour
 
         string[] productIds = new string[] { };
         Debug.Log(TAG + " getProductList merchantId=" + merchantId + " token=" + token + " countryCode=" + countryCode);
-        shareitSDK.queryProducts(bean, productIds, new SHAREitSDK.PaymentListener.OnProductResponseCallback((int code, string message, List<ProductDetailBean> productDetailList) =>
+        shareitSDK.queryProducts(bean, productIds, new SHAREitSDK.RechargeListener.OnProductResponseCallback((int code, string message, List<ProductDetailBean> productDetailList) =>
         {
             if (code == 10000)
             {
@@ -548,13 +544,12 @@ public class Payment : MonoBehaviour
 
     private void onProductItemClick(ProductDetailBean bean)
     {
-
         MerchantParamBean merchantParam = new MerchantParamBean.Builder()
             .addParams(merchantParamBean.getParams())
             .setProductDetail(bean)
             .setOrderId(createOrderId())
             .build();
-        shareitSDK.launchBillingFlow(merchantParam, new SHAREitSDK.PaymentListener.OnPurchaseResponseCallback((int code, string merchantOrderNo, string message, string reference) =>
+        shareitSDK.launchBillingFlow(merchantParam, new SHAREitSDK.RechargeListener.onRechargeResponseCallback((int code, string merchantOrderNo, string message, string reference) =>
         {
             string result = "code=" + code + " merchantOrderNo=" + merchantOrderNo + " message=" + message + " extra=" + reference;
             Debug.Log(TAG + " launchBillingFlow result " + result);

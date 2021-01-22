@@ -122,16 +122,16 @@ public class Main : MonoBehaviour
                     string userId = PlayerPrefs.GetString(Payment.KEY_USER_ID);
                     string token = data;
 
-                    QueryPurchaseParamBean paramBean = new QueryPurchaseParamBean.Builder()
+                    QueryRechargeParamBean paramBean = new QueryRechargeParamBean.Builder()
                         .setMerchantId(merchantId)
                         .setToken(token)
                         .setUserId(userId)
                         .build();
 
-                    Debug.Log(TAG + " checkNonConsumableProducts queryPurchases userId=" + userId + " merchantId=" + merchantId);
-                    shareitSDK.queryPurchases(paramBean, new SHAREitSDK.PaymentListener.OnQueryPurchaseResponseCallback((int code, string message, List < QueryDetailBean > dataList) =>
+                    Debug.Log(TAG + " checkNonConsumableProducts queryRecharges userId=" + userId + " merchantId=" + merchantId);
+                    shareitSDK.queryRecharges(paramBean, new SHAREitSDK.RechargeListener.OnQueryRechargeResponseCallback((int code, string message, List < QueryDetailBean > dataList) =>
                     {
-                        Debug.Log(TAG + " checkNonConsumableProducts queryPurchases code=" + code + " message=" + message + " dataList =" + dataList?.Count);
+                        Debug.Log(TAG + " checkNonConsumableProducts queryRecharges code=" + code + " message=" + message + " dataList =" + dataList?.Count);
                         if (code == 10000)
                         {
                             if (dataList != null && dataList.Count > 0)
